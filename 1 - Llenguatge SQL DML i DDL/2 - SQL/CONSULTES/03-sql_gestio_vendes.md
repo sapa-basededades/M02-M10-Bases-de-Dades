@@ -15,7 +15,7 @@
 
 ## 1.3.1 Model relacional
 
-![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/3-MR_gestiovendes.png?raw=true)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/03%20-%20Gesti%C3%B3%20de%20vendes/gestiovendes_erm.png)
 
 ## 1.3.2 Scripts de creació de la base de dades
 

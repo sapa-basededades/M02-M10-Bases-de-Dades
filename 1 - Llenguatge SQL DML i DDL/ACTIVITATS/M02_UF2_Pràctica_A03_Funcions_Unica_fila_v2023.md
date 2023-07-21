@@ -24,7 +24,7 @@
 
 4. Escriviu una consulta que mostri de tots els empleats els cognoms dels quals comencin per J, A o M, el cognom de l'empleat, el email amb la primera lletra en majúscules així com la longitud del cognom. Ordeneu els resultats alfabèticament per el cognom de l'empleat. (2 punts)
 
-    ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/m02_A03_im5.png?raw=true)
+    ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/m02_A03_im4.png?raw=true)
 
 5. Per a cada empleat, mostreu el seu cognom i calculeu el número de mesos entre el dia d'avui i la data de contractació. Etiqueteu la columna com **mesos treballats** , ordeneu els resultats segons el número de mesos treballats. Arrodoniu el número de mesos cap amunt fins el número enter més proper. (2 punts)
 6. Creeu una consulta per a mostrar el cognom i el salari de tots els empleats. Formateu el salari per a que tingui 15 caràcters de longitud, ompliu a l'esquerra amb $. Etiqueteu la columna **SALARY**. (2 punts)
@@ -47,7 +47,8 @@
 
 10. Utilitzant la funció CASE, escriviu una consulta que mostri el grau de totes les categories basant-se en el valor de la columna **NAME** segons les següents dades: (1 punt)
 
-    |CATEGORY NAME| GRADE|
+    | CATEGORY NAME | GRADE |
+    |---------------|-------|
     |Action |A|
     |Drama |B|
     |Comedy |C|

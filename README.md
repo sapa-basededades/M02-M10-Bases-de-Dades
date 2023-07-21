@@ -1,4 +1,5 @@
-# Repositori pel mòdul de Base de Dades de l'Institut Sa Palomera - Blanes -
+# Repositori pel CFGS mòdul M02 Base de Dades 
+**Institut Sa Palomera - Blanes -**
 
 #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02
 

@@ -1,6 +1,7 @@
 # Repositori pel CFGS mòdul M02 Base de Dades
 
 **Institut Sa Palomera - Blanes**
+
 Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02
 
 ## Introducció

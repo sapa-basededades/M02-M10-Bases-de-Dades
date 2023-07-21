@@ -57,4 +57,4 @@ Quan acabi ja hauries de tenir la base de dades creada i amb dades.
 
 Pots veure l'esquema de la base de dades a la següent imatge:
 
-![Image4](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/06%20-%20Adventureworks/images/AdventureWorks_schema.png)
+![Image4](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/06%20-%20Adventureworks/AdventureWorks_erm.png)

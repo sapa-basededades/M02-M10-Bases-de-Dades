@@ -1,1 +1,0 @@
-# Sentències DML

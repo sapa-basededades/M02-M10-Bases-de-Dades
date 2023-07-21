@@ -2,7 +2,7 @@
 
 - [1.3 Base de dades Gestió de VendesEmpleats](#13-base-de-dades-gestió-de-vendesempleats)
   - [1.3.1 Model relacional](#131-model-relacional)
-  - [1.3.2 Base de dades per a Postgres](#132-base-de-dades-per-a-postgres)
+  - [1.3.2 Scripts de creació de la base de dades](#132-scripts-de-creació-de-la-base-de-dades)
   - [1.3.3 Consultes sobre una taula](#133-consultes-sobre-una-taula)
   - [1.3.4 Consultes multitaula (INNER JOIN)](#134-consultes-multitaula-inner-join)
   - [1.3.5 Consultes multitaula (OUTER JOIN)](#135-consultes-multitaula-outer-join)
@@ -17,7 +17,7 @@
 
 ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/3-MR_gestiovendes.png?raw=true)
 
-## 1.3.2 Base de dades per a Postgres
+## 1.3.2 Scripts de creació de la base de dades
 
 Crea la base de dades ventes descarregant els scripts des de Github.
 

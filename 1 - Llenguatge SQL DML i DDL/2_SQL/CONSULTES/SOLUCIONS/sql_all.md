@@ -1,6 +1,6 @@
-# Exercicis a classe. 
-## Realització de consultes SQL
+# Exercicis a classe
 
+## Realització de consultes SQL
 
 ### Contenido
 
@@ -126,7 +126,7 @@
 
 Crea la base de dades botiga-informatica descarregant els scripts des de Github.
 
-# git clone https://github.com/fbarraga/Postgres-DB
+# git clone <https://github.com/fbarraga/Postgres-DB>
 
 ## 1.1.3 Consultes sobre una taula
 
@@ -259,19 +259,19 @@ Exemple del resultat esperat:
 5. Retorna tots els productes de la base de dades que tenen un preu més gran o igual al producte més car del fabricant Lenovo.
 6. Llista tots els productes del fabricant Asus que tenen un preu superior al preu mitjà de tots els seus productes.
 
-**1.1.7.2 Subconsultes amb **** ALL **** y **** ANY**
+**1.1.7.2 Subconsultes amb **** ALL **** y**** ANY**
 
 1. Retorna el producte més car que hi ha a la taula producte sense fer ús de MAX, ORDER BY ni LIMIT.
 2. Retorna el producte més barat que hi ha a la taula producte sense fer ús de MIN, ORDER BY ni LIMIT.
 3. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant ALL o ANY).
 4. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant ALL o ANY).
 
-**1.1.7.3 Subconsultes amb **** IN **** i **** NOT IN**
+**1.1.7.3 Subconsultes amb **** IN **** i**** NOT IN**
 
 1. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant IN o NOT IN).
 2. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant IN o NOT IN).
 
-**1.1.7.4 **** Subconsultes amb **** EXISTS **** i **** NOT EXISTS**
+**1.1.7.4 **** Subconsultes amb **** EXISTS**** i **** NOT EXISTS**
 
 1. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant EXISTS o NOT EXISTS).
 2. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant EXISTS o NOT EXISTS).
@@ -296,7 +296,7 @@ Exemple del resultat esperat:
 
 Crea la base de dades gestio-empleats descarregant els scripts des de Github.
 
-# git clone https://github.com/fbarraga/Postgres-DB
+# git clone <https://github.com/fbarraga/Postgres-DB>
 
 ## 1.2.3 Consultes sobre una taula
 
@@ -410,10 +410,9 @@ Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
 
 Crea la base de dades ventes descarregant els scripts des de Github.
 
-# git clone https://github.com/fbarraga/Postgres-DB
+# git clone <https://github.com/fbarraga/Postgres-DB>
 
 ##
-
 
 ## 1.3.3 Consultes sobre una taula
 
@@ -503,10 +502,9 @@ Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
 
 Crea la base de dades jardineria descarregant els scripts des de Github.
 
-# git clone https://github.com/fbarraga/Postgres-DB
+# git clone <https://github.com/fbarraga/Postgres-DB>
 
 ##
-
 
 ## 1.4.4 Consultes sobre una taula
 
@@ -523,9 +521,9 @@ Crea la base de dades jardineria descarregant els scripts des de Github.
 5. Retorna un llistat amb el nom dels tots els clients espanyols.
 6. Retorna un llistat amb els diferents estats pels quals pot passar una comanda.
 7. Retorna un llistat amb el codi de client d'aquells clients que van realitzar algun pagament el 2008. Tingui en compte que haurà d' eliminar aquells codis de client que apareguin repetits. Resolgui la consulta:
-  1. Utilitzant la funció EXTRACT.
-  2. Utilitzant la funció TO\_CHAR.
-  3. Sense utilitzar cap de les funcions anteriors.
+1. Utilitzant la funció EXTRACT.
+2. Utilitzant la funció TO\_CHAR.
+3. Sense utilitzar cap de les funcions anteriors.
 8. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes que no han estat lliurades a temps.
 9. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes la data de lliurament de les quals ha estat almenys dos dies abans de la data esperada.
 10. Retorna un llistat de totes les comandes que van ser **rebutjades** el 2009.
@@ -576,16 +574,14 @@ Resolgui totes les consultes utilitzant les clàusules LEFT JOIN, RIGHT JOIN, NA
 <details>
     <summary>Solució</summary>
 
-    
 ```sql
     SELECT COUNT(*)
     FROM empleado;
 ```
+
 </details>
 </br>
 </center>
-
-
 
 1. Quants clients té cada país?
 
@@ -593,29 +589,28 @@ Resolgui totes les consultes utilitzant les clàusules LEFT JOIN, RIGHT JOIN, NA
 <details>
     <summary>Solució</summary>
 
-    
 ```sql
     SELECT pais,COUNT(*)
     FROM cliente
     GROUP BY pais;
 ```
+
 </details>
 </br>
 </center>
 
-
 1. Quin va ser el pagament mitjà el 2009?
-   
+
 <center>
 <details>
     <summary>Solució</summary>
 
-    
 ```sql
     SELECT AVG(TOTAL)
     FROM PAGO
     WHERE TO_CHAR(FECHA_PAGO,"YYYY")='2009';
 ```
+
 </details>
 </br>
 </center>
@@ -626,19 +621,16 @@ Resolgui totes les consultes utilitzant les clàusules LEFT JOIN, RIGHT JOIN, NA
 <details>
     <summary>Solució</summary>
 
-    
 ```sql
     SELECT ESTADO,COUNT(\*)
     FROM PEDIDO
     GROUP BY ESTADO
     ORDER BY COUNT(\*) DESC;
 ```
+
 </details>
 </br>
 </center>
-
-
-
 
 1. Calcula el preu de venda del producte més car i més barat en una mateixa consulta.
 
@@ -1032,7 +1024,7 @@ Resolgui totes les consultes utilitzant les clàusules LEFT JOIN, RIGHT JOIN, NA
 
 Crea la base de dades universitat descarregant els scripts des de Github.
 
-# git clone https://github.com/fbarraga/Postgres-DB
+# git clone <https://github.com/fbarraga/Postgres-DB>
 
 ## 1.5.4 Consultes sobre una taula
 

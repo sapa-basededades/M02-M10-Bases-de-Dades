@@ -2,7 +2,7 @@
 
 - [1.1 Base de dades Botiga informàtica](#11-base-de-dades-botiga-informàtica)
   - [1.1.1 Model relacional](#111-model-relacional)
-  - [1.1.2 Base de dades per a Postgres](#112-base-de-dades-per-a-postgres)
+  - [1.1.2 Scripts de creació de la base de dades](#112-scripts-de-creació-de-la-base-de-dades)
   - [1.1.3 Consultes sobre una taula](#113-consultes-sobre-una-taula)
   - [1.1.4 Consultes multitaula (INNER JOIN)](#114-consultes-multitaula-inner-join)
   - [1.1.5 Consultes multitaula (OUTER JOIN)](#115-consultes-multitaula-outer-join)
@@ -19,7 +19,7 @@
 
 ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/1-MR_botigainformatica.png?raw=true)
 
-## 1.1.2 Base de dades per a Postgres
+## 1.1.2 Scripts de creació de la base de dades
 
 Crea la base de dades botiga-informatica descarregant els scripts des de Github.
 

@@ -13,7 +13,7 @@
 
 ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/5-MR_Universitat.png?raw=true)
 
-## 1.5.2 Base de dades per a Postgres
+## 1.5.2 Scripts de creació de la base de dades
 
 Crea la base de dades universitat descarregant els scripts des de Github.
 

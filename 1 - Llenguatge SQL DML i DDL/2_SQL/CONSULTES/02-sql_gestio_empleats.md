@@ -2,7 +2,7 @@
 
 - [1.2 Base de dades Gestió Empleats](#12-base-de-dades-gestió-empleats)
   - [1.2.1 Model relacional](#121-model-relacional)
-  - [1.2.2 Base de dades per a Postgres](#122-base-de-dades-per-a-postgres)
+  - [1.2.2 Scripts de creació de la base de dades](#122-scripts-de-creació-de-la-base-de-dades)
   - [1.2.3 Consultes sobre una taula](#123-consultes-sobre-una-taula)
   - [1.2.4 Consultes multitaula (INNER JOIN)](#124-consultes-multitaula-inner-join)
   - [1.2.5 Consultes multitaula (OUTER JOIN)](#125-consultes-multitaula-outer-join)
@@ -17,7 +17,7 @@
 
 ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/2-MR_gestioempleats.png?raw=true)
 
-## 1.2.2 Base de dades per a Postgres
+## 1.2.2 Scripts de creació de la base de dades
 
 Crea la base de dades gestio-empleats descarregant els scripts des de Github.
 

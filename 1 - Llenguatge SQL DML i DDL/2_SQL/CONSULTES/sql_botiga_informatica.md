@@ -1,4 +1,4 @@
-# BD: Botiga_Informatica
+# 1.1 Base de dades Jardineria
 
 [1.1 Model relacional](#11-model-relacional)</br>
 [1.2 Base de dades per a Postgres](#12-base-de-dades-per-a-postgres)</br>

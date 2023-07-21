@@ -4,14 +4,14 @@
 
 ## Aspectes a considerar
 
-- Treballarem amb PostGresql i base de dades **HR**. Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
+- Treballarem amb PostGreSQL i base de dades **HR**. Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 
 - Format d'entrega en pdf.
 - No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 - Exemple:
 
-    1. Mostra totes les columnes dels empleats.
+    Mostra totes les columnes dels empleats.
 
         ```sql
         SELECT * FROM EMPLOYEES; 
@@ -21,6 +21,7 @@ Per saber de quina taula i camps es demana la informació de cada consulta acost
 
 - Fer servir el propi entorn d'execució de consultes per veure aquesta informació amb la comanda *\d \<nom de la taula\>*
 - Utilitzant l'entorn gràfic pgAdmin4:
+  
   ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/pgadmin.png?raw=true)
 
 ## CONSULTES BD (20 punts)

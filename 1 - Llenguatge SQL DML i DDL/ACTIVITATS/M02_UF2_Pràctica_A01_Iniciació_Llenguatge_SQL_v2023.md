@@ -1,10 +1,8 @@
 # A01 – Conèixer entorn PostgreSql i primeres sentències SQL
 
-**Treballarem amb psql i base de dades hr. Pots clonar el repositori amb :**
+Treballarem amb psql i base de dades hr. Pots consultar els esquemes de la Base de Dades en el següent link:
 
-git clone https://github.com/fbarraga/Postgres-DB
-
-**O descarregar-la de github a través d'aquest link:** https://github.com/fbarraga/Postgres-DB
+[Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 
 ## Part 1: Conèixer l'entorn
 
@@ -30,10 +28,10 @@ Aquesta primera part és per fer-se amb l'entorn, simplement heu de seguir les i
 
 3. La següent sentencia SELECT s'executa correctament (mostreu una captura de pantalla):
 
-```sql
-SELECT *
-FROM jobs;
-```
+    ```sql
+    SELECT *
+    FROM jobs;
+    ```
 
 ## Part 2: Primeres sentències SQL
 

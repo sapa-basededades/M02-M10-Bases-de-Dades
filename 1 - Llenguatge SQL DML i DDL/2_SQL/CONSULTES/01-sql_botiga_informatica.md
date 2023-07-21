@@ -9,9 +9,9 @@
   - [1.1.6 Consultes resum (GROUP BY, HAVING)](#116-consultes-resum-group-by-having)
   - [1.1.7 Subconsultes (A la clàusula WHERE)](#117-subconsultes-a-la-clàusula-where)
     - [1.1.7.1 Amb operadors bàsics de comparació](#1171-amb-operadors-bàsics-de-comparació)
-    - [1.1.7.2 Subconsultes amb \*\*\*\* ALL \*\*\*\* y \*\*\*\* ANY\*\*](#1172-subconsultes-amb--all--y--any)
-    - [1.1.7.3 Subconsultes amb \*\*\*\* IN \*\*\*\* i \*\*\*\* NOT IN\*\*](#1173-subconsultes-amb--in--i--not-in)
-    - [1.1.7.4 Subconsultes amb \*\*\*\* EXISTS \*\*\*\* i \*\*\*\* NOT EXISTS\*\*](#1174-subconsultes-amb--exists--i--not-exists)
+    - [1.1.7.2 Subconsultes amb ALL y ANY](#1172-subconsultes-amb-all-y-any)
+    - [1.1.7.3 Subconsultes amb IN i NOT IN](#1173-subconsultes-amb-in-i-not-in)
+    - [1.1.7.4 Subconsultes amb EXISTS i NOT EXISTS](#1174-subconsultes-amb-exists-i-not-exists)
     - [1.1.7.5 Subconsultes correlacionades](#1175-subconsultes-correlacionades)
   - [1.1.8 Subconsultes (A la clàusula HAVING)](#118-subconsultes-a-la-clàusula-having)
 
@@ -156,19 +156,19 @@ Exemple del resultat esperat:
 5. Retorna tots els productes de la base de dades que tenen un preu més gran o igual al producte més car del fabricant Lenovo.
 6. Llista tots els productes del fabricant Asus que tenen un preu superior al preu mitjà de tots els seus productes.
 
-### 1.1.7.2 Subconsultes amb **** ALL **** y **** ANY**
+### 1.1.7.2 Subconsultes amb ALL y ANY
 
 1. Retorna el producte més car que hi ha a la taula producte sense fer ús de MAX, ORDER BY ni LIMIT.
 2. Retorna el producte més barat que hi ha a la taula producte sense fer ús de MIN, ORDER BY ni LIMIT.
 3. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant ALL o ANY).
 4. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant ALL o ANY).
 
-### 1.1.7.3 Subconsultes amb **** IN **** i **** NOT IN**
+### 1.1.7.3 Subconsultes amb IN i NOT IN
 
 1. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant IN o NOT IN).
 2. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant IN o NOT IN).
 
-### 1.1.7.4 Subconsultes amb **** EXISTS **** i **** NOT EXISTS**
+### 1.1.7.4 Subconsultes amb EXISTS i NOT EXISTS
 
 1. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant EXISTS o NOT EXISTS).
 2. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant EXISTS o NOT EXISTS).

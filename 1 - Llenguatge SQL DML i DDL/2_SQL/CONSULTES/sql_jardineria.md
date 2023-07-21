@@ -4,20 +4,20 @@
 
 ### Contingut
 
-[1.4 Jardineria](#1.4 Jardineria)
-[1.4.1 Model relacional](#1.4.1 Model relacional)
-[1.4.2 Base de dades per Postgres](#_Toc118389567)
-[1.4.4 Consultes sobre una taula](#_Toc118389568)
-[1.4.5 Consultes multitaula (INNER JOIN)](#_Toc118389569)
-[1.4.6 Consultes multitaula (OUTER JOIN)](#_Toc118389570)
-[1.4.7 Consultes resum](#_Toc118389571)
-[1.4.8 Subconsultes](#_Toc118389572)
-[1.4.8.1 Amb operadors bàsics de comparació](#_Toc118389573)
-[1.4.8.2 Subconsultes amb ALL i ANY](#_Toc118389574)
-[1.4.8.3 Subconsultes amb IN i NOT IN](#_Toc118389575)
-[1.4.8.4 Subconsultes amb EXISTS i NOT EXISTS](#_Toc118389576)
-[1.4.8.5 Subconsultes correlacionades](#_Toc118389577)
-[1.4.9 Consultes variades](#_Toc118389578)
+* [1.4 Jardineria](#1.4 Jardineria)
+* [1.4.1 Model relacional](#1.4.1 Model relacional)
+* [1.4.2 Base de dades per Postgres](#_Toc118389567)
+* [1.4.4 Consultes sobre una taula](#_Toc118389568)
+* [1.4.5 Consultes multitaula (INNER JOIN)](#_Toc118389569)
+* [1.4.6 Consultes multitaula (OUTER JOIN)](#_Toc118389570)
+* [1.4.7 Consultes resum](#_Toc118389571)
+* [1.4.8 Subconsultes](#_Toc118389572)
+* [1.4.8.1 Amb operadors bàsics de comparació](#_Toc118389573)
+* [1.4.8.2 Subconsultes amb ALL i ANY](#_Toc118389574)
+* [1.4.8.3 Subconsultes amb IN i NOT IN](#_Toc118389575)
+* [1.4.8.4 Subconsultes amb EXISTS i NOT EXISTS](#_Toc118389576)
+* [1.4.8.5 Subconsultes correlacionades](#_Toc118389577)
+* [1.4.9 Consultes variades](#_Toc118389578)
 
 # 1.4 Jardineria
 

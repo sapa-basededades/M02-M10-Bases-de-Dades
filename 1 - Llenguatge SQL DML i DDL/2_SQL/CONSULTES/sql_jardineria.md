@@ -16,7 +16,7 @@
 
 ## 1.4.1 Model relacional
 
-![](RackMultipart20230117-1-mtgvt6_html_2f7d948e0d9e95c0.png)
+![](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/0_Databases/POSTGRES/jardineria/3-MR_jardineria.png)
 
 ## 1.4.2 Scripts de creació de la base de dades
 

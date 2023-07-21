@@ -16,7 +16,7 @@
 
 ## 1.4.1 Model relacional
 
-![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/master/assets/3-MR_jardineria.png?raw=true)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/3-MR_jardineria.png?raw=true)
 
 ## 1.4.2 Scripts de creació de la base de dades
 

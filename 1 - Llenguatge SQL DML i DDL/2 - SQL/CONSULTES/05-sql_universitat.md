@@ -1,13 +1,13 @@
 # 1.5 Base de dades Universitat
 
-[1.5 Universitat]
-[1.5.1 Model relacional]
-[1.5.2 Base de dades per a Postgres]
-[1.5.4 Consultes sobre una taula]
-[1.5.5 Consultes multitaula (INNER JOIN)]
-[1.5.6 Consultes multitaula (OUTER JOIN)]
-[1.5.7 Consultes resum]
-[1.5.8 Subconsultes]
+- [1.5 Base de dades Universitat](#15-base-de-dades-universitat)
+  - [1.5.1 Model relacional](#151-model-relacional)
+  - [1.5.2 Scripts de creació de la base de dades](#152-scripts-de-creació-de-la-base-de-dades)
+  - [1.5.4 Consultes sobre una taula](#154-consultes-sobre-una-taula)
+  - [1.5.5 Consultes multitaula (INNER JOIN)](#155-consultes-multitaula-inner-join)
+  - [1.5.6 Consultes multitaula (OUTER JOIN)](#156-consultes-multitaula-outer-join)
+  - [1.5.7 Consultes resum](#157-consultes-resum)
+  - [1.5.8 Subconsultes](#158-subconsultes)
 
 ## 1.5.1 Model relacional
 

@@ -1,8 +1,4 @@
-# Exercicis a classe. 
-
-## Realització de consultes SQL
-
-### Contingut
+# 1.5 Base de dades Universitat
 
 [1.5 Universitat]
 [1.5.1 Model relacional]
@@ -13,17 +9,15 @@
 [1.5.7 Consultes resum]
 [1.5.8 Subconsultes]
 
-# 1.5 Universitat
-
 ## 1.5.1 Model relacional
 
-![](RackMultipart20230117-1-mtgvt6_html_2626ed8b81fe5f92.png)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/5-MR_Universitat.png?raw=true)
 
 ## 1.5.2 Base de dades per a Postgres
 
 Crea la base de dades universitat descarregant els scripts des de Github.
 
-# git clone https://github.com/fbarraga/Postgres-DB
+git clone https://github.com/fbarraga/Postgres-DB
 
 ## 1.5.4 Consultes sobre una taula
 

@@ -118,29 +118,29 @@ Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
 25. Retorna un llistat amb els noms dels fabricants que tenen 2 o més productes.
 26. Retorna un llistat amb els noms dels fabricants i el número de productes que té cadascun amb un preu superior o igual a 220 €. No cal mostrar el nom dels fabricants que no tenen productes que compleixin la condició.
 
-Exemple del resultat esperat:
+  Exemple del resultat esperat:
 
-| **nombre** | **total** |
-| --- | --- |
-| **Lenovo** | 2 |
-| **Asus** | 1 |
-| **Crucial** | 1 |
+  | **nombre** | **total** |
+  | --- | --- |
+  | **Lenovo** | 2 |
+  | **Asus** | 1 |
+  | **Crucial** | 1 |
 
 27. Retorna un llistat amb els noms dels fabricants i el nombre de productes que té cadascun amb un preu superior o igual a 220 €. El llistat ha de mostrar el nom de tots els fabricants, és a dir, si hi ha algun fabricant que no té productes amb un preu superior o igual a 220 € haurà d' aparèixer en el llistat amb un valor igual a 0 en el nombre de productes.
 
-Exemple del resultat esperat:
+  Exemple del resultat esperat:
 
-| **nombre** | **total** |
-| --- | --- |
-| **Lenovo** | 2 |
-| **Crucial** | 1 |
-| **Asus** | 1 |
-| **Huawei** | 0 |
-| **Samsung** | 0 |
-| **Gigabyte** | 0 |
-| **Hewlett-Packard** | 0 |
-| **Xiaomi** | 0 |
-| **Seagate** | 0 |
+  | **nombre** | **total** |
+  | --- | --- |
+  | **Lenovo** | 2 |
+  | **Crucial** | 1 |
+  | **Asus** | 1 |
+  | **Huawei** | 0 |
+  | **Samsung** | 0 |
+  | **Gigabyte** | 0 |
+  | **Hewlett-Packard** | 0 |
+  | **Xiaomi** | 0 |
+  | **Seagate** | 0 |
 
 28. Retorna un llistat amb els noms dels fabricants on la suma del preu de tots els seus productes és superior a 1000 €.
 29. Retorna un llistat amb el nom del producte més car que té cada fabricant. El resultat ha de tenir tres columnes: nom del producte, preu i nom del fabricant. El resultat ha d' estar ordenat alfabèticament de menor a major pel nom del fabricant.

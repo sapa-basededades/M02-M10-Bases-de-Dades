@@ -8,6 +8,7 @@
 
 - Format d'entrega en pdf.
 - No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
+- Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 - Exemple:
 
@@ -37,7 +38,7 @@ Per saber de quina taula i camps es demana la informació de cada consulta acost
 9. Mostra el cognom i càrrec ( **job\_id** ) de tots els empleats **que no** tenen assignat manager(**manager\_id)**. (1 punt)
 10. Mostra el cognom de tots els empleats que tinguin una 'a' i una 'e' en el cognom. (1 punt)
 11. Volem fer un llistat amb el codi d'empleat, cognoms i telèfon dels empleats amb número de telèfon que comença per 590 i ordenat per cognoms. En la columna telèfon volem posar el següent text: "El telf. es: ". Tal com mostra la figura. (2 punts)
-![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/m02_A02_im1.png?raw=true)
+    ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/m02_A02_im1.png?raw=true)
 12. Mostra el cognom, càrrec i salari de tots els empleats on el seu salari no sigui ni 3000, 7000 ni 10000. (1 punts)
 13. Mostra el cognom, salari i càrrec dels empleats que tenen un sou entre 10000 i 20000 o bé tenen com a codi de càrrec 9 (2 punts)
 14. Mostra el cognom, salari i càrrec dels empleats que guanyen més de 10000 anuals i tenen com a càrrec el codi 9 o bé 5. (2 punts)

@@ -1,30 +1,31 @@
-# 1.1 Base de dades Jardineria
+# 1.1 Base de dades Botiga informàtica
 
-[1.1 Model relacional](#11-model-relacional)</br>
-[1.2 Base de dades per a Postgres](#12-base-de-dades-per-a-postgres)</br>
-[1.3 Consultes sobre una taula](#13-consultes-sobre-una-taula)</br>
-[1.4 Consultes multitaula (INNER JOIN)](#14-consultes-multitaula-inner-join)</br>
-[1.5 Consultes multitaula (OUTER JOIN)](#15-consultes-multitaula-outer-join)</br>
-[1.6 Consultes resum (GROUP BY, HAVING)](#16-consultes-resum-group-by-having)</br>
-[1.7 Subconsultes (A la clàusula WHERE)](#17-subconsultes-a-la-clàusula-where)</br>
-    [1.7.1 Amb operadors bàsics de comparació](#171-amb-operadors-bàsics-de-comparació)</br>
-    [1.7.2 Subconsultes amb ALL y  ANY](#172-subconsultes-amb--all--y--any)</br>
-    [1.7.3 Subconsultes amb IN i NOT IN](#173-subconsultes-amb--in--i--not-in)</br>
-    [1.7.4 Subconsultes amb EXISTS i NOT EXISTS](#174-subconsultes-amb--exists--i--not-exists)</br>
-    [1.7.5 Subconsultes correlacionades](#175-subconsultes-correlacionades)</br>
-[1.8 Subconsultes (A la clàusula HAVING)](#18-subconsultes-a-la-clàusula-having)</br>
+- [1.1 Base de dades Botiga informàtica](#11-base-de-dades-botiga-informàtica)
+  - [1.1.1 Model relacional](#111-model-relacional)
+  - [1.1.2 Base de dades per a Postgres](#112-base-de-dades-per-a-postgres)
+  - [1.1.3 Consultes sobre una taula](#113-consultes-sobre-una-taula)
+  - [1.1.4 Consultes multitaula (INNER JOIN)](#114-consultes-multitaula-inner-join)
+  - [1.1.5 Consultes multitaula (OUTER JOIN)](#115-consultes-multitaula-outer-join)
+  - [1.1.6 Consultes resum (GROUP BY, HAVING)](#116-consultes-resum-group-by-having)
+  - [1.1.7 Subconsultes (A la clàusula WHERE)](#117-subconsultes-a-la-clàusula-where)
+    - [1.1.7.1 Amb operadors bàsics de comparació](#1171-amb-operadors-bàsics-de-comparació)
+    - [1.1.7.2 Subconsultes amb \*\*\*\* ALL \*\*\*\* y \*\*\*\* ANY\*\*](#1172-subconsultes-amb--all--y--any)
+    - [1.1.7.3 Subconsultes amb \*\*\*\* IN \*\*\*\* i \*\*\*\* NOT IN\*\*](#1173-subconsultes-amb--in--i--not-in)
+    - [1.1.7.4 Subconsultes amb \*\*\*\* EXISTS \*\*\*\* i \*\*\*\* NOT EXISTS\*\*](#1174-subconsultes-amb--exists--i--not-exists)
+    - [1.1.7.5 Subconsultes correlacionades](#1175-subconsultes-correlacionades)
+  - [1.1.8 Subconsultes (A la clàusula HAVING)](#118-subconsultes-a-la-clàusula-having)
 
-## 1.1 Model relacional
+## 1.1.1 Model relacional
 
 ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/1-MR_botigainformatica.png?raw=true)
 
-## 1.2 Base de dades per a Postgres
+## 1.1.2 Base de dades per a Postgres
 
 Crea la base de dades botiga-informatica descarregant els scripts des de Github.
 
  https://github.com/fbarraga/Postgres-DB/UF2/0_Databases/botiga_informatica
 
-## 1.3 Consultes sobre una taula
+## 1.1.3 Consultes sobre una taula
 
 1. Llista el nom de tots els productes que hi ha a la taula producte.
 2. Llista els noms i els preus de tots els productes de la taula producte.
@@ -62,7 +63,7 @@ Crea la base de dades botiga-informatica descarregant els scripts des de Github.
 34. Retorna una llista amb el nom de tots els productes que contenen la cadena Monitor en el nom i tenen un preu inferior a 215 €.
 35. Llista el nom i el preu de tots els productes que tinguin un preu major o igual a 180€. Ordeni el resultat en primer lloc pel preu (en ordre descendent) i en segon lloc pel nom (en ordre ascendent).
 
-## 1.4 Consultes multitaula (INNER JOIN)
+## 1.1.4 Consultes multitaula (INNER JOIN)
 
 Resol totes les consultes:
 
@@ -80,7 +81,7 @@ Resol totes les consultes:
 12. Retorna un llistat amb el nom de producte, preu i nom de fabricant, de tots els productes que tinguin un preu major o igual a 180€. Ordeni el resultat en primer lloc pel preu (en ordre descendent) i en segon lloc pel nom del producte(en ordre ascendent)
 13. Retorna un llistat amb el codi i el nom de fabricant, només d' aquells fabricants que tenen productes associats a la base de dades.
 
-## 1.5 Consultes multitaula (OUTER JOIN)
+## 1.1.5 Consultes multitaula (OUTER JOIN)
 
 Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
 
@@ -88,7 +89,7 @@ Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
 2. Retorna un llistat on només apareguin aquells fabricants que no tenen cap producte associat.
 3. Poden existir productes que no estiguin relacionats amb un fabricant? Justifiqui la seva resposta.
 
-## 1.6 Consultes resum (GROUP BY, HAVING)
+## 1.1.6 Consultes resum (GROUP BY, HAVING)
 
 1. Calcula el nombre total de productes que hi ha a la taula productes.
 2. Calcula el nombre total de fabricants que hi ha a la taula fabricant.
@@ -144,9 +145,9 @@ Exemple del resultat esperat:
 28. Retorna un llistat amb els noms dels fabricants on la suma del preu de tots els seus productes és superior a 1000 €.
 29. Retorna un llistat amb el nom del producte més car que té cada fabricant. El resultat ha de tenir tres columnes: nom del producte, preu i nom del fabricant. El resultat ha d' estar ordenat alfabèticament de menor a major pel nom del fabricant.
 
-## 1.7 Subconsultes (A la clàusula WHERE)
+## 1.1.7 Subconsultes (A la clàusula WHERE)
 
-### 1.7.1 Amb operadors bàsics de comparació
+### 1.1.7.1 Amb operadors bàsics de comparació
 
 1. Retorna tots els productes del fabricant Lenovo. (Sense utilitzar INNER JOIN).
 2. Retorna totes les dades dels productes que tenen el mateix preu que el producte més car del fabricant Lenovo. (Sense utilitzar INNER JOIN).
@@ -155,30 +156,30 @@ Exemple del resultat esperat:
 5. Retorna tots els productes de la base de dades que tenen un preu més gran o igual al producte més car del fabricant Lenovo.
 6. Llista tots els productes del fabricant Asus que tenen un preu superior al preu mitjà de tots els seus productes.
 
-### 1.7.2 Subconsultes amb **** ALL **** y **** ANY**
+### 1.1.7.2 Subconsultes amb **** ALL **** y **** ANY**
 
 1. Retorna el producte més car que hi ha a la taula producte sense fer ús de MAX, ORDER BY ni LIMIT.
 2. Retorna el producte més barat que hi ha a la taula producte sense fer ús de MIN, ORDER BY ni LIMIT.
 3. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant ALL o ANY).
 4. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant ALL o ANY).
 
-### 1.7.3 Subconsultes amb **** IN **** i **** NOT IN**
+### 1.1.7.3 Subconsultes amb **** IN **** i **** NOT IN**
 
 1. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant IN o NOT IN).
 2. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant IN o NOT IN).
 
-### 1.7.4 Subconsultes amb **** EXISTS **** i **** NOT EXISTS**
+### 1.1.7.4 Subconsultes amb **** EXISTS **** i **** NOT EXISTS**
 
 1. Retorna els noms dels fabricants que tenen productes associats. (Utilitzant EXISTS o NOT EXISTS).
 2. Retorna els noms dels fabricants que no tenen productes associats. (Utilitzant EXISTS o NOT EXISTS).
 
-### 1.7.5 Subconsultes correlacionades
+### 1.1.7.5 Subconsultes correlacionades
 
 1. Llista el nom de cada fabricant amb el nom i el preu del seu producte més car.
 2. Retorna un llistat de tots els productes que tenen un preu major o igual a la mitjana de tots els productes del seu mateix fabricant.
 3. Llista el nom del producte més car del fabricant Lenovo.
 
-## 1.8 Subconsultes (A la clàusula HAVING)
+## 1.1.8 Subconsultes (A la clàusula HAVING)
 
 1. Retorna un llistat amb tots els noms dels fabricants que tenen el mateix nombre de productes que el fabricant Lenovo.
 

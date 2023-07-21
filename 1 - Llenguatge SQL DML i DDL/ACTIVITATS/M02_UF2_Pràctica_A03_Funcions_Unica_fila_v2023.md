@@ -11,15 +11,15 @@
 - Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 
-## Part 1
-
-### BDD HR
+## Part 1 BDD HR
 
 1. Escriu una consulta per a mostrar la data actual. Etiqueta la columna com Date.(1 punt)
 2. Per a cada empleat, mostra el número d'empleat, el cognom, el salari i el salari amb un augment del 15.5% i expressat amb número enter, etiqueteu-lo com **nou salari**. (1 punt)
+
     ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/m02_A03_im2.png?raw=true)
 
 3. Modifica la consulta anterior per afegir una columna que resti el salari antic al nou. Etiqueteu la columna com **Increment**. (1 punt)
+
     ![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/activitats/m02_A03_im3.png?raw=true)
 
 4. Escriviu una consulta que mostri de tots els empleats els cognoms dels quals comencin per J, A o M, el cognom de l'empleat, el email amb la primera lletra en majúscules així com la longitud del cognom. Ordeneu els resultats alfabèticament per el cognom de l'empleat. (2 punts)

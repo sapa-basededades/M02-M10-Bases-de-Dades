@@ -1,27 +1,22 @@
-# Exercicis a classe. 
-## Realització de consultes SQL
-### BD: Botiga_Informatica
+# BD: Botiga_Informatica
 
-### Contenido
-
-1.1 Model relacional</br>
-1.2 Base de dades per a Postgres</br>
-1.3 Consultes sobre una taula</br>
-1.4 Consultes multitaula (INNER JOIN)</br>
-1.5 Consultes multitaula (OUTER JOIN)</br>
-1.6 Consultes resum (GROUP BY, HAVING)</br>
-1.7 Subconsultes (A la clàusula WHERE)</br>
-    1.7.1 Amb operadors bàsics de comparació</br>
-    1.7.2 Subconsultes amb **** ALL **** y **** ANY**</br>
-    1.7.3 Subconsultes amb **** IN **** i **** NOT IN**</br>
-    1.7.4 Subconsultes amb **** EXISTS **** i **** NOT EXISTS**</br>
-    1.7.5 Subconsultes correlacionades</br>
-1.8 Subconsultes (A la clàusula HAVING</br>
-
+[1.1 Model relacional](#11-model-relacional)</br>
+[1.2 Base de dades per a Postgres](#12-base-de-dades-per-a-postgres)</br>
+[1.3 Consultes sobre una taula](#13-consultes-sobre-una-taula)</br>
+[1.4 Consultes multitaula (INNER JOIN)](#14-consultes-multitaula-inner-join)</br>
+[1.5 Consultes multitaula (OUTER JOIN)](#15-consultes-multitaula-outer-join)</br>
+[1.6 Consultes resum (GROUP BY, HAVING)](#16-consultes-resum-group-by-having)</br>
+[1.7 Subconsultes (A la clàusula WHERE)](#17-subconsultes-a-la-clàusula-where)</br>
+    [1.7.1 Amb operadors bàsics de comparació](#171-amb-operadors-bàsics-de-comparació)</br>
+    [1.7.2 Subconsultes amb ALL y  ANY](#172-subconsultes-amb--all--y--any)</br>
+    [1.7.3 Subconsultes amb IN i NOT IN](#173-subconsultes-amb--in--i--not-in)</br>
+    [1.7.4 Subconsultes amb EXISTS i NOT EXISTS](#174-subconsultes-amb--exists--i--not-exists)</br>
+    [1.7.5 Subconsultes correlacionades](#175-subconsultes-correlacionades)</br>
+[1.8 Subconsultes (A la clàusula HAVING)](#18-subconsultes-a-la-clàusula-having)</br>
 
 ## 1.1 Model relacional
 
-![](RackMultipart20230117-1-mtgvt6_html_386c21e796efb6a4.png)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/master/assets/1-MR_botigainformatica.png?raw=true)
 
 ## 1.2 Base de dades per a Postgres
 

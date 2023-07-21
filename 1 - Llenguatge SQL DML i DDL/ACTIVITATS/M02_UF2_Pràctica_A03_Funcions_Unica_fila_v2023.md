@@ -4,7 +4,11 @@
 
 ## Aspectes a considerar
 
-- Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
+- Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. 
+- Pots crear els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
+- Pots consultar el model relacional en el següent link:
+  - [Pagila]()
+  - [HR]()
 
 - Format d'entrega en pdf.
 - No adjunteu captures de pantalla ni de la consulta ni amb els resultats.

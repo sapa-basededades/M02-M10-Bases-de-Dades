@@ -1,0 +1,124 @@
+Pagila
+======
+
+Pagila is a "DVD Rental Store" type example database for PostgreSQL. It provides sample schema and data for use in instructional materials, articles, and demonstrations, and is specifically designed to show case features within PostgreSQL. It is currently maintained via github at https://github.com/xzilla/pagila.
+
+
+RELEASE NOTES
+-------------
+
+Version 13.a
+* Add complex JSONB example via rental_report view 
+* Add non-identity generated column example film.revenue_projection
+
+
+INSTALLATION
+------------
+
+To install the pagila database, first create an empty database named pagila, and then feed in the schema file, followed by the data file. Using psql that would look like this:
+
+psql -c "CREATE DATABASE pagila;"
+psql -d pagila -f pagila-schema.sql
+psql -d pagila -f pagila-data.sql
+
+The pagila-data.sql file and the pagila-insert-data.sql both contain the same
+data, the former using COPY commands, the latter using INSERT commands, so you 
+only need to install one of them. Both formats are provided for those who have
+trouble using one version or another.
+
+
+PARTITIONED TABLES
+------------------
+
+The payment table is designed as a partitioned table with a ~6 month timespan for the date range. In order to take full advantage of table partitioning, you need to make sure constraint_exclusion is set to either 'partition' (the default) or 'on' in your database. You can do this by setting "constraint_exclusion = partition" in your postgresql.conf, or by issuing the command "ALTER DATABASE pagila SET constraint_exclusion = partition" (substitute pagila for your database name if installing into a database with a different name). Note, constraint_exclusion should be on by default in modern postgres releases.
+
+
+ARTICLES
+--------------
+
+The following articles make use of pagila to showcase various PostgreSQL features:
+
+* Sample Applications - Pagila (PostgreSQL)
+https://codeontime.com/learn/sample-applications/pagila-postgresql
+
+* Showcasing REST in PostgreSQL - The PreQuel
+http://www.postgresonline.com/journal/archives/32-Showcasing-REST-in-PostgreSQL-The-PreQuel.html
+
+* PostgreSQL 8.3 Features: Enum Datatype
+http://xzilla.net/blog/2007/Sep/PostgreSQL-8.3-Features-Enum-Datatype.html
+
+* Email Validation with pl/PHP
+http://xzilla.net/blog/2006/Sep/Re-inventing-Gregs-method-to-prevent-re-inventing.html
+
+* RATIO_TO_REPORT in PostgreSQL
+http://xzilla.net/blog/2006/Jul/RATIOTOREPORT-in-PostgreSQL.html
+
+* Building Rails to Legacy Applications :: Take Control of Active Record
+http://xzilla.net/blog/2006/Jun/Building-Rails-to-Legacy-Applications-Take-Control-of-Active-Record.html
+
+* Building Rails to Legacy Applications :: Masking the Database
+http://xzilla.net/blog/2006/Jun/Building-Rails-to-Legacy-Applications-Masking-the-Database.html
+
+
+PORT INFO
+---------
+
+Pagila is a port of the Sakila example database originally created for MySQL by Mike Hillyer of the MySQL AB documentation team. Like other example databases, it provides a hypothetical "DVD Rental Store" schema and data to be used for examples in books, tutorials, articles, samples, etc...
+
+For those interested in the original porting information, all tables, data, views, and functions have been ported, which resulted in some schema changes, including:
+
+* Changed char(1) true/false fields to true boolean fields
+* The last_update columns were set with triggers to update them
+* Added foreign keys
+* Removed 'DEFAULT 0' on foreign keys since it's pointless with real FK's
+* Used PostgreSQL built-in fulltext searching for fulltext indexing, removing the need for the film_text table.
+* In the original port, the rewards_report function was ported to a simple SRF. It is now a stored procedure that returns multiple cursor references.
+
+The schema and data for the Sakila database were made available under the BSD license which can be found at http://www.opensource.org/licenses/bsd-license.php.
+
+
+LICENSE
+-------
+Pagila is made available under The PostgreSQL License (https://opensource.org/licenses/PostgreSQL)
+
+Note: Versions of Pagila prior to and including 0.10.1 were also made available under the same BSD license as Sakila.
+
+
+VERSION HISTORY
+---------------
+
+Version 12.a
+ * Use := for assignment in last_updated function
+ * Make nicer_but_slower_film_list view a little nicer
+ * Add DEFAULT and MAXVALUE partitions for payment table
+ * Rebuild data for payment table
+
+Version 11.a
+* Re-dump schema and data using newer pg_dump. This forces schema qualification of all objects within the database 
+* Convert reward_report from set-returning function to refcusor based stored procedure 
+* Drop obsolete payment date handler and supporting triggers
+* Add covering columns to actor primary key index 
+* Rewrite staff_list view using JOIN ... USING syntax 
+
+Version 10.a 
+* Rebuild payments table using native partitioning 
+* Add function, rule, triggers for handling updates to partitoned payments table
+* Fix numerous bugs with inserts data file   
+
+Version 9.6.a
+* Change versioning to track Postgres Major Releases
+* Update articles section to current links (where available)
+* Wordsmithing on README doc 
+
+Version 0.10.1
+* Add pagila-data-insert.sql file, added articles section
+
+Version 0.10
+* Support for built-in fulltext. Add enum example 
+
+Version 0.9
+* Add table partitioning example 
+
+Version 0.8 
+* First release of pagila
+

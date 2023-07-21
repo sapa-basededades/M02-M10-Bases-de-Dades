@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS jardineria;
+CREATE DATABASE jardineria;

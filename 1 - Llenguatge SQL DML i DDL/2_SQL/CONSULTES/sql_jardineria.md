@@ -2,7 +2,7 @@
 
 - [1.4 Base de dades Jardineria](#14-base-de-dades-jardineria)
   - [1.4.1 Model relacional](#141-model-relacional)
-  - [1.4.2 Base de dades per Postgres](#142-base-de-dades-per-postgres)
+  - [1.4.2 Scripts de creació de la base de dades](#142-scripts-de-creació-de-la-base-de-dades)
   - [1.4.4 Consultes sobre una taula](#144-consultes-sobre-una-taula)
   - [1.4.5 Consultes multitaula (INNER JOIN)](#145-consultes-multitaula-inner-join)
   - [1.4.6 Consultes multitaula (OUTER JOIN)](#146-consultes-multitaula-outer-join)
@@ -18,11 +18,14 @@
 
 ![](RackMultipart20230117-1-mtgvt6_html_2f7d948e0d9e95c0.png)
 
-## 1.4.2 Base de dades per Postgres
+## 1.4.2 Scripts de creació de la base de dades
 
 Crea la base de dades jardineria descarregant els scripts des de Github.
 
+* Postgres:
  [git clone https://github.com/fbarraga/Postgres-DB](Path)
+
+* MySQL:
 
 ## 1.4.4 Consultes sobre una taula
 
@@ -32,7 +35,7 @@ Crea la base de dades jardineria descarregant els scripts des de Github.
 4. Retorna el nom del lloc, nom, cognoms i email del cap de l' empresa.
 5. Retorna un llistat amb el nom, cognoms i lloc d' aquells empleats que no siguin representants de vendes.
 6. Retorna un llistat amb el nom dels tots els clients espanyols.
-7. . Retorna un llistat amb els diferents estats pels quals pot passar una comanda.
+7. Retorna un llistat amb els diferents estats pels quals pot passar una comanda.
 8. Retorna un llistat amb el codi de client d'aquells clients que van realitzar algun pagament el 2008. Tingui en compte que haurà d' eliminar aquells codis de client que apareguin repetits. Resolgui la consulta:
 9. Utilitzant la funció EXTRACT.
 10. Utilitzant la funció TO\_CHAR.

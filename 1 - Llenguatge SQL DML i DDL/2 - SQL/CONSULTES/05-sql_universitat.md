@@ -17,7 +17,7 @@
 
 Crea la base de dades universitat descarregant els scripts des de Github.
 
-git clone https://github.com/fbarraga/Postgres-DB
+[Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 
 ## 1.5.4 Consultes sobre una taula
 

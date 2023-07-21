@@ -22,10 +22,10 @@
 
 Crea la base de dades jardineria descarregant els scripts des de Github.
 
-* Postgres:
- [git clone https://github.com/fbarraga/Postgres-DB](Path)
+- Postgres:
+[Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 
-* MySQL:
+- MySQL:
 
 ## 1.4.4 Consultes sobre una taula
 

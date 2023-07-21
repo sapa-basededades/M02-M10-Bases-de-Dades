@@ -1,8 +1,6 @@
 # A01 – Conèixer entorn PostgreSql i primeres sentències SQL
 
-Treballarem amb psql i base de dades hr. Pots consultar els esquemes de la Base de Dades en el següent link:
-
-[Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
+Treballarem amb psql i base de dades hr. Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 
 ## Part 1: Conèixer l'entorn
 
@@ -37,18 +35,18 @@ Aquesta primera part és per fer-se amb l'entorn, simplement heu de seguir les i
 
 1. **Mostreu l'estructura** de la taula DEPARTMENTS.
 
-    **Seleccioneu** totes les dades de la taula DEPARTMENTS.
+2. **Seleccioneu** totes les dades de la taula DEPARTMENTS.
 
-2. **Mostreu l'estructura** de la taula EMPLOYEES.
+3. **Mostreu l'estructura** de la taula EMPLOYEES.
 
-    **Creeu una consulta** per a mostrar el cognom, el codi de càrrec (job_id), la data de contractació (hire\_date) i el número d'empleat per a cada empleat, amb el número d'empleat en primer lloc. Proporcioneu un alies, _STARTDATE_, per a la columna HIRE\_DATE.
+4. **Creeu una consulta** per a mostrar el cognom, el codi de càrrec (job_id), la data de contractació (hire\_date) i el número d'empleat per a cada empleat, amb el número d'empleat en primer lloc. Proporcioneu un alies, _STARTDATE_, per a la columna HIRE\_DATE.
 
-3. **Creeu una consulta** per a mostrar codis de càrrec **únics** (job_id) de la taula EMPLOYEES.
+5. **Creeu una consulta** per a mostrar codis de càrrec **únics** (job_id) de la taula EMPLOYEES.
 
-4. **Creeu una consulta** on mostreu el cognom concatenat amb el codi de càrrec, separats per una coma i un espai i anomeneu la columna com _Employee and Title_.
+6. **Creeu una consulta** on mostreu el cognom concatenat amb el codi de càrrec, separats per una coma i un espai i anomeneu la columna com _Employee and Title_.
 
-5. **Creeu una consulta** per a mostrar totes les dades de la taula EMPLOYEES. Separeu cada columna amb una coma. Anomeneu la columna com _THE\_OUTPUT_.
+7. **Creeu una consulta** per a mostrar totes les dades de la taula EMPLOYEES. Separeu cada columna amb una coma. Anomeneu la columna com _THE\_OUTPUT_.
 
-6. **Creeu una consulta** per mostrar el salari mensual dels EMPLOYEES, tenint en compte que a la taula teniu el salari anual.
+8. **Creeu una consulta** per mostrar el salari mensual dels EMPLOYEES, tenint en compte que a la taula teniu el salari anual.
 
-7. **Creeu una consulta** per mostrar el "street address", "postal code" , "city " i "State_province" de la taula LOCATIONS tot concatenat amb un espai entre elles. Renombreu la columna com Adreca Postal.
+9. **Creeu una consulta** per mostrar el "street address", "postal code" , "city " i "State_province" de la taula LOCATIONS tot concatenat amb un espai entre elles. Renombreu la columna com Adreca Postal.

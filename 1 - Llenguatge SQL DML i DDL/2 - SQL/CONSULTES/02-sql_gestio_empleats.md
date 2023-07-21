@@ -21,7 +21,7 @@
 
 Crea la base de dades gestio-empleats descarregant els scripts des de Github.
 
-git clone https://github.com/fbarraga/Postgres-DB
+[Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 
 ## 1.2.3 Consultes sobre una taula
 
@@ -124,4 +124,3 @@ Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
 
 1. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
 2. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
-

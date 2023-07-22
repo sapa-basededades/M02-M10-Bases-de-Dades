@@ -14,7 +14,7 @@ Aquest repositori conté teoria, activitats, esquemes de base de dades per desen
 
 Està estructurat seguint les parts dels diferents mòduls.
 
-* Introducció a les Bases de Dades
+* [Introducció a les Bases de Dades](0 - Introducció a les Bases de Dades)
 * Llenguatge SQL: DML i DDL
 * Llenguatge SQL: DCL i extensió procedimental
 * Base de dades Objecte Relacionals

@@ -1,23 +1,26 @@
-# Repositori pel CFGS mòdul M02 Base de Dades
+# Repositori pels mòduls M02 Base de Dades i M10 Administració de sistemes gestors de bases de dades dels CFGS ASIX/DAW/DAM
 
 **Institut Sa Palomera - Blanes**
 
-Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02
+Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02 #AsixMp10
 
 ## Introducció
 
-Aquest repositori de Github preten recollir informació útil per impartir el mòdul de Base de Dades dintre dels Cicles Formatius de Grau Superior DAM/DAW/ASIX.
+Aquest repositori preten recollir informació útil per impartir els mòduls de Base de Dades dels Cicles Formatius de Grau Superior DAM/DAW/ASIX. Tanmateix també vol ser un espai a on qui li interessi començar en el món de les base de dades poder trobar material de formació i pràctiques.
 
 ## Contingut
 
-Aquest repositori conté teoria, activitats, esquemes de base de dades per desenvolupar amb diferents SGBD Postgres, MySQL.
+Aquest repositori conté teoria, activitats, esquemes de base de dades per desenvolupar amb diferents SGBD PostgresSQL, MySQL i MongoDB.
 
-Està estructurat seguint les quatre UFs del mòdul de BD.
+Està estructurat seguint les parts dels diferents mòduls.
 
 * Introducció a les Bases de Dades
-* Llenguatge SQL-DML i DDL
-* Llenguatge SQL, DCL i extensió procedimental
+* Llenguatge SQL: DML i DDL
+* Llenguatge SQL: DCL i extensió procedimental
 * Base de dades Objecte Relacionals
+* Base de dades NoSQL - MongoDB
+* Assegurament de la informació
+* SGBD corporatiu
 
 ## Links interessants
 
@@ -37,15 +40,15 @@ Jocs Online
 * <https://lost-at-sql.therobinlord.com/>
 * <https://mystery.knightlab.com/>
 
-### Mysql
+### MySQL
 
 Afegir links
 
-### Postgresql
+### PostgreSQL
 
 Existeixen multitud de sites amb informació sobre Postgres. A continuació llisto els que he trobat més interessants:
 
-  Recursos Generals (Fork de dhamaniasad)
+  Recursos Generals (Fork de [dhamaniasad](https://github.com/dhamaniasad/awesome-postgres))
 
 * <https://github.com/fbarraga/awesome-postgres>
 

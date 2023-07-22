@@ -14,7 +14,7 @@ Aquest repositori conté teoria, activitats, esquemes de base de dades per desen
 
 Està estructurat seguint les parts dels diferents mòduls.
 
-* [Introducció a les Bases de Dades](0 - Introducció a les Bases de Dades)
+* [Introducció a les Bases de Dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/3eacbf97690a7d24e5d46912fb66464056ad8536/0%20-%20Introducci%C3%B3%20a%20les%20Bases%20de%20Dades)
 * Llenguatge SQL: DML i DDL
 * Llenguatge SQL: DCL i extensió procedimental
 * Base de dades Objecte Relacionals

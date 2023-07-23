@@ -1,6 +1,21 @@
 # A05 – Consultes d'agregat de dades i subconsultes.
 
-**PART I – Consultes d'agregat de dades.**
+## Descripció
+
+## Aspectes a considerar
+
+- Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. 
+- Pots crear els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
+- Pots consultar el model relacional en el següent link:
+  - [Pagila](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/08%20-%20Pagila/pagila-erm.png)
+  - [HR]()
+
+- Format d'entrega en pdf.
+- No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
+- Les imatges son orientatives
+- Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
+
+## PART I – Consultes d'agregat de dades
 
 ![Shape1](RackMultipart20230721-1-prj4cz_html_6ad3514c9ad98947.gif) **BDD HR.**
 
@@ -66,7 +81,7 @@
 
 (16 registres)
 
-**PART II – Subconsultes**
+## PART II – Subconsultes
 
 **BDD HR**
 

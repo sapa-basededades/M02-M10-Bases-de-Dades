@@ -23,11 +23,8 @@ En aquest apartat tabmé veurem les propietats ACID (*Atomicity, Consistency, Is
 ---
 # Bases de dades
 
-En aquest apartat trobareu diferents bases de dades en diferents SGBD.
+En aquest apartat trobareu diferents bases de dades en diferents SGBD:
 
-![PostreSQL Logo](../assets/postgresql-horizontal.svg) 
+[![PostreSQL Logo](../assets/postgresql-horizontal.svg)](DATABASES/POSTGRESQL/README.md)
 
-![MySQL Logo](../assets/mysql-horizontal.svg) 
-
-* ## [PostgreSQL](DATABASES/POSTGRESQL/README.md)
-* ## [MySQL](DATABASES/MYSQL/README.md)
+[![MySQL Logo](../assets/mysql-horizontal.svg)](DATABASES/MYSQL/README.md)

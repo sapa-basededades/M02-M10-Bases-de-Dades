@@ -9,7 +9,8 @@
 En aquest apartat treballarem el llenguatge de creació i modificació de l'esquema d'una base de dades realcional mitjançant el llenguatge SQL. Veurem com creem taules,camps, vistes, índexs, restriccions de clau primària, de clau forana, etc..
 Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 
-* [:books: Continguts i enllaços d'interès](<NF1 - DDL/README.md#continguts>)
+* [:books: Continguts](<NF1 - DDL/README.md#continguts>)
+* [:link: Enllaços d'interès](<NF1 - DDL/README.md#links>)
 * [:notebook: Exercicis - BD PostreSQL](<NF1 - DDL/README.md#exercicis-pgsql>)
 * [:notebook: Exercicis - BD MySQL](<NF1 - DDL/README.md#exercicis-mysql>)
 * [:pencil: Activitats](<NF1 - DDL/README.md#activitats>)

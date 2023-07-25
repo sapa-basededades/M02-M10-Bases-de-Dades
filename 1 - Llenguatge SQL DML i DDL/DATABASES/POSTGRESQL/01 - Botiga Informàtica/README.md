@@ -1,0 +1,1 @@
+# Botiga d'informàtica

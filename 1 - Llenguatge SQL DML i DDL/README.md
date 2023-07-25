@@ -21,6 +21,7 @@ Les instruccions treballades es basan amb els estàndards ANSI-SQL(SQL-92,SQL-20
 En aquest apartat tabmé veurem les propietats ACID (*Atomicity, Consistency, Isolation, Durability*) en un SGBD, el concepte de concurrència, bloqueig de registres i els diferents nivells d'aïllament.
 
 ---
+
 # Bases de dades
 
 En aquest apartat trobareu diferents bases de dades en diferents SGBD:
@@ -28,3 +29,7 @@ En aquest apartat trobareu diferents bases de dades en diferents SGBD:
 [![PostreSQL Logo](../assets/postgresql-horizontal.svg)](DATABASES/POSTGRESQL/README.md)
 
 [![MySQL Logo](../assets/mysql-horizontal.svg)](DATABASES/MYSQL/README.md)
+
+---
+
+# Activitats

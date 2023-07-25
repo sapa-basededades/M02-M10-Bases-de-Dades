@@ -1,17 +1,17 @@
 # NF2: DML (Data Manipulation Language)
 
 ## :books: Continguts i enllaços d'interès
-* :closed_book:[Introducció a les bases de dades](NF1-IntroduccioBD.pdf)
-* :closed_book:[Història d'Oracle](NF1-IntroduccioBD.pdf)
+* :closed_book:[AAA]()
 ---
-* :link:[Introduction to Database Management Systems (vídeo)](https://www.youtube.com/watch?v=6u2zsJOJ_GE) <sub>Bart Baesens explicant una introducció als SGBD</sub>
-* :link:[What is Database & SQL (vídeo)](https://youtu.be/FR4QIeZaPeM)
-* :link:[History of Databases (vídeo)](https://youtu.be/KG-mqHoXOXY)
-* :link:[SGBD utilitzats en el 2022](https://towardsdatascience.com/top-databases-to-use-in-2022-what-is-the-right-database-for-your-use-case-bb8d3f183b21)
-* :link:[Data Models  (vídeo)](https://www.youtube.com/watch?v=zTcUj4xTnnA)
-* :link:[Introduction to NoSQL (GOTO2012)](https://www.youtube.com/watch?v=qI_g07C_Q5I&t=917s) <sub>Martin Fowler parlant del NoSQL</sub>
+* :link:AAAA
 
 ## :notebook: Exercicis
 * Exercici 1
 * Exercici 2
 ## :pencil: Activitats
+* ### PostgreSQL
+    * [A01 Iniciació Llenguatge SQL - PostreSQL](ACTIVITATS/dml_psql_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2023.md)
+    * [A02 DML i Ordenació](ACTIVITATS/dml_psql_A02_DML_I_Ordenaci%C3%B3_v2023.md)
+    * [A03 Funcions de fila única en instruccions SQL simples](ACTIVITATS/dml_psql_A03_Funcions_Unica_fila_v2023.md)
+    * [A04 Consulta de dades de vàries taules](ACTIVITATS/dml_psql_A04_Consulta_amb_diverses_taules_v2023.md)
+    * [A05 Consultes d'agregat de dades i subconsultes](ACTIVITATS/dml_psql_A05_Consulta_Agregats_i_subquery_v2023.md)

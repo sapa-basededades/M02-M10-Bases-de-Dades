@@ -1,4 +1,4 @@
-# 1: Llenguatge SQL: DML i DDL
+# Llenguatge SQL: DML i DDL
 
 ## [1. NF1 DDL (Data Definition Language)](<NF1 - DDL/README.md>)
 
@@ -19,3 +19,11 @@ En aquest apartat treballarem el llenguatge de manipulació de dades (DML) en l'
 Principalment ens centrarem amb l'instrucció SELECT començant amb consultes senzilles d'una sola taula per arribar fins a les Window Functions i les CTE (Common Table Expressions).
 Les instruccions treballades es basan amb els estàndards ANSI-SQL(SQL-92,SQL-2003) mitjançant els SGBD MySQL i PostgreSQL.
 En aquest apartat tabmé veurem les propietats ACID (*Atomicity, Consistency, Isolation, Durability*) en un SGBD, el concepte de concurrència, bloqueig de registres i els diferents nivells d'aïllament.
+
+---
+## Bases de dades
+
+En Aquest apartat trobareu diferents bases de dades en diferents SGBD.
+
+* [PostgreSQL](DATABASES/POSTGRESQL/README.md)
+* [MySQL](DATABASES/MYSQL/README.md)

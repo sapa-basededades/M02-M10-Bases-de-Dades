@@ -1,6 +1,10 @@
 # NF1: DDL (Data Definition Language)
-
-## :books: Continguts i enllaços d'interès
+* [Continguts i enllaços d'interès](#continguts)
+* [Exercicis - BD PostreSQL](#exercicis-pgsql)
+* [Exercicis - BD MySQL](#exercicis-mysql)
+* [Activitats](#activitats)
+---
+## <a id="continguts"></a>:books: Continguts i enllaços d'interès
 * Introducció
 * Definició de taules i restriccions
     * Creació de taules
@@ -19,9 +23,9 @@
     * Creació d'índexs
 ---
 
-## :notebook: Exercicis - BD PostgreSQL
+## <a id="exercicis-pgsql"></a>:notebook: Exercicis - BD PostgreSQL
 * [Exercicis amb la base de dades **Pagila**](NF1-exercicis-bd-postgresql.md)
-## :notebook: Exercicis - BD MySQL
+## <a id="exercicis-mysql"></a>:notebook: Exercicis - BD MySQL
 * Exercicis
 * Exercici 2
-## :pencil: Activitats
+## <a id="activitats"></a>:pencil: Activitats

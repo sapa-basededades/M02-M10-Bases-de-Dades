@@ -1,6 +1,6 @@
 # UF1: Introducció  a les Bases de Dades
 
-## [1. NF1 Introducció a les bases de dade](<NF1 - Introducció a les bases de dades/README.md>)
+## [1. NF1 Introducció a les bases de dades](<NF1 - Introducció a les bases de dades/README.md>)
 
 <img src="./assets/database-server.png"
      alt="Database storage"

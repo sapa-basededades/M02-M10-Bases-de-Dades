@@ -1,4 +1,4 @@
-# UF1: Introducció  a les Bases de Dades
+# 0: Introducció  a les Bases de Dades
 
 ## [1. NF1 Introducció a les bases de dades](<NF1 - Introducció a les bases de dades/README.md>)
 
@@ -17,7 +17,7 @@ Veurem quina a de ser l'estructura que hauria de tenir un Sistema Gestor de Base
 
 En aquest apartat treballarem el món de les representacions utilitzant el model Entitat Relació (ER) i el model Entitat Relació Estés (ERE). En veurem la simbologia, nomenclatura així com exercicis per practicar i dominar aquest tipus de diagrames.
 
-## [3. NF2 Disseny lògic - model relacional](<NF3 - Disseny lògic - model relacional/README.md>)
+## [3. NF3 Disseny lògic - model relacional](<NF3 - Disseny lògic - model relacional/README.md>)
 
 <img src="./assets/relational.png"
      alt="Relational image"

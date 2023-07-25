@@ -11,8 +11,8 @@ Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 
 * [:books: Continguts i enllaços d'interès](<NF1 - DDL/README.md#continguts>)
 * [:notebook: Exercicis - BD PostreSQL](<NF1 - DDL/README.md#exercicis-pgsql>)
-* [:notebook: Exercicis - BD MySQL](#exercicis-mysql)
-* [:pencil: Activitats](#activitats)
+* [:notebook: Exercicis - BD MySQL](<NF1 - DDL/README.md#exercicis-mysql>)
+* [:pencil: Activitats](<NF1 - DDL/README.md#activitats>)
 
 ## [2. NF2 DML (Data Manipulation Language)](<NF2 - Disseny conceptual - model ER/README.md>)
 

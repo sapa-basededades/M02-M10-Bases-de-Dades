@@ -1,8 +1,8 @@
 # NF1: DDL (Data Definition Language)
-* [Continguts i enllaços d'interès](#continguts)
-* [Exercicis - BD PostreSQL](#exercicis-pgsql)
-* [Exercicis - BD MySQL](#exercicis-mysql)
-* [Activitats](#activitats)
+* [:books: Continguts i enllaços d'interès](#continguts)
+* [:notebook: Exercicis - BD PostreSQL](#exercicis-pgsql)
+* [:notebook: Exercicis - BD MySQL](#exercicis-mysql)
+* [:pencil: Activitats](#activitats)
 ---
 ## <a id="continguts"></a>:books: Continguts i enllaços d'interès
 * Introducció

@@ -6,5 +6,5 @@
 * :link:[Entity-Relationship Diagrams Work (Universitat Duke)](http://www.inf.unibz.it/~nutt/Teaching/IDBs1011/idbs-slides.html) <sub>Part del curs Analytics MySQL de la plataforma elearning [Coursera](https://www.coursera.org)</sub>
 ## :notebook: Exercicis Model ER - Conceptes bàsics
 * [Exercicis d'entitats atributs i relacions](nf2-exercicis1-entitats-atributs-relacions.md)
-* [Exercici Mini ER - Pizzeria Andiamo]([Title](NF2-exercicis-MiniER-PizzeriaSaborPaladar.md))
+* [Exercici Mini ER - Pizzeria Andiamo]([Title](NF2-exercicis-MiniER-PizzeriaSaborPaladar.md)
 ## :pencil: Activitats

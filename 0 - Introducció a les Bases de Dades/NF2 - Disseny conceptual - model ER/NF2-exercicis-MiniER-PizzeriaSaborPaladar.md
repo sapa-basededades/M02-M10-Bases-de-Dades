@@ -72,9 +72,16 @@ Modifica el diagrama anterior de tal manera que podem guardar l'historial que ha
 
 Dissenyeu un petit diagrama ER pel següent fragment del sistema: En cada local de la cadena de pizzeries cal controlar l'estoc de cada ingredient que hi ha en un moment determinat, així com l'estoc mínim admissible. Aquest serveix perquè el sistema doni un avís de compra si l'estoc d'aquest ingredient està per sota d'aquest mínim.
 
-## Ex 8 - Substitucions
+## Ex 8.0 - Substitucions
 
-Dissenyeu un petit diagrama ER pel següent fragment del sistema: Un empleat en un cert moment pot substituir a un altre empleat si aquest està malalt. Ens interessa saber quan el va substituir
+Dissenyeu un petit diagrama ER pel següent fragment del sistema: Un empleat en un cert moment pot substituir a un altre empleat si aquest està malalt. Ens interessa saber quan el va substituir.
+
+Per simplificar el disseny un empleat només pot substituir el mateix empleat una sola vegada.
+
+## Ex 8.1 - Substitucions sense restriccions
+
+Intenta de modificar el diagrama anterior per no tenir la restricció de que un empleat només pot substituri el mateix empleat una sola vegada.
+
 
 ## Ex 9 - Taules dels locals restaurant
 

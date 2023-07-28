@@ -6,7 +6,7 @@
 * :closed_book:[Conceptual Modelling - Universitat de Bolzano](continguts/IBDs1011-conceptual-modeling-universitat-bolzano.pdf) <sub>Slides del professor [Werner Nutt](http://www.inf.unibz.it/~nutt) de l'assignatura *Introduction to Database Systems* de la [Universitat de Bolzano](http://www.inf.unibz.it/)</sub>
 * :link:[Entity-Relationship Diagrams Work (Universitat Duke)](https://www.coursera.org/lecture/analytics-mysql/database-structures-illustrated-by-entity-relationship-diagrams-K3fIe) <sub>Part del curs Analytics MySQL de la plataforma elearning [Coursera](https://www.coursera.org/learn/analytics-mysql)</sub>
 
-## :notebook: Exercicis Model ER - Conceptes bàsics
+## :notebook: Exercicis de conceptes bàsics i models ER/ERE
 * [Exercicis d'entitats atributs i relacions](exercicis/NF2-exercicis-entitats-atributs-relacions.md)
 * [Exercici Mini ER - Pizzeria Andiamo](exercicis/NF2-exercicis-MiniER-Pizzeria.md)
 * [Exercici Mini ER - La Volta](<exercicis/NF2-exercicis-MiniER-La Volta.md>)

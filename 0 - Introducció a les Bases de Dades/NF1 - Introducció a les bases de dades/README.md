@@ -14,4 +14,5 @@
 ## :notebook: Exercicis
 * Exercici 1
 * Exercici 2
+  
 ## :pencil: Activitats

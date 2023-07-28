@@ -10,5 +10,6 @@
 * [Exercicis d'entitats atributs i relacions](exercicis/NF2-exercicis-entitats-atributs-relacions.md)
 * [Exercici Mini ER - Pizzeria Andiamo](exercicis/NF2-exercicis-MiniER-Pizzeria.md)
 * [Exercici Mini ER - La Volta](<exercicis/NF2-exercicis-MiniER-La Volta.md>)
+* [Exercici Diagrames ER/ERE I](exercicis/NF2-exercicis-DiagramesER-I.md)
   
 ## :pencil: Activitats

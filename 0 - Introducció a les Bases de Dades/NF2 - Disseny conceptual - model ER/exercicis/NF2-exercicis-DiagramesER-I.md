@@ -22,7 +22,7 @@ Heu de tenir en compte que el disseny ha de permetre:
 * Saber el llit on ha estat el pacient durant el seu ingrés.
 * Saber les visites que s’han realitzat durant aquell ingrés i quin metge ha realitzat cada visita.
 
-# TOYSRUS  S.A 
+## TOYSRUS  S.A 
 
 L’empresa TOYSRUS  S.A, la qual dona servei a diferents països del món, està interessada en contractar els nostres serveis per al disseny d’una nova base de dades.
  
@@ -72,7 +72,7 @@ La Conselleria d'Habitatge i Urbanisme sol sol·licitar:
    
 La Conselleria de Benestar Social d'altra banda, sol·licita un llistat dels habitatges habitats per una única persona de 70 anys o més i les dades del barri on s'ubiquen.
 
-# LA DISTRIBUÏDORA DE PEL·LÍCULES
+## LA DISTRIBUÏDORA DE PEL·LÍCULES
 
 Una distribuïdora nacional de pel·lícules desitja mantenir certa informació sobre les pel·lícules que va a llançar pròximament, per tal de promocionar-les adequadament.
 

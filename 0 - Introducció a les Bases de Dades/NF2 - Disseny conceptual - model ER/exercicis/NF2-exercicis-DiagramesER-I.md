@@ -1,4 +1,4 @@
-# Exercicis - Diagrames ER I
+# Exercicis - Diagrames ER/ERE I
 
 ## HOSPITAL GENERAL 
 En un centre hospitalari es desitja informatitzar part de la gestió relativa a pacients i els seus ingressos. Després de l’anàlisi realitzat, s’estableixen els següents requeriments: 

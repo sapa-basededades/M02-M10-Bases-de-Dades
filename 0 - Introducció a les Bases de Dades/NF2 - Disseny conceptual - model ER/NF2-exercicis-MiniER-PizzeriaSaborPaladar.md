@@ -10,7 +10,9 @@ Dissenyeu petits diagrames ER per cada exercici. En els subapartats de cada exer
 
 Dissenyeu un petit diagrama ER pel següent fragment del sistema: La cadena de pizzeries "Sabor & Paladar" té una carta de pizzes a on cadascuna d'elles té un nom i on cada pizza conté diferents ingredients.
 
-![Carta de pizzes](assets/carta-pizzas-200.jpg)
+<img src="assets/carta-pizzas.jpg"
+     alt="Logo Pizzeria Andiamo"
+     width = "250" />
 
 ## Ex 1.1 - Tamany i preu de les pizzes
 

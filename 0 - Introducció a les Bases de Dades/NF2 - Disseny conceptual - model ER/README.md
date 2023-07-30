@@ -11,5 +11,6 @@
 * [Exercici Mini ER - Pizzeria Andiamo](exercicis/NF2-exercicis-MiniER-Pizzeria.md)
 * [Exercici Mini ER - La Volta](<exercicis/NF2-exercicis-MiniER-La Volta.md>)
 * [Exercici Diagrames ER/ERE I](exercicis/NF2-exercicis-DiagramesER-I.md)
-  
+* [Exercici Diagrames ER/ERE II](exercicis/NF2-exercicis-DiagramesER-II.md)
+
 ## :pencil: Activitats

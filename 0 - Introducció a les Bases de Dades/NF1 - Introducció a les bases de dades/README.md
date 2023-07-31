@@ -11,6 +11,9 @@
 * :link:[Data Models  (vídeo)](https://www.youtube.com/watch?v=zTcUj4xTnnA)
 * :link:[Introduction to NoSQL (GOTO2012)](https://www.youtube.com/watch?v=qI_g07C_Q5I&t=917s) <sub>Martin Fowler parlant del NoSQL</sub>
 
+## :notebook: Presentacions
+
+
 ## :notebook: Exercicis
 * Exercici 1
 * Exercici 2

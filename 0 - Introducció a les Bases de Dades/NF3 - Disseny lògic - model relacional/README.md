@@ -10,11 +10,19 @@
 
 ## :notebook: Exercicis Model ER - Conceptes bàsics
 
-* [Exercici 1]
-* [Exercici 2]
+* :pencil:[Exercici Transformar a Model Relacional I](./exercicis/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_I_v2023.docx)
+* :pencil:[Exercici Transformar a Model Relacional II](./exercicis/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_II_v2023.docx)
+* :pencil:[Exercici Transformar a Model Relacional III](./exercicis/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_III_v2023.docx)
+* :pencil:[Exercici Volta Ciclista](./exercicis/M02_UF1_NF3_EXE03_Exercici_VoltaCiclista.docx)
+* :pencil:[Exercici Concesionari](./exercicis/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
+* :pencil:[Exercici Volta Eleccions](./exercicis/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
+
 
 ## :pencil: Activitats
 
+* :pencil:[Activitat 4a](./activitats/M02_UF1_NF3_Pràctica_A04A_Definició_v2023.docx)
+* :pencil:[Activitat 4b](./activitats//M02_UF1_NF3_Pràctica_A04B_B_Definició_v2023.docx)
+* :pencil:[Activitat 4c](./activitats/M02_UF1_NF3_Pràctica_A04C_C_Models%20Relacional.docx)
 
 ## :books: Material Addicional
 

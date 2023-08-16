@@ -16,12 +16,12 @@
 
 ## :notebook: Presentacions (PPT)
 
-* :link:[Introducció a les Bases de Dades](./continguts/M02_UF1_NF1_DOC01_IntroduccioBD_v2023.pdf)
-* :link:[Història de les Bases de Dades](./continguts/M02_UF1_NF1_DOC02_HistoriaBD_v2023.pdf)
-* :link:[Models de Base de Dades](./continguts/M02_UF1_NF1_DOC03_ModelsdeBD_v2023.pdf)
-* :link:[Arquitectura d'un SGBD](./continguts/M02_UF1_NF1_DOC04_Arquitectura_SGBD_v2023.pdf)
-* :link:[Bases de Dades Distribuïdes](./continguts/M02_UF1_NF1_DOC05_BD_Distribuides_v2023.pdf)
-* :link:[BigData](./continguts/M02_UF1_NF1_DOC06_BigData_v2023.pdf)
+* :blue_book:[Introducció a les Bases de Dades](./continguts/M02_UF1_NF1_DOC01_IntroduccioBD_v2023.pdf)
+* :blue_book:[Història de les Bases de Dades](./continguts/M02_UF1_NF1_DOC02_HistoriaBD_v2023.pdf)
+* :blue_book:[Models de Base de Dades](./continguts/M02_UF1_NF1_DOC03_ModelsdeBD_v2023.pdf)
+* :blue_book:[Arquitectura d'un SGBD](./continguts/M02_UF1_NF1_DOC04_Arquitectura_SGBD_v2023.pdf)
+* :blue_book:[Bases de Dades Distribuïdes](./continguts/M02_UF1_NF1_DOC05_BD_Distribuides_v2023.pdf)
+* :blue_book:[BigData](./continguts/M02_UF1_NF1_DOC06_BigData_v2023.pdf)
 
 ## :notebook: Exercicis
 

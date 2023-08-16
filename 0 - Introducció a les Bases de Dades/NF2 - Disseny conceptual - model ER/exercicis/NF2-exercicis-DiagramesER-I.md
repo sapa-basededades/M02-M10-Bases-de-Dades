@@ -1,16 +1,17 @@
 # Exercicis - Diagrames ER/ERE I
 
-## HOSPITAL GENERAL 
-En un centre hospitalari es desitja informatitzar part de la gestió relativa a pacients i els seus ingressos. Després de l’anàlisi realitzat, s’estableixen els següents requeriments: 
- 
+## HOSPITAL GENERAL
+
+En un centre hospitalari es desitja informatitzar part de la gestió relativa a pacients i els seus ingressos. Després de l’anàlisi realitzat, s’estableixen els següents requeriments:
+
 * Les dades d’interès que es desitja emmagatzemar del pacient són: el número de la seguretat social, el DNI, el nom complet i la data de naixement. A més cada pacient també té un codi únic que l’identifica.
- 
+
 * Volem registrar els ingressos que realitza el pacient. Cada ingrés vindrà identificat per un codi únic i una data-hora d’arribada, una de sortida i una descripció.
 
 * Durant l’ingrés volem saber en quin llit ha estat el pacient. 
 
 * Caldrà tenir en compte que els llits s’enumeren correlativament per cada planta, és a dir, existirà el llit número 12 de la tercera planta i també el número 12 de la setena planta. Les plantes de l’hospital estaran identificats per número de planta, el seu nom i el número de llits que disposa. 
- 
+
 * Per cada pacient s’entregarà fins a un màxim de 4 targetes de visita. Aquestes targetes de visita seran vàlides per visitar a un únic pacient. La targeta de visita es definirà per: Un número de targeta de visita, l’hora d’inici i l’hora de finalització en que es pot visitar el malalt. 
 
 * Un pacient durant el seu ingrés pot tenir varies visites mèdiques. Cada visita la fa un metge determinat, tot i que el poden visitar diferents metges al llarg de l’ingrés. Volem saber la data-hora de la visita i les observacions que ha posat el metge. 
@@ -22,10 +23,10 @@ Heu de tenir en compte que el disseny ha de permetre:
 * Saber el llit on ha estat el pacient durant el seu ingrés.
 * Saber les visites que s’han realitzat durant aquell ingrés i quin metge ha realitzat cada visita.
 
-## TOYSRUS  S.A 
+## TOYSRUS  S.A
 
 L’empresa TOYSRUS  S.A, la qual dona servei a diferents països del món, està interessada en contractar els nostres serveis per al disseny d’una nova base de dades.
- 
+
 * A l’empresa li interessa conèixer molt bé les joguines existents al mercat. D’entre elles l’interessa, a més a més, distingir-ne dos tipus ja que consideren que són molt importants per les campanyes nadalenques; són les joguines educatives i les esportives (lògicament hi ha joguines que poden ser, alhora, educatives i relacionades amb algun esport). 
   
 * De les joguines esportives volen saber quin és l’esport de la joguina i si es tracta d ’un esport d’equip o no. Respecte les joguines educatives volen saber quina capacitat del nen eduquen(només una, la principal) com ara; la memòria, el càlcul, el llenguatge, etc... 
@@ -35,9 +36,8 @@ L’empresa TOYSRUS  S.A, la qual dona servei a diferents països del món, est�
 * L’empresa disposa de molts  magatzems on guarden les joguines. Cada magatzem té un nom (que l’identifica) i es vol conèixer la població on està situat, així com els m2 de capacitat. A cada població hi ha com a màxim un magatzem, el qual dona servei pel lliurament de les joguines. Les poblacions que no disposen de magatzem són servides per algun altre magatzem (el de la població més propera, per exemple). També volen conèixer, en tot moment, quin és l’estoc actual que hi ha al magatzem per cada joguina. 
   
 * Les poblacions tenen un nom que les identifica ( però hem de tenir en compte que hi ha poblacions que es diuen igual en altres països ) i també volen conèixer el nombre d’habitants de cada població. Cal recordar que l’empresa treballa a l’àmbit internacional i per una població determinada hem de saber a quin país pertany.  
- 
-* Finalment, l’empresa té empleats que treballen en un magatzem determinat. Ens interessa saber la data en que ha començat a treballar en la nostra empresa i el seu salari
 
+* Finalment, l’empresa té empleats que treballen en un magatzem determinat. Ens interessa saber la data en que ha començat a treballar en la nostra empresa i el seu salari
 
 ## LA BIBLIOTECA I
 
@@ -66,10 +66,11 @@ El propietari pot realitzar el pagament de  l' impost de dues maneres: en efecti
 D'altra banda, cada cert temps des de la Junta d'Extremadura se sol·liciten una sèrie d'informes destinats a diferents conselleries. 
 
 La Conselleria d'Habitatge i Urbanisme sol sol·licitar: 
+
 1. Una llista de totes les zones urbanes, indicant el preu mitjà del m2, el seu nom , àrea , perímetre, coordenades geogràfiques i el municipi i província al qual pertanyen, ordenats per província i municipi
 2. El mateix llistat ordenat pel preu  mig del m2 a cada zona urbana.
 3. Un llistat dels habitatges buits. 
-   
+
 La Conselleria de Benestar Social d'altra banda, sol·licita un llistat dels habitatges habitats per una única persona de 70 anys o més i les dades del barri on s'ubiquen.
 
 ## LA DISTRIBUÏDORA DE PEL·LÍCULES
@@ -100,7 +101,6 @@ A més, a la unitat de trànsit a la qual pertany cada agent que ha imposat una 
 
 També cada cert temps s'obtenen estadístiques per als mitjans de comunicació sobre les característiques de les persones que cometen més infraccions (per trams d'edat, sexe, municipi i/o província de residència, etc.) i dels vehicles implicats (marques, models, etc.).
 
-
 ## CAMPIONAT DE FUTBOL
 
 L' organització d' un campionat de futbol de seleccions nacionals decideix implantar un sistema que els permeti mantenir informació actualitzada sobre diversos aspectes.
@@ -114,7 +114,6 @@ Un cop començat el mundial, diàriament es traurà un informe general dels part
 Una altra qüestió a tenir en compte  respecte als  partits són els controls antidopatge que es realitzen als jugadors que hi intervenen. De cada partit es trien una sèrie de jugadors a l'atzar de cadascun dels equips participants per realitzar-li les anàlisis. Per a cada mostra extreta, hi ha un membre de la Federació Internacional de Futbol que s'encarrega de custodiar la mostra, realitzar la tramitació de la mostra i els resultats i un laboratori encarregat de realitzar les anàlisis. L' elecció d' ambdós es realitza a l' atzar tenint en compte que un jugador mai pot tenir dues anàlisis ni amb el mateix laboratori ni amb el mateix membre de la Federació;   no obstant això, diversos jugadors (per exemple, tots els  d'un partit) podrien tenir assignat un mateix laboratori i membre de la Federació.   De cada membre de la Federació s' emmagatzema el seu nom, el seu telèfon i el seu número de targeta identificativa i dels laboratoris, el seu nom, adreça, telèfon i CIF.
 
 Al final del campionat es lliuren, a  més  dels premis a les tres primeres seleccions classificades, un premi al jugador que més gols ha marcat i un altre al jugador que ha marcat el gol més primerenc (més a prop del començament d'una trobada), per la qual cosa cal mantenir informació, per a cada partit, de quin jugador ha marcat un gol i en què  minut del partit l'ha marcat.
-
 
 ## LA BIBLIOTECA II
 

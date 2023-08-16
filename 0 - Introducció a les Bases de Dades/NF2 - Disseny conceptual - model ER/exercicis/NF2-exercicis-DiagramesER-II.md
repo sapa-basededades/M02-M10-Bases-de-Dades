@@ -1,6 +1,6 @@
 # Exercicis - Diagrames ER/ERE II
 
-## HOTELS "Low Cost" 
+## HOTELS "Low Cost"
 
 La cadena d'hotels «Low Cost» ens demanen que proposem un disseny d'una base de dades utilitzant el model E/R que permeti:
 
@@ -16,6 +16,7 @@ La cadena d'hotels «Low Cost» ens demanen que proposem un disseny d'una base d
 * Dels clients també ens interessa saber per quin mitjà ens ha conegut (buscadors, premsa, agències de viatges,...). El mitjà pel qual ens ha conegut és únic per cada client.
 
 **El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
 * Llistat d'hotels per ciutat
 * Llistat d'hotels per país.
 * Quines habitacions ha reservat un client determinat.
@@ -24,8 +25,8 @@ La cadena d'hotels «Low Cost» ens demanen que proposem un disseny d'una base d
 ## ELECCIONS GENERALS
 
 Davant les properes eleccions al Congrés dels Diputats, se'ns demana que prepareu el disseny d'una base de dades utilitzant el model E/R vist a classe que permeti:
-* A les eleccions s'hi presenten una sèrie de partits PP(Partit Pessimista), PSOE (Partit Salat i Organitzat d'Espanya), IU (Independents Units), PODEMOS (Parit Oficial Demòcrata
-Espanyol Municipalista Obrer Social) entre altres. A on ens interessa saber el nom llarg i les sigles del partit (aquestes seran úniques per cada partit).
+
+* A les eleccions s'hi presenten una sèrie de partits PP(Partit Pessimista), PSOE (Partit Salat i Organitzat d'Espanya), IU (Independents Units), PODEMOS (Parit Oficial Demòcrata Espanyol Municipalista Obrer Social) entre altres. A on ens interessa saber el nom llarg i les sigles del partit (aquestes seran úniques per cada partit).
 * Els escons del Congrés venen determinats per les circumscripcions. Cada circumscripció té assignat un nombre determinat d'escons en el Congrés.
 * Cada circumscripció s'identifica de manera única amb un nom i aquesta correspon només amb una província de l'estat que s'identifica amb un codi i a més a més ens interessa guardar el seu nom, el nom de la capital, a quina comunitat autònoma pertany i la superfície de m2.
 * Per cada circumscripció es poden presentar un número determinat de llistes de partits polítics (poden haver-hi partits que no es presentin en una determinada circumscripció) i aquestes només es poden presentar en una sola circumscripció.
@@ -38,6 +39,7 @@ Espanyol Municipalista Obrer Social) entre altres. A on ens interessa saber el n
 * El nostre sistema ha de permetre que el dia de les eleccions i després del recompte de vots, cada mesa pugui entrar el número de vots que han obtingut de les llistes dels partits que s'hi presentaven.
 
 **El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
 * Nº d'habitants empadronats en un municipi.
 * Votants d'un municipi i quina mesa tenen assignada.
 * Municipis d'una província
@@ -83,6 +85,7 @@ Les proves es disputen en un dia i hora concrets en un emplaçament dins d’una
 Degut a que totes les proves no es poden realitzar al mateix lloc els emplaçaments poden estar en diferents ciutats del país a on es celebren els Jocs.
 
 **El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
 * Quantes proves s’han realitzat en una data concreta.
 * Quantes proves eliminatòries hi ha de tipus mixt.
 * Llistat de noms de ciutats a on s’hi disputen proves de les diferents disciplines.
@@ -91,6 +94,7 @@ Degut a que totes les proves no es poden realitzar al mateix lloc els emplaçame
 ## OPERACIÓ TRIOMF!
 
 Donat l’èxit que ha tingut en els darrers anys, s’està preparant la nova edició. El programa ens ha encarregat el disseny d’una base de dades per tal de gestionar les cançons que interpretaran en les diferents actuacions de cada setmana, les sessions que hi ha previstes, etc. Per la propera edició:
+
 * Dins l'Acadèmia hi treballen professors que imparteixen unes determinades assignatures organitzades en diferents sessions. Dels diferents professors ens interessa saber entre altres coses el seu DNI (dni_prof), el seu nom (nom_prof) (cog1_prof) (cog2_prof) i el seu telèfon (tel_prof).
 * Un únic professor imparteix totes les sessions d’una assignatura. Les assignatures les volem tenir codificades amb un codi (codi_ass) i també guardarem informació sobre el seu nom (nom_ass) i les hores totals que s’impartiran (hores).
 * Totes les sessions d’una assignatura tenen un títol (títol_ses) i un número (num_ses) que identifica cada sessió dins d’una assignatura.
@@ -107,6 +111,7 @@ Donat l’èxit que ha tingut en els darrers anys, s’està preparant la nova e
 * Cada visita es feta a un alumne i per un o més metges.
 
 **Comproveu que el vostre sistema, entre altres coses, permeti:**
+
 * Donat un alumne saber qui és el seu tutor i les cançons que ha cantat en les diferents actuacions amb la nota que ha obtingut en cada una d’elles.
 * Donada una assignatura, saber a quines sessions ha assistit cada alumne.
 * Volem saber també la nota que cada alumne ha obtingut en les diferents assignatures que fa.
@@ -115,6 +120,7 @@ Donat l’èxit que ha tingut en els darrers anys, s’està preparant la nova e
 ## LLIGA DE FUTBOL PROFESSINAL (LFP)
 
 La lliga de futbol professional, presidida per Àngela María Villalobos, ha decidit informatitzar la seva competició creant una base de dades per a guardar la informació dels partits que es juguen en la lliga:
+
 * Es desitja guardar en primer lloc les dades dels jugadors. De cada jugador es vol guardar el nom, la data de naixement i la posició en la que juga (porter, defensa, migcampista...).
 * Cada jugador té un codi de jugador que l’identifica de manera única. De cadascun dels equips de la lliga és necessari enregistrar el nom de l'equip, nom de l'estadi en el que juga, l'aforament que té, l'any de fundació de l'equip i la ciutat d'on és l'equip i la ciutat on està situat l'estadi.
 * Cada equip també té un codi que l’identifica de manera única. Un jugador només pot pertànyer a un únic equip. De cada partit que els equips de la lliga juguen cal guardar la data en la que es juga el partit, els gols que ha fet l'equip de casa i els gols que ha fet l'equip de fora. Cada partit tindrà un codi numèric per a identificar-lo.
@@ -127,6 +133,7 @@ La lliga de futbol professional, presidida per Àngela María Villalobos, ha dec
 ## CADENA DE SUPERMERCATS
 
 El propietari d’una important cadena de supermercats, ens ha encarregat dissenyar una base de dades per portar el control i la gestió dels aspectes referents al seu negoci. Així doncs, ens dóna la informació següent:
+
 * Cadascun dels supermercats estarà perfectament identificat amb un codi. A més, cada supermercat
 disposarà d’empleats. Naturalment, cada supermercat de la cadena tindrà molts empleats tot i que un d’ells només estarà en un determinat supermercat.
 * Hi haurà un empleat del Supermercat que en serà el Director.
@@ -139,6 +146,7 @@ disposarà d’empleats. Naturalment, cada supermercat de la cadena tindrà molt
 * De totes les compres que realitzen els clients ens interessa saber el dia, l’hora, en quina caixa han pagat, quin empleat l’ha cobrada i el detall de la compra, o sigui quins productes, en quina quantitat i a quin preu. Aquestes compres que passen per caixa les podrem relacionar amb un client si ens mostra la seva targeta, en cas contrari no tindrem informació de qui ha fet la compra.
 
 **Cal que el nostre sistema respongui a:**
+
 * Donat el codi d’un producte saber la quantitat que en hi ha a cada supermercat i quina és la quantitat mínima que en hi ha d’haver.
 * Per cada comanda de compra ens interessa saber el super que l’ha fet, el proveïdor a qui va dirigida i quins productes i quina quantitat es demanen.
 * Donat un client dels que tenim identificat, saber les compres que ha fet, el supermercats on les ha realitzat i els productes i en quina quantitat ens ha comprat.
@@ -161,14 +169,15 @@ Aquesta fase classificatòria es regeix en 4 grups de 6 equips per grup.
 * Per les característiques pròpies de cada jugador aquest pot substituir només a una sèrie de jugadors del seu equip.
 * De cada partit en volem saber quin equip ha jugat com a local i quin com a visitant. Els partits es juguen en un dia i una hora determinats depenent dels contractes televisius.
 * En el món del bàsquet es controlen molt els diferents estadístics de cada jugador en cada partit. I en volem guardar la informació. Per exemple:
-    * Volem saber quants intents de 2 punts ha realitzat un cert jugador en un partit.
-    * Quants punts de 2, de 1 o de 3 punts ha fet.
-    * Quanitat de faltes comeses i rebudes
-    * Quantitat d'assistències
-    * Quantitat de rebots
-    * etc....
+  * Volem saber quants intents de 2 punts ha realitzat un cert jugador en un partit.
+  * Quants punts de 2, de 1 o de 3 punts ha fet.
+  * Quanitat de faltes comeses i rebudes
+  * Quantitat d'assistències
+  * Quantitat de rebots
+  * etc....
 
 **Amb el disseny que fem hem de poder realitzar diferents consultes com per exemple:**
+
 * Intents de dos punts d'un jugador concret en un partit concret.
 * Donat un jugador d'un equip, ens interessa saber el llistat de jugadors els qual pot subtituir.
 * Quin és l'equip que ha guanyat més partits com a local
@@ -179,6 +188,7 @@ Aquesta fase classificatòria es regeix en 4 grups de 6 equips per grup.
 El propietari d'una pineda de la Costa Brava hi vol muntar un càmping per treure'n algun rendiment. Una de les coses que té clares és que necessitarà un sistema d'informació per gestionar-lo.
 
 Després de vàries reunions amb ell decidim que el sistema haurà de complir el següent:
+
 * La pineda es dividirà en parcel·les a on aquestes estaran enumerades: 001, 002,003,004,...
 * Les parcel·les podran ser de 3 tipus (petites, mitjanes o grans) depenent del número de m2 que tinguin:
 ◦ Les petites: Entre 0 i 15m2
@@ -205,8 +215,9 @@ Per tenir controlats els allotjaments aquest tindran un codi identificatiu. D’
 Els usuaris de l’aplicació són de dos tipus els amfitrions que seran les persones que podran publicar els allotjaments i els guests que seran qui podran reservar els allotjaments. Els guests i els amfitrions són persones físiques i no poden ser empreses. D’aquests ens guardarem el nom, els cognoms i l’adreça postal. Per poder accedir a l’aplicació s’utilitzarà un email i una contrasenya.
 
 Els amfitrions quan publiquen un allotjament han de definir les tarifes d’aquest. Les tarifes funcionen en períodes de temps i preu/nit. Seguidament es mostra un exemple de tarifes per l’any 2020 per un allotjament concret.
+
 * 01/01/2020 - 01/03/2020 90€
-* 02/03/2020 – 31/12/2020 100€ 
+* 02/03/2020 – 31/12/2020 100€
 
 Per mostrar la disponibilitat d’un allotjament es tindrà en compte els períodes de les seves tarifes i també les reserves que s’hagin fet en aquell allotjament.
 
@@ -276,7 +287,6 @@ Exemple:
 |-----------|----------------|-------------------|------------|
 | Aigua     | Foc Roca Terra | Aigua Drac Planta | - (cap)    |
 
-
 Els Pokémon els identifiquem per el seu nom i alguns poden evolucionar. Aquesta evolució s’aconsegueix mitjançant entrenament. 
 L’evolució el que fa és transformar un Pokémon en un altre del mateix tipus, però amb un nom diferent i unes característiques de base diferents. En aquest cas ens cal saber de cada Pokémon si és bàsic (no precedeix de ningú) o el nom del Pokémon que el precedeix. 
 
@@ -294,6 +304,7 @@ Els Pokémon normalment pertanyen a entrenadors que els van capturant i ensinist
 Un entrenador pot tenir infinits exemplars d’un Pokémon a dins de la seva motxilla. De cada Pokémon de l’entrenador ens guardarem diferents punts base. Aquests punts són PS, Atac, Defensa i Velocitat. Tots aquests punts en un primer moment són aleatoris i es quantifiquen amb valors que van del 1 al 15.
 
 Els moviments Pokémon són els atacs que cada Pokémon sap. Un Pokémon pot aprendre només quatre atacs per utilitzar-los. Un moviment té 4 característiques:
+
 * Tipus: tipus de Pokémon, aigua, foc,...
 * Potència: enter de 1-100
 * Precisió: enter de 1-100
@@ -308,10 +319,10 @@ Una batalla Pokémon és un combat entre dos equips de Pokémon, entre un i sis 
 Els Pokémons es van trobant a mesura que l’entrenador viatge al llarg de les diferents regions del món. Cal dir que certs Pokémons només es troben a certes regions del món i això cal poder-ho saber.
 
 **A part del què s’ha dit cal tenir en compte el següent:**
+
 * Hem de guardar el número de batalles que ha realitzat un entrenador així com el número de victòries total.
 * Les batalles sempre seran entre 2 entrenadors no existirà el concepte de gimnàs i tampoc el de líder del gimnàs.
 * Quan un entrenador troba un Pokémon pot capturar-lo sense problemes sense realitzar cap batalla. Aquest Pokemón ja tindrà un nivell concret un un ps concret.
-
 
 ## EXERCICI SPOTIFY
 

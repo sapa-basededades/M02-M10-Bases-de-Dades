@@ -3,6 +3,7 @@
 ## Exercicis Entitats, atributs i relacions
 
 ### *Exercici 1* - Identifica les entitats i atributs dels següents escenaris o situacions del món real.
+
 1. A l’hospital de Sant Socors hi visiten metges (que es caracteritzen per un DNI, i tenen nom i cognoms), que atenen pacients (que tenen un codi, nom i cognoms), els quals tenen malalties (que codifiquem amb un número i que tenen un nom tècnic i un nom comú).
 
 2. A la botiga informàtica Segle22 hi venen productes, els quals tenen un codi de barres i un preu associat. A la botiga hi despatxen empleats, els quals, tenen DNI i nom. La botiga també disposa de proveïdors que es caracteritzen per un codi, nom i tenen un número de telèfon.
@@ -18,6 +19,7 @@
 7. Una empresa té diferents delegacions repartides per tot el territori de Catalunya. De cada delegació en sabem l'adreça amb les següents dades: carrer i número, porta, CP. També la província i la ciutat. Cada delegació rep un nom mitjançant la ciutat a on està i un número seqüencial dins d'aquesta ciutat. Tenim per exemple: Barcelona 1, Barcelona 2 i Barcelona 3 i també Girona 1 i Albons 1. Els treballadors estan acostumats a identificar les delegacions d'aquesta manera. També podrien identificar-les per la posició geogràfica mitjançant la longitud i latitud que també es guarda a la base de dades, però no sembla tant pràctic. 
 
 ### *Exercici 2* - Identifica les entitats, atributs i les interrelacions dels següents escenaris o situacions del món real.
+
 1. La nostra universitat súper elitista “Pijos al Poder” disposa del professorat més dedicat del món. Cada professor imparteix un únic mòdul i un mòdul només és impartit per un  professor. De cada professor guardarem el NIF, nom. De cada mòdul guardarem el codi, descripció i el número d’hores.
 2. En el nostre centre els professors imparteixen varis mòduls. Un mòdul només el fa un professor.  De cada professor guardarem el NIF, nom. De cada mòdul guardarem el codi  i el número d’hores.
 

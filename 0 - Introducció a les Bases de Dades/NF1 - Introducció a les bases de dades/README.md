@@ -2,8 +2,8 @@
 
 ## :books: Continguts i enllaços d'interès
 
-* :closed_book:[Introducció a les bases de dades](NF1-IntroduccioBD.pdf)
-* :closed_book:[Història d'Oracle](NF1-IntroduccioBD.pdf)
+* :closed_book:[Introducció a les bases de dades](./continguts/M02_UF1_NF1_DOC00_SAPA-Temari_BD_V2023.pdf)
+* :closed_book:[Història d'Oracle](./continguts/M02_UF1_NF1_DOC02A_Historia-Oracle_v2023.pdf)
 
 ---
 
@@ -25,7 +25,6 @@
 
 ## :notebook: Exercicis
 
-* Exercici 1
-* Exercici 2
-  
 ## :pencil: Activitats
+
+* :pencil: [Activitat 1](./activitats/M02_UF1_NF1_Pràctica_A01_SGBD%20Actuals_v2022.docx)

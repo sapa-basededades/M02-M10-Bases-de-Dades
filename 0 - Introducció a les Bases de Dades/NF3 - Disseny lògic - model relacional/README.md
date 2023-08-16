@@ -1,12 +1,11 @@
 # NF3 - Disseny lògic - model relacional
 
-## :books: Continguts 
+## :books: Continguts
 
 * :closed_book:[Model Relacional](./continguts/M02_UF1_NF3_DOC00_SAPA_Model%20Relacional_v2023.pdf)
 * :closed_book:[Presentació: Model Relacional](./continguts/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
 * :closed_book:[Presentació: Pas a Model Relacional](./continguts/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
 * :closed_book:[Presentació: Normalització](./continguts/M02_UF1_NF3_DOC00_SAPA_Normalitzacio_v2023.pdf)
-
 
 ## :notebook: Exercicis Model ER - Conceptes bàsics
 
@@ -16,7 +15,6 @@
 * :pencil:[Exercici Volta Ciclista](./exercicis/M02_UF1_NF3_EXE03_Exercici_VoltaCiclista.docx)
 * :pencil:[Exercici Concesionari](./exercicis/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
 * :pencil:[Exercici Volta Eleccions](./exercicis/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
-
 
 ## :pencil: Activitats
 

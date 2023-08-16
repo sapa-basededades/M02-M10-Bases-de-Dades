@@ -28,12 +28,14 @@ Està estructurat seguint les parts dels diferents mòduls.
   
 Activitats
 
+* Recomanat: <https://sqlbolt.com/>
 * <https://pgexercises.com/questions/basic/selectall.html>
 * <https://sqlpad.io/about/>
 * <https://www.hackerrank.com/domains/sql>
 * <https://leetcode.com/study-plan/sql/>
 * <https://en.wikibooks.org/wiki/SQL_Exercises>
 * <https://sqlzoo.net/wiki/SQL_Tutorial>
+
 
 Jocs Online
 

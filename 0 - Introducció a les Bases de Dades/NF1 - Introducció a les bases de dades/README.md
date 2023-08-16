@@ -1,9 +1,12 @@
 # NF1: Introducció a les bases de dades
 
 ## :books: Continguts i enllaços d'interès
+
 * :closed_book:[Introducció a les bases de dades](NF1-IntroduccioBD.pdf)
 * :closed_book:[Història d'Oracle](NF1-IntroduccioBD.pdf)
+
 ---
+
 * :link:[Introduction to Database Management Systems (vídeo)](https://www.youtube.com/watch?v=6u2zsJOJ_GE) <sub>Bart Baesens explicant una introducció als SGBD</sub>
 * :link:[What is Database & SQL (vídeo)](https://youtu.be/FR4QIeZaPeM)
 * :link:[History of Databases (vídeo)](https://youtu.be/KG-mqHoXOXY)
@@ -11,10 +14,17 @@
 * :link:[Data Models  (vídeo)](https://www.youtube.com/watch?v=zTcUj4xTnnA)
 * :link:[Introduction to NoSQL (GOTO2012)](https://www.youtube.com/watch?v=qI_g07C_Q5I&t=917s) <sub>Martin Fowler parlant del NoSQL</sub>
 
-## :notebook: Presentacions
+## :notebook: Presentacions (PPT)
 
+* :link:[Introducció a les Bases de Dades](./continguts/M02_UF1_NF1_DOC01_IntroduccioBD_v2023.pdf)
+* :link:[Història de les Bases de Dades](./continguts/M02_UF1_NF1_DOC02_HistoriaBD_v2023.pdf)
+* :link:[Models de Base de Dades](./continguts/M02_UF1_NF1_DOC03_ModelsdeBD_v2023.pdf)
+* :link:[Arquitectura d'un SGBD](./continguts/M02_UF1_NF1_DOC04_Arquitectura_SGBD_v2023.pdf)
+* :link:[Bases de Dades Distribuïdes](./continguts/M02_UF1_NF1_DOC05_BD_Distribuides_v2023.pdf)
+* :link:[BigData](./continguts/M02_UF1_NF1_DOC06_BigData_v2023.pdf)
 
 ## :notebook: Exercicis
+
 * Exercici 1
 * Exercici 2
   

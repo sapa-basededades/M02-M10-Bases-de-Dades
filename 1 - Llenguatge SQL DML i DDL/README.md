@@ -28,7 +28,7 @@ En aquest apartat tabmé veurem les propietats ACID (*Atomicity, Consistency, Is
 
 ---
 
-# Bases de dades
+## Bases de dades
 
 En aquest apartat trobareu diferents bases de dades en diferents SGBD:
 

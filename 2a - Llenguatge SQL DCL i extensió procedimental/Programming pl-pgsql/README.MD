@@ -1,1 +1,0 @@
-# UF3 Programació amb PLPGSQL

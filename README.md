@@ -1,7 +1,5 @@
 # Repositori pels mòduls M02 Base de Dades i M10 Administració de sistemes gestors de bases de dades dels CFGS ASIX/DAW/DAM
 
-**Institut Sa Palomera - Blanes**
-
 Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02 #AsixMp10
 
 ## Introducció
@@ -60,6 +58,8 @@ Aquest repositori es una recopilació d'informació pròpia i extreta d'altres r
 * Robert Ventura (<rventura@sapalomera.cat>)
 * Francesc Barragan (<fbarragan@sapalomera.cat>)
 
+De l'**Institut Sa Palomera - Blanes**
+
 ## Reconeixements
 
 Databases Schemas:
@@ -69,4 +69,3 @@ Databases Schemas:
 3. Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez](https://github.com/josejuansanchez)
 4. Database Northwind: basat en "Microsoft sample databases for sql-server" [https://github.com/Microsoft/sql-server-samples](https://github.com/Microsoft/sql-server-samples)
 5. Database regex: basat en [https://hevodata.com/learn/postgresql-regex/](https://hevodata.com/learn/postgresql-regex/)
-

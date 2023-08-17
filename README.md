@@ -16,11 +16,11 @@ Està estructurat seguint les parts dels diferents mòduls.
 
 * [Introducció a les Bases de Dades](<0 - Introducció a les Bases de Dades/README.md>)
 * [Llenguatge SQL: DML i DDL](<1 - Llenguatge SQL DML i DDL/README.md>)
-* Llenguatge SQL: DCL i extensió procedimental
-* Base de dades Objecte Relacionals
-* Base de dades NoSQL - MongoDB
-* Assegurament de la informació
-* SGBD corporatiu
+* [Llenguatge SQL: DCL i extensió procedimental](<2a - LLenguatge SQL DCL i extensió procedimental>)
+* [Base de dades Objecte Relacionals](<3 - Bases de Dades Objecte-Relacionals>)
+* [Base de dades NoSQL - MongoDB](<4 - Bases de Dades NOSQL>)
+* [Assegurament de la informació](<2b - Assegurament de la informació>)
+* [SGBD corporatiu](<5 - SGBD Corporatiu>)
 
 ## Links interessants
 
@@ -35,7 +35,6 @@ Activitats
 * <https://leetcode.com/study-plan/sql/>
 * <https://en.wikibooks.org/wiki/SQL_Exercises>
 * <https://sqlzoo.net/wiki/SQL_Tutorial>
-
 
 Jocs Online
 

@@ -56,7 +56,7 @@ Existeixen multitud de sites amb informació sobre Postgres. A continuació llis
 Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris i mantinguda per:
 
 * Robert Ventura (<rventura@sapalomera.cat>)
-* Francesc Barragan (<fbarragan@sapalomera.cat>)
+* Francesc Barragán (<fbarragan@sapalomera.cat>)
 
 De l'**Institut Sa Palomera - Blanes**
 

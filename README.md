@@ -16,7 +16,7 @@ Està estructurat seguint les parts dels diferents mòduls.
 * [Llenguatge SQL: DML i DDL](<1 - Llenguatge SQL DML i DDL/README.md>)
 * [Llenguatge SQL: DCL i extensió procedimental](<2a - LLenguatge SQL DCL i extensió procedimental>)
 * [Base de dades Objecte Relacionals](<3 - Bases de Dades Objecte-Relacionals>)
-* [Base de dades NoSQL - MongoDB](<4 - Bases de Dades NOSQL>)
+* [Base de dades NoSQL - MongoDB](<4 - Bases de dades NOSQL>)
 * [Assegurament de la informació](<2b - Assegurament de la informació>)
 * [SGBD corporatiu](<5 - SGBD Corporatiu>)
 

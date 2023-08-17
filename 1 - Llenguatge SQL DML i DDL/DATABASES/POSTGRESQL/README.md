@@ -1,6 +1,7 @@
 ![PostreSQL Logo](../../../assets/postgresql-horizontal.svg) 
 ---
 # Databases
+
 * [01 - Botiga d'Informàtica](<01 - Botiga Informàtica/README.md>)
 * [02 - Gestió Empleats](<02 - Gestió Empleats/README.md>)
 * [03 - Gestió de vendes](<03 - Gestió de vendes/README.md>)
@@ -63,14 +64,13 @@ Per sortir
 exit
 ~~~
 
-
 ## Instal·lar PgAdmin 
+
 Per instal·lar PgAdmin necesitarem `curl` i ho podem instal·lar amb la següent comanda. 
 
 ~~~bash
 sudo apt install curl 
 ~~~
-
 
 Instal·la la clay pública pel repositori:
 

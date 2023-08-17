@@ -1,28 +1,36 @@
 # NF3 - Disseny lògic - model relacional
 
-## :books: Continguts
+## :books: Temari
 
 * :closed_book:[Model Relacional](./continguts/M02_UF1_NF3_DOC00_SAPA_Model%20Relacional_v2023.pdf)
 * :closed_book:[Presentació: Model Relacional](./continguts/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
 * :closed_book:[Presentació: Pas a Model Relacional](./continguts/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
 * :closed_book:[Presentació: Normalització](./continguts/M02_UF1_NF3_DOC00_SAPA_Normalitzacio_v2023.pdf)
 
+## :notebook: Presentacions (PPT)
+
+* :blue_book:[Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
+* :blue_book:[Pas a model Relacional](CONTINGUTS/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
+* :blue_book:[Normalització](CONTINGUTS/M02_UF1_NF3_DOC03_FormesNormals_v2023.pdf)
+
+---
+
 ## :notebook: Exercicis Model ER - Conceptes bàsics
 
-* :pencil:[Exercici Transformar a Model Relacional I](./exercicis/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_I_v2023.docx)
-* :pencil:[Exercici Transformar a Model Relacional II](./exercicis/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_II_v2023.docx)
-* :pencil:[Exercici Transformar a Model Relacional III](./exercicis/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_III_v2023.docx)
-* :pencil:[Exercici Volta Ciclista](./exercicis/M02_UF1_NF3_EXE03_Exercici_VoltaCiclista.docx)
-* :pencil:[Exercici Concesionari](./exercicis/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
-* :pencil:[Exercici Volta Eleccions](./exercicis/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
+* :pencil:[Exercici Transformar a Model Relacional I](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_I_v2023.docx)
+* :pencil:[Exercici Transformar a Model Relacional II](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_II_v2023.docx)
+* :pencil:[Exercici Transformar a Model Relacional III](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_III_v2023.docx)
+* :pencil:[Exercici Volta Ciclista](EXERCICIS/M02_UF1_NF3_EXE03_Exercici_VoltaCiclista.docx)
+* :pencil:[Exercici Concesionari](EXERCICIS/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
+* :pencil:[Exercici Volta Eleccions](EXERCICIS/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
 
 ## :pencil: Activitats
 
-* :pencil:[Activitat 4a](./activitats/M02_UF1_NF3_Pràctica_A04A_Definició_v2023.docx)
-* :pencil:[Activitat 4b](./activitats//M02_UF1_NF3_Pràctica_A04B_B_Definició_v2023.docx)
-* :pencil:[Activitat 4c](./activitats/M02_UF1_NF3_Pràctica_A04C_C_Models%20Relacional.docx)
+* :pencil:[Activitat 4a](ACTIVITATS/M02_UF1_NF3_Pràctica_A04A_Definició_v2023.docx)
+* :pencil:[Activitat 4b](ACTIVITATS/M02_UF1_NF3_Pràctica_A04B_B_Definició_v2023.docx)
+* :pencil:[Activitat 4c](ACTIVITATS/M02_UF1_NF3_Pràctica_A04C_C_Models%20Relacional.docx)
 
 ## :books: Material Addicional
 
-* :closed_book:[Temari IOC - Model Relacional](./continguts/M02_UF1_NF3_DOC00_IOC_Model%20Relacional_v2023.pdf)
-* :closed_book:[Temari UOC - Model Relacional](./continguts/M02_UF1_NF3_DOC00_UOC_Model%20Relacional_v2023.pdf)
+* :closed_book:[Temari IOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_IOC_Model%20Relacional_v2023.pdf)
+* :closed_book:[Temari UOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_UOC_Model%20Relacional_v2023.pdf)

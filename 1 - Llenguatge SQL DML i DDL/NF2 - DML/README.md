@@ -35,7 +35,7 @@
 
 ---
 
-## :notebook: Exercicis
+## :notebook: Exercicis (MySQL i PostGreSQL)
 
 * :pencil: [Exercicis BD Botiga Informatica](EXERCICIS/01-sql_botiga_informatica.md)
 * :pencil: [Exercicis BD Gestió Empleats](EXERCICIS/02-sql_gestio_empleats.md)
@@ -45,10 +45,8 @@
 
 ---
 
-### :pencil: Activitats
+### :pencil: Activitats (MySQL i PostGreSQL)
 
-## Activitats amb PostgreSQL
-  
 * :pencil: [A01 Iniciació Llenguatge SQL - PostreSQL](ACTIVITATS/dml_psql_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2023.md)
 * :pencil: [A02 DML i Ordenació](ACTIVITATS/dml_psql_A02_DML_I_Ordenaci%C3%B3_v2023.md)
 * :pencil: [A03 Funcions de fila única en instruccions SQL simples](ACTIVITATS/dml_psql_A03_Funcions_Unica_fila_v2023.md)

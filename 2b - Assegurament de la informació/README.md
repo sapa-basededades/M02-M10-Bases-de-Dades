@@ -8,19 +8,19 @@ També aprendrem a fer entorns d'alta disponibitat per aplicacions crítiques o 
 
 ## [1. Backups](<CONTINGUTS/pg_backups.md>)
 
-<img src="./assets/sql.png"
+<img src="./assets/backup.png"
      alt="SQL"
      style="float: left; margin-right: 10px; width:50px" />
 
 ## [2. Alta disponibilitat](<CONTINGUTS/pg_clusters.md>)
 
-<img src="./assets/sql.png"
+<img src="./assets/cluster.png"
      alt="SQL"
      style="float: left; margin-right: 10px; width:50px" />
 
 ## [3. Interconnectivitat](<CONTINGUTS/pg_interconnect.md>)
 
-<img src="./assets/sql.png"
+<img src="./assets/inter.png"
      alt="SQL"
      style="float: left; margin-right: 10px; width:50px" />
 

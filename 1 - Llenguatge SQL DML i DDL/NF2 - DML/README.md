@@ -31,10 +31,9 @@
 
 * :blue_book:[Manipulació de dades](CONTINGUTS/M02_UF2_NF1_DOC10_Manipulacio_de_dades_v2023.pdf)
   
----
-
 ### Slides MySQL
 
+---
 
 ## :notebook: Exercicis
 
@@ -44,9 +43,11 @@
 * :pencil: [Exercicis BD Jardineria](EXERCICIS/04-sql_jardineria.md)
 * :pencil: [Exercicis BD Universitat](EXERCICIS/05-sql_universitat.md)
 
+---
+
 ### :pencil: Activitats
 
-### Activitats amb PostgreSQL
+## Activitats amb PostgreSQL
   
 * :pencil: [A01 Iniciació Llenguatge SQL - PostreSQL](ACTIVITATS/dml_psql_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2023.md)
 * :pencil: [A02 DML i Ordenació](ACTIVITATS/dml_psql_A02_DML_I_Ordenaci%C3%B3_v2023.md)
@@ -54,6 +55,10 @@
 * :pencil: [A04 Consulta de dades de vàries taules](ACTIVITATS/dml_psql_A04_Consulta_amb_diverses_taules_v2023.md)
 * :pencil: [A05 Consultes d'agregat de dades i subconsultes](ACTIVITATS/dml_psql_A05_Consulta_Agregats_i_subquery_v2023.md)
 
+---
+
 ## :books: Links interessants
 
 * :link:[AAAA]()
+
+---

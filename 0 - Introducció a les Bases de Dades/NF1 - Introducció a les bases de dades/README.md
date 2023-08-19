@@ -16,6 +16,16 @@
 
 ---
 
+## :notebook: Exercicis
+
+---
+
+## :pencil: Activitats
+
+* :pencil: [Activitat 1](./ACTIVITATS/M02_UF1_NF1_Pràctica_A01_SGBD%20Actuals_v2022.docx)
+
+---
+
 ## Enllaços d'interès
 
 * :link:[Introduction to Database Management Systems (vídeo)](https://www.youtube.com/watch?v=6u2zsJOJ_GE) <sub> Bart Baesens explicant una introducció als SGBD</sub>
@@ -25,8 +35,4 @@
 * :link:[Data Models  (vídeo)](https://www.youtube.com/watch?v=zTcUj4xTnnA)
 * :link:[Introduction to NoSQL (GOTO2012)](https://www.youtube.com/watch?v=qI_g07C_Q5I&t=917s) <sub>Martin Fowler parlant del NoSQL</sub>
 
-## :notebook: Exercicis
-
-## :pencil: Activitats
-
-* :pencil: [Activitat 1](./ACTIVITATS/M02_UF1_NF1_Pràctica_A01_SGBD%20Actuals_v2022.docx)
+---

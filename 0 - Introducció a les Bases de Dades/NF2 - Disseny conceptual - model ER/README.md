@@ -13,10 +13,6 @@
 
 ---
 
-## Enllaços d'interès
-
-* :link:[Entity-Relationship Diagrams Work (Universitat Duke)](https://www.coursera.org/lecture/analytics-mysql/database-structures-illustrated-by-entity-relationship-diagrams-K3fIe) <sub>Part del curs Analytics MySQL de la plataforma elearning [Coursera](https://www.coursera.org/learn/analytics-mysql)</sub>
-
 ## :notebook: Exercicis de conceptes bàsics i models ER/ERE
 
 * [Exercicis d'entitats atributs i relacions](EXERCICIS/NF2-exercicis-entitats-atributs-relacions.md)
@@ -25,12 +21,22 @@
 * [Exercici Diagrames ER/ERE I](EXERCICIS/NF2-exercicis-DiagramesER-I.md)
 * [Exercici Diagrames ER/ERE II](EXERCICIS/NF2-exercicis-DiagramesER-II.md)
 
+---
+
 ## :pencil: Activitats
 
 * :pencil: [Activitat 2a](ACTIVITATS/M02_UF1_NF2_Pràctica_A02_GrupA_v2022.docx)
 * :pencil: [Activitat 2b](ACTIVITATS/M02_UF1_NF2_Pràctica_A02_GrupB_v2022.docx)
 
+---
+
+## Enllaços d'interès
+
+* :link:[Entity-Relationship Diagrams Work (Universitat Duke)](https://www.coursera.org/lecture/analytics-mysql/database-structures-illustrated-by-entity-relationship-diagrams-K3fIe) <sub>Part del curs Analytics MySQL de la plataforma elearning [Coursera](https://www.coursera.org/learn/analytics-mysql)</sub>
+
 ## :books: Material Addicional
 
 * :closed_book:[Temari IOC - Model ER](CONTINGUTS/M02_UF1_NF2_DOC00_IOC_Model%20ER_v2023.pdf)
 * :closed_book:[Temari UOC - Model ER](CONTINGUTS/M02_UF1_NF2_DOC00_UOC_Model%20ER_v2023.pdf)
+
+---

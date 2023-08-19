@@ -24,13 +24,19 @@
 * :pencil:[Exercici Concesionari](EXERCICIS/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
 * :pencil:[Exercici Volta Eleccions](EXERCICIS/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
 
+---
+
 ## :pencil: Activitats
 
 * :pencil:[Activitat 4a](ACTIVITATS/M02_UF1_NF3_Pràctica_A04A_Definició_v2023.docx)
 * :pencil:[Activitat 4b](ACTIVITATS/M02_UF1_NF3_Pràctica_A04B_B_Definició_v2023.docx)
 * :pencil:[Activitat 4c](ACTIVITATS/M02_UF1_NF3_Pràctica_A04C_C_Models%20Relacional.docx)
 
+---
+
 ## :books: Material Addicional
 
 * :closed_book:[Temari IOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_IOC_Model%20Relacional_v2023.pdf)
 * :closed_book:[Temari UOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_UOC_Model%20Relacional_v2023.pdf)
+
+---

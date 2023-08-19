@@ -1,9 +1,10 @@
 # Exercicis DDL relacionats amb bases de dades PostreSQL
-## BD Pagila
-Base de dades Pagila [link](<../DATABASES/POSTGRESQL/08 - Pagila/README.md>)
-### Exercicis
 
-### BD: Pagila
+## BD Pagila
+
+Base de dades Pagila [link](<../DATABASES/POSTGRESQL/08 - Pagila/README.md>)
+
+## Exercicis
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
 2. Sobre la taula FILM_AUX actualitza la length de les pel·lícules, posar un valor de 90 a totes les que siguin de tipus 'Action'.

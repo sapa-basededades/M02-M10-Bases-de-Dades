@@ -44,5 +44,4 @@ Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 En aquest apartat trobareu diferents bases de dades en diferents SGBD:
 
 [![PostreSQL Logo](../assets/postgresql-horizontal.svg)](DATABASES/POSTGRESQL/README.md)
-
 [![MySQL Logo](../assets/mysql-horizontal.svg)](DATABASES/MYSQL/README.md)

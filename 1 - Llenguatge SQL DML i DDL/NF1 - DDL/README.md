@@ -1,11 +1,15 @@
 # NF1: DDL (Data Definition Language)
-* [:books: Continguts](#continguts)
-* [:link: Enllaços d'interés](#links)
-* [:notebook: Exercicis - BD PostreSQL](#exercicis-pgsql)
-* [:notebook: Exercicis - BD MySQL](#exercicis-mysql)
-* [:pencil: Activitats](#activitats)
+
+- [NF1: DDL (Data Definition Language)](#nf1-ddl-data-definition-language)
+  - [:books: Continguts](#books-continguts)
+  - [:link:Enllaços d'interès](#linkenllaços-dinterès)
+  - [:notebook: Exercicis - BD PostgreSQL](#notebook-exercicis---bd-postgresql)
+  - [:notebook: Exercicis - BD MySQL](#notebook-exercicis---bd-mysql)
+  - [:pencil: Activitats](#pencil-activitats)
+
 ---
 ## <a id="continguts"></a>:books: Continguts
+
 * Introducció
 * Definició de taules i restriccions
     * Creació de taules

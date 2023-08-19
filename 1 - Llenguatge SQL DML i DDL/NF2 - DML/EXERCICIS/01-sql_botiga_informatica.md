@@ -17,7 +17,7 @@
 
 ## 1.1.1 Model relacional
 
-![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/01%20-%20Botiga%20Inform%C3%A0tica/botigainformatica_erm.png)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL/01%20-%20Botiga%20Inform%C3%A0tica/botigainformatica_erm.png)
 
 ## 1.1.2 Scripts de creació de la base de dades
 

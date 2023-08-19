@@ -37,6 +37,11 @@ Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 
 * En aquest apartat també veurem les propietats ACID (*Atomicity, Consistency, Isolation, Durability*) en un SGBD, el concepte de concurrència, bloqueig de registres i els diferents nivells d'aïllament.
 
+* [:books: Continguts](<NF2 - DML/README.md#continguts>)
+* [:link: Enllaços d'interès](<NF2 - DML/README.md#links>)
+* [:notebook: Exercicis - BD PostgreSQL](<NF2 - DML/README.md#exercicis>)
+* [:pencil: Activitats](<NF2 - DML/README.md#activitats>)
+
 ---
 
 ## Bases de dades

@@ -1,6 +1,6 @@
 # NF2: DML (Data Manipulation Language)
 
-## :books: Temari
+## :books: <a id="continguts"></a>Temari
 
 ### PostgreSQL
 
@@ -35,7 +35,7 @@
 
 ---
 
-## :notebook: Exercicis (MySQL i PostGreSQL)
+## :notebook:<a id="exercicis"></a> Exercicis (MySQL i PostGreSQL)
 
 * :pencil: [Exercicis BD Botiga Informatica](EXERCICIS/01-sql_botiga_informatica.md)
 * :pencil: [Exercicis BD Gestió Empleats](EXERCICIS/02-sql_gestio_empleats.md)
@@ -45,7 +45,7 @@
 
 ---
 
-## :pencil: Activitats (MySQL i PostGreSQL)
+## :pencil: <a id="activitats"></a>Activitats (MySQL i PostGreSQL)
 
 * :pencil: [A01 Iniciació Llenguatge SQL - PostgreSQL](ACTIVITATS/dml_psql_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2023.md)
 * :pencil: [A02 DML i Ordenació](ACTIVITATS/dml_psql_A02_DML_I_Ordenaci%C3%B3_v2023.md)
@@ -55,7 +55,7 @@
 
 ---
 
-## :books: Links interessants
+## :books: <a id="links"></a></a> Links interessants
 
 * :link:[AAAA]()
 

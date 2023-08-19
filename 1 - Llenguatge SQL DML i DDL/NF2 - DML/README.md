@@ -30,7 +30,8 @@
 ***INSERT, UPDATE, DELETE***
 
 * :blue_book:[Manipulació de dades](CONTINGUTS/M02_UF2_NF1_DOC10_Manipulacio_de_dades_v2023.pdf)
-  
+* :blue_book:[Transaccions](CONTINGUTS/M02_UF2_NF1_DOC11_Transaccions_v2023.pdf)  
+
 ### Slides MySQL
 
 ---

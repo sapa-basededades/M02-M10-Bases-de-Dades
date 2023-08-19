@@ -39,7 +39,7 @@ Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 
 * [:books: Continguts](<NF2 - DML/README.md#continguts>)
 * [:link: Enllaços d'interès](<NF2 - DML/README.md#links>)
-* [:notebook: Exercicis - BD PostgreSQL](<NF2 - DML/README.md#exercicis>)
+* [:notebook: Exercicis](<NF2 - DML/README.md#exercicis>)
 * [:pencil: Activitats](<NF2 - DML/README.md#activitats>)
 
 ---

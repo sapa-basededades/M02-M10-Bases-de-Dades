@@ -41,7 +41,7 @@
 
 ## <a id="exercicis-pgsql"></a>:notebook: Exercicis - BD PostgreSQL
 
-- [Exercicis amb la base de dades **Pagila**](NF1-exercicis-bd-postgresql.md)
+- [Exercicis amb la base de dades **Pagila**](EXERCICIS/08-dml_ddl_pagila.md)
 
 ---
 
@@ -54,7 +54,7 @@
 
 ## <a id="activitats"></a>:pencil: Activitats
 
-- :pencil: [A06 Llenguatge DML ](ACTIVITATS/M02_UF2_NF2_Pràctica_A06_Llenguatge%20DDL_v2023.docx)
+- :pencil: [A06 Llenguatge DML](ACTIVITATS/M02_UF2_NF2_Pràctica_A06_Llenguatge%20DDL_v2023.docx)
 - :pencil: [A07 Final SQL](ACTIVITATS/M02_UF2_NF2_Pràctica_A07_FinalSQL_V2023.docx)
 
 ---

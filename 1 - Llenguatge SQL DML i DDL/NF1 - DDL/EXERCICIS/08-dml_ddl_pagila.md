@@ -1,7 +1,7 @@
-
-# Exemples de sentències SQL DML DDL
-
-## Versió 1.0
+# Exercicis DDL relacionats amb bases de dades PostreSQL
+## BD Pagila
+Base de dades Pagila [link](<../DATABASES/POSTGRESQL/08 - Pagila/README.md>)
+### Exercicis
 
 ### BD: Pagila
 

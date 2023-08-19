@@ -47,7 +47,7 @@
 
 ## :pencil: Activitats (MySQL i PostGreSQL)
 
-* :pencil: [A01 Iniciació Llenguatge SQL - PostreSQL](ACTIVITATS/dml_psql_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2023.md)
+* :pencil: [A01 Iniciació Llenguatge SQL - PostgreSQL](ACTIVITATS/dml_psql_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2023.md)
 * :pencil: [A02 DML i Ordenació](ACTIVITATS/dml_psql_A02_DML_I_Ordenaci%C3%B3_v2023.md)
 * :pencil: [A03 Funcions de fila única en instruccions SQL simples](ACTIVITATS/dml_psql_A03_Funcions_Unica_fila_v2023.md)
 * :pencil: [A04 Consulta de dades de vàries taules](ACTIVITATS/dml_psql_A04_Consulta_amb_diverses_taules_v2023.md)

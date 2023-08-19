@@ -1,6 +1,5 @@
 # Llenguatge SQL: DML i DDL
 
-
 ## Introducció
 
 * :blue_book:[Introducció als SGBD Relacionals](CONTINGUTS/M02_UF2_NF1_DOC01A_Introducció%20als%20SGBD%20Relacionals_v2023.pdf)

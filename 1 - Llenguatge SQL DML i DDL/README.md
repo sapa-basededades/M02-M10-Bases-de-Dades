@@ -23,7 +23,7 @@ Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 * [:notebook: Exercicis - BD MySQL](<NF1 - DDL/README.md#exercicis-mysql>)
 * [:pencil: Activitats](<NF1 - DDL/README.md#activitats>)
 
-## [2. NF2 DML (Data Manipulation Language)](<NF2 - Disseny conceptual - model ER/README.md>)
+## [2. NF2 DML (Data Manipulation Language)](<NF2 - DML/README.md>)
 
 <img src="./assets/sql.png"
      alt="SQL"

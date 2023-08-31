@@ -61,3 +61,4 @@
 
 ## <a id="links"></a>:link:Enllaços d'interès
 
+- :link: [Goalkicker Manuals Varis](https://goalkicker.com/)

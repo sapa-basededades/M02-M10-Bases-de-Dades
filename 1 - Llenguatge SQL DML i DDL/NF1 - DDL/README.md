@@ -61,4 +61,8 @@
 
 ## <a id="links"></a>:link:Enllaços d'interès
 
-- :link: [Goalkicker Manuals Varis](https://goalkicker.com/)
+- :link: [Goalkicker Oracle Notes for Professionals](https://goalkicker.com/PostgreSQLBook/)
+- :link: [Goalkicker PostgreSQL Notes for Professionals](https://goalkicker.com/OracleDatabaseBook/)
+- :link: [Goalkicker SQLServer Notes for Professionals](https://goalkicker.com/MicrosoftSQLServerBook/)
+- :link: [Goalkicker MySQL Notes for Professionals](https://goalkicker.com/MySQLBook/)
+- :link: [Goalkicker Mongo Notes for Professionals](https://goalkicker.com/MongoBook/)

@@ -5,7 +5,7 @@
 * :closed_book:[Introducció a les bases de dades](./CONTINGUTS/M02_UF1_NF1_DOC00_SAPA-Temari_BD_V2023.pdf)
 * :closed_book:[Història d'Oracle](./CONTINGUTS/M02_UF1_NF1_DOC02A_Historia-Oracle_v2023.pdf)
   
-## :notebook: Presentacions (PPT)
+## :blue_book: Presentacions (PPT)
 
 * :blue_book:[Introducció a les Bases de Dades](./CONTINGUTS/M02_UF1_NF1_DOC01_IntroduccioBD_v2023.pdf)
 * :blue_book:[Història de les Bases de Dades](./CONTINGUTS/M02_UF1_NF1_DOC02_HistoriaBD_v2023.pdf)

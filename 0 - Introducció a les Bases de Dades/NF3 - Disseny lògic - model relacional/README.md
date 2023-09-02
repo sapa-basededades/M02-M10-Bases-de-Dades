@@ -1,4 +1,4 @@
-# NF3 - Disseny lògic - model relacional
+# NF3 - Disseny lògic - Model Relacional
 
 ## :books: Temari
 

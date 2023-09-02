@@ -1,4 +1,4 @@
-# NF2 Disseny conceptual - model ER/ERE
+# NF2 Disseny conceptual - Model ER/ERE
 
 ## :books: Temari
 

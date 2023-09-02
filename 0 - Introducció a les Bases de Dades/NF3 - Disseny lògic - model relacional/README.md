@@ -17,12 +17,12 @@
 
 ## :notebook: Exercicis Model ER - Conceptes bàsics
 
-* :pencil:[Exercici Transformar a Model Relacional I](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_I_v2023.docx)
-* :pencil:[Exercici Transformar a Model Relacional II](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_II_v2023.docx)
-* :pencil:[Exercici Transformar a Model Relacional III](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_III_v2023.docx)
-* :pencil:[Exercici Volta Ciclista](EXERCICIS/M02_UF1_NF3_EXE03_Exercici_VoltaCiclista.docx)
-* :pencil:[Exercici Concesionari](EXERCICIS/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
-* :pencil:[Exercici Volta Eleccions](EXERCICIS/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
+* :notebook:[Exercici Transformar a Model Relacional I](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_I_v2023.docx)
+* :notebook:[Exercici Transformar a Model Relacional II](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_II_v2023.docx)
+* :notebook:[Exercici Transformar a Model Relacional III](EXERCICIS/M02_UF1_NF3_EXE00_Transformar_a_Model_Relacional_III_v2023.docx)
+* :notebook:[Exercici Volta Ciclista](EXERCICIS/M02_UF1_NF3_EXE03_Exercici_VoltaCiclista.docx)
+* :notebook:[Exercici Concesionari](EXERCICIS/M02_UF1_NF3_EXE05_Exercici-Concesionari.docx)
+* :notebook:[Exercici Volta Eleccions](EXERCICIS/M02_UF1_NF3_EXE04_Exercici-Eleccions.docx)
 
 ---
 

@@ -45,7 +45,7 @@ Tot això ho farem mitjançant els SGBD MySQL i PostgreSQL
 
 ## Bases de dades
 
-En aquest apartat trobareu diferents bases de dades en diferents SGBD:
+En aquest apartat trobareu diferents esquemes de bases de dades i jocs de dades  pels següents SGBD:
 
 [![PostreSQL Logo](../assets/postgresql-horizontal.svg)](DATABASES/POSTGRESQL/README.md)
 [![MySQL Logo](../assets/mysql-horizontal.svg)](DATABASES/MYSQL/README.md)

@@ -2,10 +2,10 @@
 
 ## :books: Temari
 
-* :closed_book:[Introducció a les bases de dades](CONTINGUTS/NF2-DissenyConceptual_EntitatRelacio.pdf)
-* :closed_book:[Conceptual Modelling - Universitat de Bolzano](CONTINGUTS/IBDs1011-conceptual-modeling-universitat-bolzano.pdf) <sub>Slides del professor [Werner Nutt](http://www.inf.unibz.it/~nutt) de l'assignatura *Introduction to Database Systems* de la [Universitat de Bolzano](http://www.inf.unibz.it/)</sub>
+* :books:[Introducció a les bases de dades](CONTINGUTS/NF2-DissenyConceptual_EntitatRelacio.pdf)
+* :books:[Conceptual Modelling - Universitat de Bolzano](CONTINGUTS/IBDs1011-conceptual-modeling-universitat-bolzano.pdf) <sub>Slides del professor [Werner Nutt](http://www.inf.unibz.it/~nutt) de l'assignatura *Introduction to Database Systems* de la [Universitat de Bolzano](http://www.inf.unibz.it/)</sub>
 
-## :notebook: Presentacions (PPT)
+## :blue_book: Presentacions (PPT)
 
 * :blue_book:[Model ER](CONTINGUTS/M02_UF1_NF2_DOC01_Model_ER_v2023.pdf)
 * :blue_book:[Model ER Estès](CONTINGUTS/M02_UF1_NF2_DOC02_Model_ER_Estes_v2023.pdf)
@@ -30,11 +30,11 @@
 
 ---
 
-## Enllaços d'interès
+## :link: Enllaços d'interès
 
 * :link:[Entity-Relationship Diagrams Work (Universitat Duke)](https://www.coursera.org/lecture/analytics-mysql/database-structures-illustrated-by-entity-relationship-diagrams-K3fIe) <sub>Part del curs Analytics MySQL de la plataforma elearning [Coursera](https://www.coursera.org/learn/analytics-mysql)</sub>
 
-## :books: Material Addicional
+## :closed_book: Material Addicional
 
 * :closed_book:[Temari IOC - Model ER](CONTINGUTS/M02_UF1_NF2_DOC00_IOC_Model%20ER_v2023.pdf)
 * :closed_book:[Temari UOC - Model ER](CONTINGUTS/M02_UF1_NF2_DOC00_UOC_Model%20ER_v2023.pdf)

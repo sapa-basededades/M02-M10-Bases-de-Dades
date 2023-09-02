@@ -4,7 +4,7 @@
 
 ### PostgreSQL
 
-* :closed_book:[UOC El llenguatge SQL](CONTINGUTS/M02_UF2_NF1_DOC00A_UOC_El_lenguaje_SQL_v2023.pdf)
+* :closed_book:[UOC El llenguatge SQL](NF2 - DML/CONTINGUTS/M02_UF2_NF1_DOC00A_UOC_El_lenguaje_SQL_v2023.pdf)
 * :closed_book:[IOC El llenguatge DML](CONTINGUTS/M02_UF2_NF1_DOC00B_IOC_Llenguatge%20DML_v2023.pdf)
 
 ### MySQL

@@ -3,7 +3,7 @@
 ## Introducció
 
 * :blue_book:[Introducció als SGBD Relacionals](CONTINGUTS/M02_UF2_NF1_DOC01A_Introducció%20als%20SGBD%20Relacionals_v2023.pdf)
-* :blue_book:[Introducció al SQL](CONTINGUTS/M02_UF2_NF1_DOC01B_Introducció%20al%20SQL_v2023.pdf)
+* :blue_book:[Introducció al SQL](<N2 - DML/CONTINGUTS/M02_UF2_NF1_DOC01B_Introducció%20al%20SQL_v2023.pdf>)
 * :blue_book:[Introducció a PostgreSQL](CONTINGUTS/M02_UF2_NF1_DOC01C_Instroducció_Postgresql_v2023.pdf)
 * :blue_book:[Instal·lació de PostgreSQL](CONTINGUTS/M02_UF2_NF1_DOC01D_Instal.lació_Postgresql_v2023.pdf)
 

@@ -26,7 +26,7 @@
 
 ---
 
-## Enllaços d'interès
+## :link: Enllaços d'interès
 
 * :link:[Introduction to Database Management Systems (vídeo)](https://www.youtube.com/watch?v=6u2zsJOJ_GE) <sub> Bart Baesens explicant una introducció als SGBD</sub>
 * :link:[What is Database & SQL (vídeo)](https://youtu.be/FR4QIeZaPeM)

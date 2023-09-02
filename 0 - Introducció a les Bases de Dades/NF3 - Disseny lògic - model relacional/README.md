@@ -2,12 +2,12 @@
 
 ## :books: Temari
 
-* :closed_book:[Model Relacional](./continguts/M02_UF1_NF3_DOC00_SAPA_Model%20Relacional_v2023.pdf)
-* :closed_book:[Presentació: Model Relacional](./continguts/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
-* :closed_book:[Presentació: Pas a Model Relacional](./continguts/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
-* :closed_book:[Presentació: Normalització](./continguts/M02_UF1_NF3_DOC00_SAPA_Normalitzacio_v2023.pdf)
+* :books:[Model Relacional](./continguts/M02_UF1_NF3_DOC00_SAPA_Model%20Relacional_v2023.pdf)
+* :books:[Presentació: Model Relacional](./continguts/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
+* :books:[Presentació: Pas a Model Relacional](./continguts/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
+* :books:[Presentació: Normalització](./continguts/M02_UF1_NF3_DOC00_SAPA_Normalitzacio_v2023.pdf)
 
-## :notebook: Presentacions (PPT)
+## :blue_book: Presentacions (PPT)
 
 * :blue_book:[Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
 * :blue_book:[Pas a model Relacional](CONTINGUTS/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
@@ -34,7 +34,7 @@
 
 ---
 
-## :books: Material Addicional
+## :closed_book: Material Addicional
 
 * :closed_book:[Temari IOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_IOC_Model%20Relacional_v2023.pdf)
 * :closed_book:[Temari UOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_UOC_Model%20Relacional_v2023.pdf)

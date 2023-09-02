@@ -31,6 +31,10 @@
 
 ---
 
+## :link: Enllaços d'interès
+
+---
+
 ## :closed_book: Material Addicional
 
 * :closed_book:[Temari IOC - Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC00_IOC_Model%20Relacional_v2023.pdf)

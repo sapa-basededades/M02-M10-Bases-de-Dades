@@ -92,13 +92,13 @@
 
 (1 fila)
 
-1. Obté el codi empleat, nom i salari dels empleats **que guanyen més que la mitjana del salari dels empleats**. Ordena la informació per salari. (1 punt)
+13. Obté el codi empleat, nom i salari dels empleats **que guanyen més que la mitjana del salari dels empleats**. Ordena la informació per salari. (1 punt)
 
    ![Tabla](assets/A05_img13.png)
 
 (17 files)
 
-1. Tinc empleats del departament 9 que van ser contractat abans **QUE TOTS** elsempleat del departament 6? Mostra els cognoms i la data de contractació. (1 punt)
+14. Tinc empleats del departament 9 que van ser contractat abans **QUE TOTS** elsempleat del departament 6? Mostra els cognoms i la data de contractació. (1 punt)
 
 (2 files)
 
@@ -106,31 +106,31 @@
 
   
 
-1. Obtenir l'identificador de pel·lícula, el títol i la durada del lloguer, de les pel·lícules que tenen el preu de lloguer més alt. (1 punt)
+15. Obtenir l'identificador de pel·lícula, el títol i la durada del lloguer, de les pel·lícules que tenen el preu de lloguer més alt. (1 punt)
 
 (336 files)
 
-1. Volem saber les pel·lícules (títol i nom de la categoria) de la categoria _Drama_ que tenen un cost de substitució (replacement\_cost) menor que alguna de les pel·lícules de la categoria "_Classics"_. (Utilitza l'operador ANY) (1 punt)
+16. Volem saber les pel·lícules (títol i nom de la categoria) de la categoria _Drama_ que tenen un cost de substitució (replacement\_cost) menor que alguna de les pel·lícules de la categoria "_Classics"_. (Utilitza l'operador ANY) (1 punt)
 
 (38 files)
 
-1. Volem saber les pel·lícules (títol i nom de la categoria) de la categoria _Drama_ que tenen un cost de substitució menor que TOTES les pel·lícules de la categoria "_Classics"_. (Utilitza l'operador ALL) (1 punt)
+17. Volem saber les pel·lícules (títol i nom de la categoria) de la categoria _Drama_ que tenen un cost de substitució menor que TOTES les pel·lícules de la categoria "_Classics"_. (Utilitza l'operador ALL) (1 punt)
 
 (2 files)
 
-1. Intenta respondre a la mateixa pregunta que l'apartat anterior però sense utilitzar l'operador ALL. Planteja-la com vulguis. (1punts)
+18. Intenta respondre a la mateixa pregunta que l'apartat anterior però sense utilitzar l'operador ALL. Planteja-la com vulguis. (1punts)
 
-1. Volem saber id d'actor i nom complert dels actors que han treballat en alguna pel·lícula de les que tenen un cost de reposició (replacement\_cost) de 9.99€. (Utilitza l'operador IN) (1 punts)
+19. Volem saber id d'actor i nom complert dels actors que han treballat en alguna pel·lícula de les que tenen un cost de reposició (replacement\_cost) de 9.99€. (Utilitza l'operador IN) (1 punts)
 
 (135 files)
 
-1. Quines còpies no s'han llogat? Mostra el codi de còpia i el títol de la pel·lícula. Utilitza l'operador NOT IN. (2 punts)
+20. Quines còpies no s'han llogat? Mostra el codi de còpia i el títol de la pel·lícula. Utilitza l'operador NOT IN. (2 punts)
 
 (1 fila)
 
 **Ampliació. Aquesta és de nivell a veure qui la treu! (Amb el vist fins i una mica d'imaginació es pot fer). (2 punts extra )**
 
-1. Volem saber el número total de lloguers que es van fer en cada un dels trimestres de 2005 i el total de pel·lícules llogades en aquest any. Cal mostrar la informació tal com s'indica en la figura.
+21. Volem saber el número total de lloguers que es van fer en cada un dels trimestres de 2005 i el total de pel·lícules llogades en aquest any. Cal mostrar la informació tal com s'indica en la figura.
 
    ![Tabla](assets/A05_img21.png)
 

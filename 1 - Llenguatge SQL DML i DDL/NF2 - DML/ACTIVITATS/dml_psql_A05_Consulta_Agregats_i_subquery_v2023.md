@@ -21,7 +21,7 @@
 
 1. Mostra el salari més alt, el més baix, la suma i la mitjana per tots els empleats. Anomena les columnes com a "Salari maxim", "Salari minim", Suma i Mitjana respectivament. Arrodoneix els resultats a l'enter més pròxim. (0,5 punts)
 
-![](RackMultipart20230721-1-prj4cz_html_6ddfe5861e7f4c70.png)
+   ![Tabla](assets/A05_img1.png)
 
 (1 fila)
 

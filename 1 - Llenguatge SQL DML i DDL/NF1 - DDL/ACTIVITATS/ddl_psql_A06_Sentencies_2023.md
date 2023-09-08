@@ -44,10 +44,10 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
   
 
 ## Tasques
-[Exercici A](ExerciciA)
-[Exercici B](ExerciciB)
-[Exercici C](ExerciciC)
-[Exercici D](ExerciciD)
+[Exercici A](#Exercici-A)
+[Exercici B](#Exercici-B)
+[Exercici C](#Exercici-C)
+[Exercici D](#Exercici-D)
 
 ### <a id="ExerciciA"></a>Exercici A
 

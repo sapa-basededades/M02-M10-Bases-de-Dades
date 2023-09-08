@@ -30,6 +30,7 @@ Cal lliurar un sol fitxer .sql:
 **En cadascun dels exercicis has de crear en el SGBD Postgresql la base de dades a partir de l'esquema lògic proposat. Creeu una nova base de dades amb la sentencia Create Database \<nom\_base\_dades\> amb l'usuari postgres.** 
 
 ## Resultats d'aprenentatge
+
 RA1. Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.
 - 1.a. Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL (llenguatge d’interrogació estructurat) per consultar i modificar les dades de la base de dades de manera interactiva.
 - 1.b. Empra assistents, eines gràfiques i el llenguatge de manipulació de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques.

@@ -7,10 +7,11 @@
 - Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. 
 - Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
 
-- Pots consultar el model relacional en el següent link:
+- Pots consultar els model relacionals en els següents links:
   - [Pagila](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL/08%20-%20Pagila/pagila-erm.png)
   - [HR]()
 
+- Abans de començar l'activitat intenta entendre el model.
 - Format d'entrega en pdf.
 - No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
 - Les imatges son orientatives

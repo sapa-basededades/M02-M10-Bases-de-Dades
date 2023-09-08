@@ -1,23 +1,21 @@
 # A03 – Ús de funcions de fila única en instruccions SQL simples
 
-## Descripció
-
-## Aspectes a considerar
+## Descripció de l'activitat
 
 - Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. 
 - Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
-
 - Pots consultar els model relacionals en els següents links:
   - [Pagila](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL/08%20-%20Pagila/pagila-erm.png)
   - [HR]()
-
-- Abans de començar l'activitat intenta entendre el model.
-- Format d'entrega en pdf.
+- Abans de començar l'activitat intenta entendre el model
+- Format d'entrega en pdf
 - No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
 - Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 
-## Part 1 BDD HR
+## Tasques
+
+### Part 1: BDD HR
 
 1. Escriu una consulta per a mostrar la data actual. Etiqueta la columna com Date.(1 punt)
 2. Per a cada empleat, mostra el número d'empleat, el cognom, el salari i el salari amb un augment del 15.5% i expressat amb número enter, etiqueteu-lo com **nou salari**. (1 punt)

@@ -27,7 +27,7 @@ Cal lliurar un sol fitxer .sql:
 - que elimina totes les taules de la base de dades.
 ```
 
-**En cadascun dels exercicis ahs de crear en el SGBD Postgresql la base de dades a partir de l'esquema lògic proposat. Creeu una nova base de dades amb la sentencia Create Database \<nom\_base\_dades\> amb l'usuari postgres.** 
+**En cadascun dels exercicis has de crear en el SGBD Postgresql la base de dades a partir de l'esquema lògic proposat. Creeu una nova base de dades amb la sentencia Create Database \<nom\_base\_dades\> amb l'usuari postgres.** 
 
 ## Resultats d'aprenentatge
 RA1. Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.

@@ -80,19 +80,19 @@
 
 11. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** (0,5 punts)
 
-   ![Tabla](assets/A05_img10.png)
+   ![Tabla](assets/A05_img11.png)
 
 (2 files)
 
 12. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** Exclou l'empleat 104 del llistat. (0,5 punts)
 
-   ![Tabla](assets/A05_img11.png)
+   ![Tabla](assets/A05_img12.png)
 
 (1 fila)
 
 1. Obté el codi empleat, nom i salari dels empleats **que guanyen més que la mitjana del salari dels empleats**. Ordena la informació per salari. (1 punt)
 
-   ![Tabla](assets/A05_img12.png)
+   ![Tabla](assets/A05_img13.png)
 
 (17 files)
 

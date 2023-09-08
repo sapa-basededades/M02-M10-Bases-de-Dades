@@ -41,6 +41,9 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
 - 1.h. **Identifica eines i sentències per modificar el contingut de la base de dades**
 - 1.i. **Formula consultes per inserir, modificar i/o eliminar dades de la base de dades**
 - 1.j. **Insereix en una taula dades com a resultat de l’execució d’una consulta**
+- 1.k. **Identifica les transaccions i el seu funcionament**ç+
+- 1.l. **Controla els canvis produïts per una transacció: parcialment o totalment.**
+
   
 
 ## Tasques

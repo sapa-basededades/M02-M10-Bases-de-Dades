@@ -1,8 +1,6 @@
 # A05 – Consultes d'agregat de dades i subconsultes.
 
-## Descripció
-
-## Aspectes a considerar
+## Descripció de l'activitat
 
 - Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. 
 - Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
@@ -15,33 +13,33 @@
 - Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 
-## PART I – Consultes d'agregat de dades
+## Tasques
 
-![Shape1](RackMultipart20230721-1-prj4cz_html_6ad3514c9ad98947.gif) **BDD HR.**
+### Part I – Consultes d'agregat de dades (**BDD HR**)
 
 1. Mostra el salari més alt, el més baix, la suma i la mitjana per tots els empleats. Anomena les columnes com a "Salari maxim", "Salari minim", Suma i Mitjana respectivament. Arrodoneix els resultats a l'enter més pròxim. (0,5 punts)
 
    ![Tabla](assets/A05_img1.png)
 (1 fila)
 
-1. Mostra la mitjana dels salaris i el número d'empleats que tenim. Arrodoneix la mitjana al número enter més pròxim i anomena les columnes com a "Salari mig" i "Num. Empleats" respectivament. (0,5 punts)
+2. Mostra la mitjana dels salaris i el número d'empleats que tenim. Arrodoneix la mitjana al número enter més pròxim i anomena les columnes com a "Salari mig" i "Num. Empleats" respectivament. (0,5 punts)
 
    ![Tabla](assets/A05_img2.png)
 (1 fila)
 
-1. Per cada diferent treball (JOB\_ID), calcula la mitjana dels salaris. Mostra el nom del treball (JOB\_TITLE) i ordena la informació per aquesta mateixacolumna. (1 punt)
+3. Per cada diferent treball (JOB\_ID), calcula la mitjana dels salaris. Mostra el nom del treball (JOB\_TITLE) i ordena la informació per aquesta mateixacolumna. (1 punt)
 
    ![Tabla](assets/A05_img3.png)
 
 (19 files)
 
-1. Fes una consulta per calcular la diferència que hi ha entre el salari major i el menor dels empleats (tots). Anomena la columna com a Diferencia. (0,5 punts)
+4. Fes una consulta per calcular la diferència que hi ha entre el salari major i el menor dels empleats (tots). Anomena la columna com a Diferencia. (0,5 punts)
 
    ![Tabla](assets/A05_img4.png)
 
 (1 fila)
 
-1. Mostra, per cada departament, el codi del departament i el salari de l'empleat pitjor pagat en aquest departament. Exclou els empleats que no tinguin assignat departament i els departaments on l'empleat pitjor pagat cobri menys de 6000 € (1 punt)
+5. Mostra, per cada departament, el codi del departament i el salari de l'empleat pitjor pagat en aquest departament. Exclou els empleats que no tinguin assignat departament i els departaments on l'empleat pitjor pagat cobri menys de 6000 € (1 punt)
 
    ![Tabla](assets/A05_img5.png)
 
@@ -49,47 +47,44 @@
 
 ![Shape2](RackMultipart20230721-1-prj4cz_html_6ad3514c9ad98947.gif) **BDD PAGILA**
 
-1. Quants clients te assignats cada encarregat (staff)? Ordena la informació per número de clients. (1 punts)
+6. Quants clients te assignats cada encarregat (staff)? Ordena la informació per número de clients. (1 punts)
 
    ![Tabla](assets/A05_img6.png)
 
 (2 files)
 
-1. Obté el número de lloguers realitzats cada mes. El mes ha de sortir amb el següent format: mm/yyyy (ex: 05/2005). Ordena la informació per mes/any. Haureu d'agafar el camp rental\_period que es un interval. Per agafar el primer valor del interval, la data en que va ser llogada, podeu fer servir la funció lower(rental\_period)(1 punt)
-
-   ![Tabla](assets/A05_img6.png)
-
-(5 files)
-
-1. Quants actors diferents (ACTOR\_ID) de la taula FILM\_ACTOR tenim? Anomena la columna com a "Num d'actors". (0,5 punts)
+7. Obté el número de lloguers realitzats cada mes. El mes ha de sortir amb el següent format: mm/yyyy (ex: 05/2005). Ordena la informació per mes/any. Haureu d'agafar el camp rental\_period que es un interval. Per agafar el primer valor del interval, la data en que va ser llogada, podeu fer servir la funció lower(rental\_period)(1 punt)
 
    ![Tabla](assets/A05_img7.png)
 
-(1 fila)
+(5 files)
 
-1. Escriu una consulta per mostrar el nom de cada client, la ciutat on viu el client, el número de lloguers i el cost mig per tots els lloguers del client. Anomena les columnes com Nom, Ciutat, Num\_Lloguers i Cost\_Mig respectivament. Arrodoneix el cost mig a dos decimals. Ordena la informació per ciutat i nom de client. (2 punts)
+8. Quants actors diferents (ACTOR\_ID) de la taula FILM\_ACTOR tenim? Anomena la columna com a "Num d'actors". (0,5 punts)
 
    ![Tabla](assets/A05_img8.png)
-(599 files)
 
-1. Volem saber les pel·lícules que s'han llogat més de 30 vegades. Volem saber el títol de la pel·lícula, l'any de llançament, el cost de reposició (replacement\_cost) expressat en un valor entre 0 i 1 amb un decimal (els possibles null s'han de mostrar com a 0), i el número de vegades que s'ha llogat. Ordena la informació per número de vegades que s'ha llogat de major a menor. (2 punts)
+(1 fila)
+
+9. Escriu una consulta per mostrar el nom de cada client, la ciutat on viu el client, el número de lloguers i el cost mig per tots els lloguers del client. Anomena les columnes com Nom, Ciutat, Num\_Lloguers i Cost\_Mig respectivament. Arrodoneix el cost mig a dos decimals. Ordena la informació per ciutat i nom de client. (2 punts)
 
    ![Tabla](assets/A05_img9.png)
+(599 files)
+
+10. Volem saber les pel·lícules que s'han llogat més de 30 vegades. Volem saber el títol de la pel·lícula, l'any de llançament, el cost de reposició (replacement\_cost) expressat en un valor entre 0 i 1 amb un decimal (els possibles null s'han de mostrar com a 0), i el número de vegades que s'ha llogat. Ordena la informació per número de vegades que s'ha llogat de major a menor. (2 punts)
+
+   ![Tabla](assets/A05_img10.png)
 
 (16 registres)
 
-## PART II – Subconsultes
+## Part II – Subconsultes (**BDD HR**)
 
-**BDD HR**
-
-
-1. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** (0,5 punts)
+11. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** (0,5 punts)
 
    ![Tabla](assets/A05_img10.png)
 
 (2 files)
 
-1. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** Exclou l'empleat 104 del llistat. (0,5 punts)
+12. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** Exclou l'empleat 104 del llistat. (0,5 punts)
 
    ![Tabla](assets/A05_img11.png)
 

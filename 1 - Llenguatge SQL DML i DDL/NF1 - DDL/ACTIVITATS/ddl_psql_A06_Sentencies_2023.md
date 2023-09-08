@@ -21,10 +21,10 @@ N = (D+A+M) mod 4
 **És molt important que especifiqueu el vostre DNI i la fórmula mitjançant la que heu obtingut el número d'exercici a resoldre.**
 
 ```text
-Cal lliurar:
-- Fitxer .sql que genera la base de dades i les taules
-- Fitxer .sql que crea les files i actualitza les taules de la base de dades.
-- Fitxer .sql que elimina totes les taules de la base de dades.
+Cal lliurar un sol fitxer .sql:
+- que genera la base de dades i les taules
+- que crea les files i actualitza les taules de la base de dades.
+- que elimina totes les taules de la base de dades.
 ```
 
 **En cadascun dels exercicis ahs de crear en el SGBD Postgresql la base de dades a partir de l'esquema lògic proposat. Creeu una nova base de dades amb la sentencia Create Database \<nom\_base\_dades\> amb l'usuari postgres.** 

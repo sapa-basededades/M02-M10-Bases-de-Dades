@@ -44,6 +44,10 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
   
 
 ## Tasques
+[Exercici A]()
+[Exercici B]()
+[Exercici C]()
+[Exercici D]()
 
 ### Exercici A
 

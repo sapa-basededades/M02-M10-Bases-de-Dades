@@ -1,5 +1,5 @@
 
-# A04 – Consulta de dades de vàries taules
+# A04 – Consulta de dades de diverses taules
 
 ## Descripció de l'activitat
 

@@ -32,7 +32,7 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
 
 ## Tasques
 
-### Part1: Consultes diverses a la BD (20 punts)
+### Part 1: Consultes diverses a la BD (20 punts)
 
 1. Mostrar el cognom, nom i salari dels empleats que guanyen **més** de 12000. (1punt)
 2. Mostra tota la informació dels països ordenada per nom de país. (1punt)

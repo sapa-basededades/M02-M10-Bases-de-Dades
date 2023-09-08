@@ -1,4 +1,4 @@
-# A01 – Conèixer entorn PostgreSql i primeres sentències SQL
+# A01 – Conèixer entorn PostgreSQL i primeres sentències SQL
 
 ## Descripció
 

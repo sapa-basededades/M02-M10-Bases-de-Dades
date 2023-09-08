@@ -1,23 +1,32 @@
 
 # A04 – Consulta de dades de vàries taules
 
-## Descripció
-
-## Aspectes a considerar
+## Descripció de l'activitat
 
 - Treballarem amb PostGreSQL i base de dades **HR** i **PAGILA**. 
 - Pots crear els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES)
 - Pots consultar el model relacional en el següent link:
   - [Pagila](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/08%20-%20Pagila/pagila-erm.png)
   - [HR]()
-
 - Format d'entrega en pdf.
 - No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
 - Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 
+## Resultats d'aprenentatge
 
-## Part 1. Base de dades HR (12 punts)
+RA1. Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.
+- 1.a. Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL (llenguatge d’interrogació estructurat) per consultar i modificar les dades de la base de dades de manera interactiva.
+- 1.b. Empra assistents, eines gràfiques i el llenguatge de manipulació de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques.
+- 1.c. Realitza consultes simples de selecció sobre una taula (amb restricció i ordenació) per consultar les dades d’una base de dades.
+- 1.d. Realitza consultes utilitzant funcions afegides i valors nuls
+- 1.e. **Realitza consultes amb diverses taules mitjançant composicions internes**
+- 1.f. **Realitza consultes amb diverses taules mitjançant composicions externes**
+
+
+## Tasques
+
+### Part 1: Base de dades HR (12 punts)
 
 1. Mostra de cada empleat el seu codi, cognom, nom i nom del departament en el que treballa. Ordena les dades per codi empleat. (Taules implicades: employees, departments). (1 punt)
 
@@ -77,7 +86,7 @@
 
     (40 files)
 
-## Part 2. Bdd Pagila (11p)
+### Part 2: Bdd Pagila (11p)
 
 11. Visualitza el cognom y el nom del carrer per a tots els clients que tinguin la lletra **a** en el cognom. (2 punts)
 

@@ -6,8 +6,9 @@
 - Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
 - Format d'entrega en pdf.
 
+## Tasques
 
-## Part 1: Conèixer l'entorn
+### Part 1: Conèixer l'entorn
 
 Aquesta primera part és per fer-se amb l'entorn, simplement heu de seguir les instruccions que s'indiquen (part no puntuable).
 
@@ -36,7 +37,7 @@ Aquesta primera part és per fer-se amb l'entorn, simplement heu de seguir les i
     FROM jobs;
     ```
 
-## Part 2: Primeres sentències SQL
+### Part 2: Primeres sentències SQL
 
 1. **Mostreu l'estructura** de la taula DEPARTMENTS.
 2. **Seleccioneu** totes les dades de la taula DEPARTMENTS.

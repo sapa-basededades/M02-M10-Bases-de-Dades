@@ -1,8 +1,6 @@
 # A02 – Us de restricció i ordenació de dades en sentències SQL simples
 
-## Descripció
-
-## Aspectes a considerar
+## Descripció de l'activitat
 
 - Treballarem amb PostGreSQL i base de dades **HR**. Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
 

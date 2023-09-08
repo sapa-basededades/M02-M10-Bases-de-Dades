@@ -13,6 +13,17 @@
 - Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 
+## Resultats d'aprenentatge
+
+RA1. Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.
+- 1.a. Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL (llenguatge d’interrogació estructurat) per consultar i modificar les dades de la base de dades de manera interactiva.
+- 1.b. Empra assistents, eines gràfiques i el llenguatge de manipulació de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques.
+- 1.c. Realitza consultes simples de selecció sobre una taula (amb restricció i ordenació) per consultar les dades d’una base de dades.
+- 1.d. Realitza consultes utilitzant funcions afegides i valors nuls
+- 1.e. Realitza consultes amb diverses taules mitjançant composicions internes
+- 1.f. Realitza consultes amb diverses taules mitjançant composicions externes
+
+
 ## Tasques
 
 ### Part I – Consultes d'agregat de dades (**BDD HR**)

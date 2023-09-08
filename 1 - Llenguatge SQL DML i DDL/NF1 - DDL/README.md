@@ -54,8 +54,8 @@
 
 ## <a id="activitats"></a>:pencil: Activitats
 
-- :pencil: [A06 Llenguatge DML](ACTIVITATS/M02_UF2_NF2_Pràctica_A06_Llenguatge%20DDL_v2023.docx)
-- :pencil: [A07 Final SQL](ACTIVITATS/M02_UF2_NF2_Pràctica_A07_FinalSQL_V2023.docx)
+- :pencil: [A06 Llenguatge DML](ACTIVITATS/ddl_psql_A06_Sentencies_2023.md)
+
 
 ---
 

@@ -44,10 +44,12 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
   
 
 ## Tasques
-[Exercici A](#Exercici-A)
-[Exercici B](#Exercici-B)
-[Exercici C](#Exercici-C)
-[Exercici D](#Exercici-D)
+| Link |
+|----------------------|
+|[Exercici A](#Exercici-A)|
+|[Exercici B](#Exercici-B)|
+|[Exercici C](#Exercici-C)|
+|[Exercici D](#Exercici-D)|
 
 ### <a id="ExerciciA"></a>Exercici A
 
@@ -142,6 +144,8 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem substituït a l'entrenador d'un dels equips, dona d'alta el nou entrenador i elimina l'entrenador existent, juntament amb les tasques que realitzava.
 5. Hem incrementat l'import de tots els rebuts de novembre en un 0,5%.
 
+---
+
 ### <a id="ExerciciB"></a>Exercici B
 
 De cares a l'obertura de la propera temporada un parc d'atraccions vol dissenyar una base de dades per a controlar el manteniment de les seves instal·lacions. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
@@ -230,6 +234,8 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 3. L'empresa amb CIF 'XXX' ha contractat un nou treballador, dona'l d'alta (inventa la informació). A més aquest treballador és electricista i pot signar butlletins des de la data '01/01/2019'.
 4. Hem donat de baixa a l'usuari amb id = 1 perquè era un 'bot', elimina'l juntament amb tots els seus comentaris.
 5. Hem detectat un error en la data de revisió de les revisions fetes el mes de juny, aquestes s'haurien fet durant el mes de juliol, incrementa en 1 mes la data de revisió.
+
+---
 
 ### <a id="ExerciciC"></a>Exercici C
 
@@ -326,6 +332,8 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 3. Hem contractat un nou empleat, dona'l d'alta. Aquest empleat serà el nou director del supermercat 1.
 4. Hem d'eliminar el tiquet 3 de la caixa 2, elimina'l juntament amb el seu detall.
 5. El proveïdor amb id = 2 ha incrementat el preu dels seus producte un 0,5 %, actualitza'ls.
+
+---
 
 ### <a id="ExerciciD"></a>Exercici D
 

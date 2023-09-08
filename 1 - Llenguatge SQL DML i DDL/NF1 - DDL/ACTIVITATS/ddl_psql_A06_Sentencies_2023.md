@@ -44,12 +44,12 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
   
 
 ## Tasques
-[Exercici A]()
-[Exercici B]()
+[Exercici A](#ExerciciA)
+[Exercici B](#ExerciciB)
 [Exercici C]()
 [Exercici D]()
 
-### Exercici A
+### <a id="ExerciciA"></a>Exercici A
 
 De cares a la propera temporada un club de futbol vol dissenyar una base de dades per tal de controlar tot el Club. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 
@@ -142,7 +142,7 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem substituït a l'entrenador d'un dels equips, dona d'alta el nou entrenador i elimina l'entrenador existent, juntament amb les tasques que realitzava.
 5. Hem incrementat l'import de tots els rebuts de novembre en un 0,5%.
 
-### Exercici B
+### <a id="ExerciciB"></a>Exercici B
 
 De cares a l'obertura de la propera temporada un parc d'atraccions vol dissenyar una base de dades per a controlar el manteniment de les seves instal·lacions. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 

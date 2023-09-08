@@ -6,6 +6,14 @@
 - Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
 - Format d'entrega en pdf.
 
+## Resultats d'aprenentatge
+
+- RA1. Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.
+-     1.a. Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL (llenguatge d’interrogació estructurat) per consultar i modificar les dades de la base de dades de manera interactiva.
+-     1.b. Empra assistents, eines gràfiques i el llenguatge de manipulació de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques.
+-     1.c. Realitza consultes simples de selecció sobre una taula (amb restricció i ordenació) per consultar les dades d’una base de dades.
+
+
 ## Tasques
 
 ### Part 1: Conèixer l'entorn
@@ -48,10 +56,3 @@ Aquesta primera part és per fer-se amb l'entorn, simplement heu de seguir les i
 7. **Creeu una consulta** per a mostrar totes les dades de la taula EMPLOYEES. Separeu cada columna amb una coma. Anomeneu la columna com _THE\_OUTPUT_.
 8. **Creeu una consulta** per mostrar el salari mensual dels EMPLOYEES, tenint en compte que a la taula teniu el salari anual.
 9. **Creeu una consulta** per mostrar el "street address", "postal code" , "city " i "State_province" de la taula LOCATIONS tot concatenat amb un espai entre elles. Renombreu la columna com Adreca Postal.
-
-## Resultats d'aprenentatge
-
-- RA1. Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.
--     1.a. Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL (llenguatge d’interrogació estructurat) per consultar i modificar les dades de la base de dades de manera interactiva.
--     1.b. Empra assistents, eines gràfiques i el llenguatge de manipulació de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques.
--     1.c. Realitza consultes simples de selecció sobre una taula (amb restricció i ordenació) per consultar les dades d’una base de dades.

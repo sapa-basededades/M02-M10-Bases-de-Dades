@@ -22,6 +22,7 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
 - 1.d. Realitza consultes utilitzant funcions afegides i valors nuls
 - 1.e. Realitza consultes amb diverses taules mitjançant composicions internes
 - 1.f. Realitza consultes amb diverses taules mitjançant composicions externes
+- 1.g. **Realitza consultes amb subconsultes**
 
 
 ## Tasques

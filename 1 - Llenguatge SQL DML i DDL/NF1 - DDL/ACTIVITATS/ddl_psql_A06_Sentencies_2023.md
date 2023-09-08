@@ -46,8 +46,8 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
 ## Tasques
 [Exercici A](#ExerciciA)
 [Exercici B](#ExerciciB)
-[Exercici C]()
-[Exercici D]()
+[Exercici C](#ExerciciC)
+[Exercici D](#ExerciciD)
 
 ### <a id="ExerciciA"></a>Exercici A
 
@@ -231,7 +231,7 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem donat de baixa a l'usuari amb id = 1 perquè era un 'bot', elimina'l juntament amb tots els seus comentaris.
 5. Hem detectat un error en la data de revisió de les revisions fetes el mes de juny, aquestes s'haurien fet durant el mes de juliol, incrementa en 1 mes la data de revisió.
 
-### Exercici C
+### <a id="ExerciciC"></a>Exercici C
 
 El propietari d'una important cadena de supermercats ens ha encarregat dissenyar una base de dades per portar el control i la gestió dels aspectes referents al seu negoci. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 
@@ -327,7 +327,7 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem d'eliminar el tiquet 3 de la caixa 2, elimina'l juntament amb el seu detall.
 5. El proveïdor amb id = 2 ha incrementat el preu dels seus producte un 0,5 %, actualitza'ls.
 
-### Exercici D
+### <a id="ExerciciD"></a>Exercici D
 
 El propietari d'una important empresa de lloguer de cotxes ens ha encarregat dissenyar una base de dades per portar el control i la gestió dels aspectes referents al seu negoci. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 

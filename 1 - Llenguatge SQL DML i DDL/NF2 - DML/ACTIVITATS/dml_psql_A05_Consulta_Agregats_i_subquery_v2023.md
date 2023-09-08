@@ -76,7 +76,9 @@
 
 (16 registres)
 
-## Part II – Subconsultes (**BDD HR**)
+## Part II – Subconsultes 
+
+**BDD HR**
 
 11. Obtenir el codi d'empleat, nom i salari dels empleats **que tenen el mateix salari que l'empleat 104.** (0,5 punts)
 
@@ -102,7 +104,7 @@
 
 **BDD PAGILA**
 
-   ![Tabla](assets/A05_img13.png)
+  
 
 1. Obtenir l'identificador de pel·lícula, el títol i la durada del lloguer, de les pel·lícules que tenen el preu de lloguer més alt. (1 punt)
 

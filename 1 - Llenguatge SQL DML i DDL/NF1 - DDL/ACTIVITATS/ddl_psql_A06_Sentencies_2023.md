@@ -1,16 +1,13 @@
-**UF2. PRÀCTICA DDL - RA1.8. Identifica eines i sentències per a modificar el contingut de la base de dades. RA2 - Realitza el disseny físic de bases de dades utilitzant assistents, eines gràfiques i el llenguatge de definició de dades.**
+# A06 - CREACIÓ DE TAULES I MANIPULACIÓ DE DADES
 
-**A06-UF2 – CREACIÓ DE TAULES I MANIPULACIÓ DE DADES**
+## Descripció de l'activitat
 
 Realitzar un dels següents exercicis que representen diferents supòsits a partir dels requeriments per a l'obtenció d'una base de dades relacional.
 
 L'elecció de l'exercici es realitzarà en funció del següents càlcul:
-
-D són els dos darrers números del DNI de l'alumne.
-
-A són els dos darrers números del vostre any de naixement.
-
-M és el número que correspon al mes de la vostra data de naixement
+- D són els dos darrers números del DNI de l'alumne.
+- A són els dos darrers números del vostre any de naixement.
+- M és el número que correspon al mes de la vostra data de naixement
 
 N = (D+A+M) mod 4
 
@@ -32,7 +29,11 @@ N = (D+A+M) mod 4
 
 _ **Donat el següent cas heu de crear en el SGBD Postgresql la base de dades a partir de l'esquema lògic proposat. Creeu una nova base de dades amb la sentencia Create Database \<nom\_base\_dades\> amb l'usuari postgres.** _
 
-# Exercici A
+## Resultats d'aprenentatge
+
+## Tasques
+
+### Exercici A
 
 De cares a la propera temporada un club de futbol vol dissenyar una base de dades per tal de controlar tot el Club. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 
@@ -125,7 +126,7 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem substituït a l'entrenador d'un dels equips, dona d'alta el nou entrenador i elimina l'entrenador existent, juntament amb les tasques que realitzava.
 5. Hem incrementat l'import de tots els rebuts de novembre en un 0,5%.
 
-# Exercici B
+### Exercici B
 
 De cares a l'obertura de la propera temporada un parc d'atraccions vol dissenyar una base de dades per a controlar el manteniment de les seves instal·lacions. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 
@@ -214,7 +215,7 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem donat de baixa a l'usuari amb id = 1 perquè era un 'bot', elimina'l juntament amb tots els seus comentaris.
 5. Hem detectat un error en la data de revisió de les revisions fetes el mes de juny, aquestes s'haurien fet durant el mes de juliol, incrementa en 1 mes la data de revisió.
 
-# Exercici C
+### Exercici C
 
 El propietari d'una important cadena de supermercats ens ha encarregat dissenyar una base de dades per portar el control i la gestió dels aspectes referents al seu negoci. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 
@@ -310,7 +311,7 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem d'eliminar el tiquet 3 de la caixa 2, elimina'l juntament amb el seu detall.
 5. El proveïdor amb id = 2 ha incrementat el preu dels seus producte un 0,5 %, actualitza'ls.
 
-# Exercici D
+### Exercici D
 
 El propietari d'una important empresa de lloguer de cotxes ens ha encarregat dissenyar una base de dades per portar el control i la gestió dels aspectes referents al seu negoci. La base de dades que dissenyeu haurà de tenir en compte els següents apartats:
 
@@ -419,4 +420,4 @@ Les sentències DML que es demanen a continuació s'han d'executar dins d'una tr
 4. Hem detectat un error en el lloguer amb identificador 5, elimina'l juntament amb tots els pagaments associats..
 5. Volem incrementar el preu de lloguer un 0,5 % de tots els vehicles de la marca 'BMV', actualitza'ls.
 
-20
+

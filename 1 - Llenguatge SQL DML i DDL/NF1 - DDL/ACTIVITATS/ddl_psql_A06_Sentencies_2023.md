@@ -1,4 +1,4 @@
-# A06 - Creació de taules i manipulació de dades
+# A06 - Creació de taules, manipulació de dades i gestió de transaccions
 
 ## Descripció de l'activitat
 

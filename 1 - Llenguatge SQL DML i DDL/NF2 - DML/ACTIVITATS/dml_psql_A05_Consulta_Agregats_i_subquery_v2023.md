@@ -26,25 +26,24 @@
 
 1. Mostra la mitjana dels salaris i el número d'empleats que tenim. Arrodoneix la mitjana al número enter més pròxim i anomena les columnes com a "Salari mig" i "Num. Empleats" respectivament. (0,5 punts)
 
-![](RackMultipart20230721-1-prj4cz_html_f28268c936ba83ce.png)
-
+   ![Tabla](assets/A05_img2.png)
 (1 fila)
 
 1. Mostra per cada treball (JOB\_ID), la mitjana dels salaris. Mostra el nom del treball (JOB\_TITLE) i ordena la informació per aquesta columna. (1 punt)
 
-![](RackMultipart20230721-1-prj4cz_html_9d49a970ef1a09c1.png)
+   ![Tabla](assets/A05_img3.png)
 
 (19 files)
 
 1. Fes una consulta per calcular la diferència que hi ha entre el salari major i el menor dels empleats (tots). Anomena la columna com a Diferencia. (0,5 punts)
 
-![](RackMultipart20230721-1-prj4cz_html_f0ab8b4442870548.png)
+   ![Tabla](assets/A05_img4.png)
 
 (1 fila)
 
 1. Mostra, per cada departament, el codi del departament i el salari de l'empleat pitjor pagat en aquest departament. Exclou els empleats que no tinguin assignat departament i els departaments on l'empleat pitjor pagat cobri menys de 6000 € (1 punt)
 
-![](RackMultipart20230721-1-prj4cz_html_80995e7e71bb2452.png)
+   ![Tabla](assets/A05_img5.png)
 
 (7 files)
 
@@ -52,7 +51,7 @@
 
 1. Quants clients te assignats cada encarregat (staff)? Ordena la informació per número de clients. (1 punts)
 
-![](RackMultipart20230721-1-prj4cz_html_9e8b0b4e472e527e.png)
+   ![Tabla](assets/A05_img6.png)
 
 (2 files)
 

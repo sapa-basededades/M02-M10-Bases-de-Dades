@@ -2,10 +2,10 @@
 
 ## Descripció de l'activitat
 
-- Treballarem amb PostGreSQL i base de dades **HR**.
+- Treballarem amb PostGreSQL i base de dades **HR**
 - Pots consultar els esquemes de la Base de Dades en el següent link: [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
-- Format d'entrega en pdf.
-- No adjunteu captures de pantalla ni de la consulta ni amb els resultats.
+- Format d'entrega en pdf
+- No adjunteu captures de pantalla ni de la consulta ni amb els resultats
 - Les imatges son orientatives
 - Només vull la sentencia SQL escrita (així en cas de dubte la puc copiar-enganxar i executar-la)
 - Exemple:
@@ -16,7 +16,7 @@
         SELECT * FROM EMPLOYEES; 
         ```
 
-Per saber de quina taula i camps es demana la informació de cada consulta acostumeu-vos primer abans de preguntar-me a:
+    Per saber de quina taula i camps es demana la informació de cada consulta acostumeu-vos primer abans de preguntar-me a:
 
 - Fer servir el propi entorn d'execució de consultes per veure aquesta informació amb la comanda *\d \<nom de la taula\>*
 - Utilitzant l'entorn gràfic pgAdmin4:

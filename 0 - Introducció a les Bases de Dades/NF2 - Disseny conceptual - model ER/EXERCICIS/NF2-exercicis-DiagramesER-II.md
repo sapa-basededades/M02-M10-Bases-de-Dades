@@ -402,9 +402,9 @@ Volem implementar una base de dades per la gestió del lloguer de vehicles de la
 * Els clients lloguen vehicles, necessitem saber la data de lloguer, la data de devolució, si han tornat el vehicle amb el dipòsit ple i si han contractat assegurança.
 * Per acabar, volem registrar el pagament que fan els clients per el lloguer dels vehicles. Per tant un client paga per cada una dels vehicles que ha llogat. Dels pagaments volem saber l’import i la data de pagament. Un lloguer pot tenir més d’un pagament associat, aquests s’identificaran amb un número de pagament.
 
-## Biblioteca Babilonia
+## Biblioteca Babilònia
 
-Volem implementar una base de dades per la gestió del lloguer de llibres i revistes de la cadena de biblioteques privada Babilonia. Després de parlar amb els responsables de l’empresa hem obtingut les següents especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació:
+Volem implementar una base de dades per la gestió del lloguer de llibres i revistes de la cadena de biblioteques privada Babilònia. Després de parlar amb els responsables de l’empresa hem obtingut les següents especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació:
 
 * Les biblioteques Babilonia poden tenir diverses seus. De cada seu volem enregistrar un codi de seu.
 * Cada seu tindrà un únic encarregat que s’ocuparà de la seva gestió. Dels encarregats volem guardar un codi d’encarregat, nom, cognom, email, nom d’usuari i password. Un encarregat només gestionarà una sola seu.
@@ -415,6 +415,20 @@ Volem implementar una base de dades per la gestió del lloguer de llibres i revi
 * Les ciutats hauran de pertànyer a un únic país, els països tindran moltes ciutats.
 * Per les adreces guardarem un codi d’adreça, nom del carrer, districte o barri, codi postal i telèfon de contacte.
 * Una adreça haurà de pertànyer a una ciutat, evidentment en una mateixa ciutat podem tenir varies adreces, per exemple les adreces de tots els clients de Barcelona.
+
+## DGT (Direcció General de Trànsit)
+
+La Direcció General de Trànsit (DGT) vol mantenir certa informació del parc de vehicles a nivell d'Estat Espanyol per tal de fer una gestió adequada de les infraccions de trànsit que es comentin.
+En una primera fase es vol recopilar informació sobre les marques i models que hi ha al mercat, per la qual cosa des de les diferents cases de cotxes se'ls remet la informació següent: nom de la marca i adreça social a Espanya. Així mateix, per a cada marca es recullen els noms de models de vehicles disponibles i la potència de cadascun. Cal assenyalar que cada marca es codifica amb un número i que associat al nom del model hi ha sempre un codi que depèn de la marca.
+
+Quan un vehicle nou es matricula es registra la informació de la marca i el model del cotxe, el bastidor, la data de matriculació, així com les dades del propietari. D'aquest s'han de conèixer les següents dades: nif, cognoms, nom, data de naixement i domicili complet (carrer, núm., municipi, província i codi postal). Cal tenir en compte que a la DGT vol mantenir la informació actualitzada del propietari, per tant si en algun moment es produeix un canvi de propietari s'ha d'actualitzar a la base de dades, sense perdre informació de la història dels propietaris anteriors junt amb les dates que indiquen el període de propietat, per si de cas es necessiten per tramitar multes antigues.
+
+Quan una persona comet una infracció i se li imposa una multa, l'agent pren nota d'una sèrie de dades. En primer lloc, les dades de la persona infractora: nif, nom, cognoms, data de naixement i domicili complet (carrer, núm., municipi, província i codi postal). Si a la infracció hi ha intervingut un vehicle, es necessiten a més, les dades de la seva matrícula, marca i model del vehicle. Cal assenyalar que les multes s'imposen a persones, no a vehicles, ja que, per exemple, es podria imposar una multa a un vianant o a un ocupant d'un vehicle. Tot i que també és cert que en la majoria de les infraccions intervé un vehicle. També han de constar a la multa la data, el número de registre personal de l'agent que ha posat la multa, l'article que ha infringit la persona infractora (4 dígits), el lloc exacte on ha passat la infracció (carretera + quilòmetre concret o adrecça si es tracta d'una infracció en una via urbana) i l'import de la multa. Encara que hi ha una guia dels articles amb les seves descripcions, en aquest moment no es vol encara emmagatzemar aquesta informació a la base de dades. Cada infracció comesa s'identifica amb un número d'expedient únic (9 dígits) i dóna lloc a una única multa.
+
+Setmanalment a la Direcció Central de Trànsit se li envien informes on consta informació del nombre d'infraccions que s'han comès aquesta setmana, agrupades per carretera o per municipi i import i un rànquing dels articles que més s'han infringit.
+
+A la unitat de trànsit a què pertany cada agent que ha imposat una multa se li envia mensualment un llistat de les multes imposades pels seus agents i l'estat en què es troben els expedients (multa pendent, pagada, recorreguda, etc). Aquesta informació és important perquè de tant en tant els agents han de declarar en relació en alguna de les infraccions en què han intervingut, per a això se'ls ha d'enviar a més una carta al seu domicili.
+També cada cert temps s'obtenen estadístiques per als mitjans de comunicació sobre les característiques de les persones que cometen més infraccions (per trams d'edat, sexe, municipi i/o província de residència, etc.) i dels vehicles implicats (marques, models , etc.).
 
 
 

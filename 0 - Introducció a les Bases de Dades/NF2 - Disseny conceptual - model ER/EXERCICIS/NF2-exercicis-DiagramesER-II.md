@@ -381,3 +381,40 @@ Quan una persona dóna positiu se li exigeix que doni una llistat de persones de
 * Volem saber en un període de temps concret quantes vegades una persona ha anat en algun CAP per comprovar si tenia  símptomes compatibles amb la COVID19.
 * Es vol dur una estadística de proves PCR per províncies.
 * Ens cal dur la traçabilitat de quin infermer/a ha realitzat quines proves PCR per quines persones. Aquesta traçabilitat la farem a través del seu número de col·legiat ja que aquest número és únic per tot el col·lectiu.
+
+## Rent-a-Car
+
+Volem implementar una base de dades per la gestió del lloguer de vehicles de la cadena Rent-a-car Gas. Després de parlar amb els responsables de l’establiment hem obtingut les següents  especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació:
+
+* La cadena de lloguer de cotxes Gas pot tenir diversos establiments. De cada  establiment volem enregistrar un codi d’establiment.
+* Cada establiment tindrà un únic encarregat que s’ocuparà de la seva gestió. Dels encarregats volem guardar un codi d’encarregat, nom, cognom, email, nom d’usuari i password. Un encarregat només gestionarà un sol establiment.
+* Evidentment voldrem tenir les dades dels nostres clients. Per als clients guardarem un codi de client, nom, cognom, email. Els clients ho seran únicament d’un sol establiment.
+* Per a una correcta gestió de les adreces on viuen els nostres clients i encarregats crearem una estructura formada per països, ciutats i adreces.
+* Dels països guardarem un codi de país i nom.
+* De les ciutats guardarem un codi de ciutat i nom.
+* Les ciutats hauran de pertànyer a un únic país, els països tindran moltes ciutats.
+* Per les adreces guardarem un codi d’adreça, nom del carrer, districte o barri, codi postal i telèfon de contacte.
+* Una adreça haurà de pertànyer a una ciutat, evidentment en una mateixa ciutat podem tenir varies adreces, per exemple les adreces de tots els clients de Barcelona.
+* Tant els clients com els encarregats tindran una adreça associada, una sola adreça.
+* Enregistrarem els vehicles que tenim en lloguer. Dels vehicles volem saber matrícula, marca, model, cilindrada, capacitat maleter m3, any de matriculació i preu del lloguer.
+* Els vehicles es classificaran en diferents categories ( Econòmic, Compactes, SUV, Familiars, Sedan, Monovolums, ... ). De les categories guardarem un codi de categoria i una descripció. Un vehicle només pot pertànyer a una sola categoria.
+* Els vehicles tindran una sèrie de característiques addicionals que compartiran, com són numero de portes, número d’ocupants, canvi manual o automàtic, aire condicionat. D’aquestes característiques guardarem un identificador únic i una descripció ( ex: 5 portes, 5 – 7 ocupants, manual, aire condicionat )
+* Els clients lloguen vehicles, necessitem saber la data de lloguer, la data de devolució, si han tornat el vehicle amb el dipòsit ple i si han contractat assegurança.
+* Per acabar, volem registrar el pagament que fan els clients per el lloguer dels vehicles. Per tant un client paga per cada una dels vehicles que ha llogat. Dels pagaments volem saber l’import i la data de pagament. Un lloguer pot tenir més d’un pagament associat, aquests s’identificaran amb un número de pagament.
+
+## Biblioteca Babilonia
+
+Volem implementar una base de dades per la gestió del lloguer de llibres i revistes de la cadena de biblioteques privada Babilonia. Després de parlar amb els responsables de l’empresa hem obtingut les següents especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació:
+
+* Les biblioteques Babilonia poden tenir diverses seus. De cada seu volem enregistrar un codi de seu.
+* Cada seu tindrà un únic encarregat que s’ocuparà de la seva gestió. Dels encarregats volem guardar un codi d’encarregat, nom, cognom, email, nom d’usuari i password. Un encarregat només gestionarà una sola seu.
+* Evidentment voldrem tenir les dades dels nostres clients. Per als clients guardarem un codi de client, nom, cognom, email. Els clients ho seran únicament d’una sola seu.
+* Per a una correcta gestió de les adreces on viuen els nostres clients i encarregats crearem una estructura formada per països, ciutats i adreces.
+* Dels països guardarem un codi de país i nom.
+* De les ciutats guardarem un codi de ciutat i nom.
+* Les ciutats hauran de pertànyer a un únic país, els països tindran moltes ciutats.
+* Per les adreces guardarem un codi d’adreça, nom del carrer, districte o barri, codi postal i telèfon de contacte.
+* Una adreça haurà de pertànyer a una ciutat, evidentment en una mateixa ciutat podem tenir varies adreces, per exemple les adreces de tots els clients de Barcelona.
+
+
+

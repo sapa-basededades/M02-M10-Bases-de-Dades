@@ -85,21 +85,6 @@ Les setmanes prèvies a l'estrena s'informa a més als diferents mitjans de la d
 
 Anualment la distribuïdora realitza un estudi on s'inclou, entre altres coses, un rànquing de les pel·lícules més premiades per nacionalitat.
 
-## TRÀNSIT
-
-La Direcció General de Trànsit (DGT) vol mantenir certa informació del parc de vehicles nacional per tal de realitzar una adequada gestió de les infraccions de trànsit que es comentin.
-
-En una primera fase es vol recopilar informació sobre les marques i models que hi ha al mercat, per la qual cosa des de les diferents cases de cotxes se'ls remet la següent informació: nom de la marca i direcció social a Espanya. Així mateix per a cada marca es recullen els noms de models de vehicles disponibles i la potència de cadascun. És d ' assenyalar que cada marca es codifica amb un número i que associat al nom del model existeix sempre un codi que depèn de la marca.
-
-Quan un vehicle nou es matricula es registra la informació de la marca i el model del cotxe, bastidor, data de matriculació, així com  les dades del propietari. D'aquest se n'han de  conèixer: NIF, cognoms, nom, data de naixement i domicili complet  (carrer, núm. Cal tenir en compte que en la DGT es vol mantenir informació actualitzada del propietari, per la qual cosa si en algun moment es produeix un canvi de propietari s' ha d' actualitzar aquest a la base de dades, sense perdre informació de la història dels propietaris anteriors juntament amb les dates que indiquen el període de propietat,  per si de cas es necessiten per tramitar multes antigues.
-
-D'altra banda, quan una persona comet una infracció i se li imposa una multa, l ' agent pren nota d' una sèrie de dades. En primer lloc, les dades de la persona infractora: nif, nom, cognoms, data de naixement i domicili complet (carrer, núm.   Si en la infracció ha intervingut un vehicle, es necessiten, a més, les dades de la seva matrícula, marca i model del vehicle. Cal assenyalar que les multes s'imposen a persones, no a vehicles, ja que per exemple, podria imposar-se una multa a un vianant o a un ocupant d'un vehicle. Tot i que també és cert que en la majoria de les infraccions intervé un vehicle. També han de constar en la multa la data, el número de registre personal de l'agent que ha posat la multa, l'article que ha infringit la persona infractora, el lloc exacte on ha ocorregut la infracció (carretera, quilòmetre concret i direcció) i l'import de la multa. Tot i que hi ha una guia dels articles amb les seves descripcions, en aquest moment no es vol encara emmagatzemar aquesta informació a la base de dades. Cada infracció comesa s' identifica amb un número d' expedient únic i dona lloc a una única multa.
-
-Setmanalment a la Direcció Central de Trànsit se li envien informes on consta informació del número  d'infraccions que s'han  comès en aquella setmana, agrupades per carretera i import i un rànquing dels articles que més s'han infringit.
-
-A més, a la unitat de trànsit a la qual pertany cada agent que ha imposat una multa se li envia mensualment una llista de les multes imposades pels seus agents i l'estat en què es troben els expedients (multa pendent, pagada, recorreguda, etc). Aquesta informació és important perquè de cop els agents han de declarar en relació amb alguna de les infraccions en què han intervingut, per a la qual cosa se' ls ha d' enviar a més una carta al seu domicili.
-
-També cada cert temps s'obtenen estadístiques per als mitjans de comunicació sobre les característiques de les persones que cometen més infraccions (per trams d'edat, sexe, municipi i/o província de residència, etc.) i dels vehicles implicats (marques, models, etc.).
 
 ## CAMPIONAT DE FUTBOL
 

@@ -387,20 +387,19 @@ Quan una persona dóna positiu se li exigeix que doni una llistat de persones de
 Volem implementar una base de dades per la gestió del lloguer de vehicles de la cadena Rent-a-car Gas. Després de parlar amb els responsables de l’establiment hem obtingut les següents  especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació o Entitat-Relació estès:
 
 * La cadena de lloguer de cotxes Gas pot tenir diversos establiments. De cada  establiment volem enregistrar un codi d’establiment.
-* Cada establiment tindrà un únic encarregat que s’ocuparà de la seva gestió. Dels encarregats volem guardar un codi d’encarregat, nom, cognom, email, nom d’usuari i password. Un encarregat només gestionarà un sol establiment.
-* Evidentment voldrem tenir les dades dels nostres clients. Per als clients guardarem un codi de client, nom, cognom, email. Els clients ho seran únicament d’un sol establiment.
-* Per a una correcta gestió de les adreces on viuen els nostres clients i encarregats crearem una estructura formada per països, ciutats i adreces.
-* Dels països guardarem un codi de país i nom.
-* De les ciutats guardarem un codi de ciutat i nom.
-* Les ciutats hauran de pertànyer a un únic país, els països tindran moltes ciutats.
-* Per les adreces guardarem un codi d’adreça, nom del carrer, districte o barri, codi postal i telèfon de contacte.
-* Una adreça haurà de pertànyer a una ciutat, evidentment en una mateixa ciutat podem tenir varies adreces, per exemple les adreces de tots els clients de Barcelona.
-* Tant els clients com els encarregats tindran una adreça associada, una sola adreça.
-* Enregistrarem els vehicles que tenim en lloguer. Dels vehicles volem saber matrícula, marca, model, cilindrada, capacitat maleter m3, any de matriculació i preu del lloguer.
-* Els vehicles es classificaran en diferents categories ( Econòmic, Compactes, SUV, Familiars, Sedan, Monovolums, ... ). De les categories guardarem un codi de categoria i una descripció. Un vehicle només pot pertànyer a una sola categoria.
-* Els vehicles tindran una sèrie de característiques addicionals que compartiran, com són numero de portes, número d’ocupants, canvi manual o automàtic, aire condicionat. D’aquestes característiques guardarem un identificador únic i una descripció ( ex: 5 portes, 5 – 7 ocupants, manual, aire condicionat )
-* Els clients lloguen vehicles, necessitem saber la data de lloguer, la data de devolució, si han tornat el vehicle amb el dipòsit ple i si han contractat assegurança.
-* Per acabar, volem registrar el pagament que fan els clients per el lloguer dels vehicles. Per tant un client paga per cada una dels vehicles que ha llogat. Dels pagaments volem saber l’import i la data de pagament. Un lloguer pot tenir més d’un pagament associat, aquests s’identificaran amb un número de pagament.
+* Cada establiment tindrà personal. Aquest personal s'encarregarà de gestionar l'establiment, les reserves, la gestió de les revisions dels cotxes, la neteja dels cotxes etc. Dins de tot el personal de l'establiment hi haurà la figura de l'encarregat. Del personal guardarem un codi d’empleat, nom, cognom, email, nom d’usuari i password. Un encarregat només serà el responsable d'un sol establiment.
+* Enregistrarem els vehicles que tenim en lloguer. Dels vehicles volem saber matrícula, marca, model, places, distintiu ambiental (ZERO, ECO, C, B), combustible (bezina, diesel, híbrid, elèctric), canvi (manual o automàtic), kms.
+* Els vehicles es classificaran en diferents categories ( Econòmic, Compactes, SUV, Familiars, Sedan, Monovolums,...). De les categories guardarem un codi de categoria i una descripció.
+* Dels clients que reserven/lloguen vehicles, necessitem saber la data de recollida, la data de devolució, si han tornat el vehicle amb el dipòsit ple i si han contractat assegurança.
+* Els lloguers dels cotxes es gestionen mitjançant reserves. Les reserves les identifiquem per un codi generat per l'app. De les reserves volem registrar el pagament que fan els clients per el lloguer dels vehicles. Per tant un client paga per cada una dels vehicles que ha llogat/reservat. Dels pagaments volem saber l’import i la data de pagament. Un lloguer pot tenir més d’un pagament associat i aquests s’identificaran amb un número de pagament dins de la reserva.
+* Evidentment voldrem tenir les dades dels nostres clients. Per als clients guardarem un codi de client, nom, cognom, email.
+* Cada certs Kms els vehicles han de passar una revisió. A cada revisió cal guardar-nos la data i els kms que tenen. També cal guardar-nos quin taller realitza cada revisió. Dels tallers en sabem el seu cif i el nom. De les dades de contacte ens guardem el telèfon i l'email.
+
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
+* Ens cal saber quins empleats van gestionar quines revisions.
+* Volem tenir guardat a la fitxa del cotxe quantes revisions de li han fet.
+
 
 ## PESCA
 

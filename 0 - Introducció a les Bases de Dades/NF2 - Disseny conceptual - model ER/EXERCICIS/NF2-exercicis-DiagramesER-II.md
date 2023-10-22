@@ -382,7 +382,7 @@ Quan una persona dóna positiu se li exigeix que doni una llistat de persones de
 * Es vol dur una estadística de proves PCR per províncies.
 * Ens cal dur la traçabilitat de quin infermer/a ha realitzat quines proves PCR per quines persones. Aquesta traçabilitat la farem a través del seu número de col·legiat ja que aquest número és únic per tot el col·lectiu.
 
-## Rent-a-Car
+## RENT A CAR
 
 Volem implementar una base de dades per la gestió del lloguer de vehicles de la cadena Rent-a-car Gas. Després de parlar amb els responsables de l’establiment hem obtingut les següents  especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació o Entitat-Relació estès:
 
@@ -402,19 +402,69 @@ Volem implementar una base de dades per la gestió del lloguer de vehicles de la
 * Els clients lloguen vehicles, necessitem saber la data de lloguer, la data de devolució, si han tornat el vehicle amb el dipòsit ple i si han contractat assegurança.
 * Per acabar, volem registrar el pagament que fan els clients per el lloguer dels vehicles. Per tant un client paga per cada una dels vehicles que ha llogat. Dels pagaments volem saber l’import i la data de pagament. Un lloguer pot tenir més d’un pagament associat, aquests s’identificaran amb un número de pagament.
 
-## Biblioteca Babilònia
+## PESCA
 
-Volem implementar una base de dades per la gestió del lloguer de llibres i revistes de la cadena de biblioteques privada Babilònia. Després de parlar amb els responsables de l’empresa hem obtingut les següents especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació:
+El Departament d’Agricultura, Ramaderia Pesca, Alimentació i Medi Natural ens demana una BD per tenir en compte el control de la venda de peix així com els diferents ports que hi han.
 
-* Les biblioteques Babilonia poden tenir diverses seus. De cada seu volem enregistrar un codi de seu.
-* Cada seu tindrà un únic encarregat que s’ocuparà de la seva gestió. Dels encarregats volem guardar un codi d’encarregat, nom, cognom, email, nom d’usuari i password. Un encarregat només gestionarà una sola seu.
-* Evidentment voldrem tenir les dades dels nostres clients. Per als clients guardarem un codi de client, nom, cognom, email. Els clients ho seran únicament d’una sola seu.
-* Per a una correcta gestió de les adreces on viuen els nostres clients i encarregats crearem una estructura formada per països, ciutats i adreces.
-* Dels països guardarem un codi de país i nom.
-* De les ciutats guardarem un codi de ciutat i nom.
-* Les ciutats hauran de pertànyer a un únic país, els països tindran moltes ciutats.
-* Per les adreces guardarem un codi d’adreça, nom del carrer, districte o barri, codi postal i telèfon de contacte.
-* Una adreça haurà de pertànyer a una ciutat, evidentment en una mateixa ciutat podem tenir varies adreces, per exemple les adreces de tots els clients de Barcelona.
+Es vol portar un control de tots els ports pesquers i esportius que hi han a Catalunya. Tots ells s’identificaran mitjançant el seu nom i aquest és únic per tot el territori català.
+Com que no és competència del Departament d'Agricultura dels ports esportius només ens guardarem el seu nom i el nº d'amarradors que té.
+Cada port pesquer té una llotja a on s’hi subhasta el peix que cada dia els pescadors pesquen.
+Cada llotja és gestionada per una sola confraria de pescadors que és qui en porta el control i el seguiment de les subhastes que s’hi realitzen.
+
+Perquè el mar es regeneri les confraries dictaminen uns períodes de veda que el  Departament ha de saber i n'estudiarà els seus efectes.
+
+Degut a l’economia il·legal de pescadors cada confraria ha de dur el control de cadascuna de les barques que formen part de la seva confraria indicant la seva matrícula, nom, tipus de pesca que realitza (cerquer, d’arrosegament, atuner, pelangre, amb nansa), els metres d’eslora i la profunditat mínima i màxima que pesquen. Per pertànyer a una confraria cada patró de barca/vaixell ha de pagar una quota fixe anual i que dictamina cada confraria. Aquesta quota és la mateixa per totes les barques de la confraria.
+La majoria de confraries tenen la mateixa adreça que la seva llotja ja que normalment estan situades al mateix edifici, però això no passa en tots els casos.
+
+Tal i com s’ha comentat anteriorment es vol dur un control de les vendes que es realitzen mitjançant el procés de subhasta. Aquest procés s’inicia quan les 3 primeres barques arriben a port. Per tant cal dur un control de quan cada barca arriba a la llotja.
+Cada barca quan arriba a port prepara els lots de peix que vol vendre a la llotja. Dels lots en cal dur la seva traçabilitat i a on s’hi especifica l’espècie/tipus de peix i els Kg que en conté. Quan d’una o vàries espècies de peix no s’ha pescat el suficient per fer un lot sencer els pescadors poden repartir aquet peix a un lot que no sigui de la mateixa espècie. Els pescadors també poden optar per fer lots variats de peix, però cal saber en tot moment el pes de cada espècie/tipus dins del lot.
+Els pescadors determinen quin és el preu de sortida del seu lot.
+
+El Departament obliga als pescadors a que en tots els seus lots s'hi indiqui la mida (petita, mitjana o gran) de cada espècie de peix. 
+Les confraries utilitzen els Kg de peix de mida petita pescada d'un mes per tal d’obrir un període de veda perquè hi hagi una regeneració.
+Els lots s’identifiquen per un codi composat per la data de pesca i un número que representa el nº de lot entrat a la llotja dins d'aquesta data. Cada dia el nº de lot s’inicia amb un 1.
+
+Es vol dur un control dels diferents compradors de peix que hi ha cada llotja a on cal guardar el nom i l’adreça de cadascun d'ells. Per tenir-los identificats el Departament els hi assigna un codi i aquest és únic independentment de la llotja a on comprin el peix.
+Cada comprador pot comprar el peix a la llotja que vulgui, però per poder-ho fer cal que aquest dipositi una fiança marcada per cada llotja. Aquesta fiança se  li retornarà si el comprador no vol comprar més peix d’aquella llotja. 
+ 
+
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
+* Ens cal saber quins lots no s’han venut.
+* Quants ports té una ciutat concreta i de quin tipus.
+*El guany de cada barca en un dia concret. El guany es calcula mitjançant la diferència entre el preu de compra i el preu de sortida. 
+
+## VOLS AÈRIS
+
+L'empresa Amadeus IT Group  vol redissenyar el seu producte estrella de control aeroportuari i dels vols que s'hi realitzen.
+Per fer-ho partirà dels requisits recollits pels seus analistes de les diferents seus que té. 
+![![Vols Aèris](assets/exercici-vols-aeris-logo.png)](assets/exercici-vols-aeris-logo.png)
+
+El software ha de contenir les dades de qualsevol aeroport. El seu nom, el seu codi determinat per 3 lletres, la seva adreça, la seva geolocalització i els metres quadrats totals incloent pistes i terminals.
+La mida dels aeroports (petit, mitjà o gran) es mesura per el número de portes d'embarcament que té. Aquestes portes venen identificades per un número seqüencial dins de cada aeroport. De cada porta també ens cal guardar si té pasarel·la d'accés als avions ("finger") o no. El "finger" permet al passatge accedir a l'avió sense sortir de l'aeroport.
+
+Els diferents vols que hi ha a tot el món s'identifiquen per una codificació composta per 2 caràcters (identifica la companyia) i 4 dígits.
+Un vol ve determinat per un aeroport de sortida i un aeroport d'arribada juntament amb les seves respectives hores previstes. Aquest vol es fa sempre amb el mateix aparell/avió que es tindrà controlat gràcies a la seva matrícula, marca i model.
+Per exemple el vol VY8305 AMSTERDAM – BCN es fa mitjançant un Airbus A321
+
+Els vols són creats per les companyies aèries (Iberia, Ryanair, Vueling, Qatar airways, Lufthansa,...) i són elles qui determinen el dia de la setmana i l'hora prevista de sortida i arribada de cada vol a cada aeroport.
+
+Dels avions en volem portar un control de les revisions que s'hi fan. Sobretot s'ha de guardar la data de la revisió i els mecànics de la companyia que l'han realitzat.
+A banda dels mecànics la companyia disposa de pilots, auxiliars de vol i auxiliars de terra. Dels dos primers ens cal saber les hores de vol acumulades al llarg de la seva trajectòria laboral i dels últims ens interessa saber a quin aeroport estan destinats, ja que un auxiliar de terra només pot treballar en un sol aeroport.
+En canvi, un pilot i un auxiliar de vol poden estar assignats a diferents vols. Ara bé, això no vol dir que un mateix pilot i un mateix auxiliar de vol coincideixin en els mateixos vols.
+
+Tots els empleats de la companyia vindran identificats per un codi intern i en sabrem també el seu nom i cognoms, així com la data d'incorporació a l'empresa. Per estrany que sembli un empleat mai canviarà de companyia un cop aquesta l'hagi contractat.
+
+Els mecànics degut a la seva experiència i formació tenen un grau d'expertesa en cadascun dels models dels avions. Cal guardar aquest grau d'expertesa amb un valor del 1 al 10.
+
+
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+* De cada aeroport es vol dur una estadística dels vols que hi han hagut en un any i mes determinats. Es comptabilitza un vol en un aeroport si aquest surt de l'aeroport o hi arriba.
+* Quines revisions ha dut a terme un mecànic concret.
+* Quin és el número total de kms per cada companyia. Aquest total surt de la suma de kms de cada vol.
+ 
+
+
 
 ## DGT (Direcció General de Trànsit)
 

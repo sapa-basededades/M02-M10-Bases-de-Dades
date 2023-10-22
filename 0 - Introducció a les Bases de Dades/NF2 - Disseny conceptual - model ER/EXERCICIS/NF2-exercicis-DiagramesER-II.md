@@ -436,9 +436,11 @@ Cada comprador pot comprar el peix a la llotja que vulgui, però per poder-ho fe
 
 ## VOLS AÈRIS
 
+![![Vols Aèris](assets/exercici-vols-aeris-logo.png)](assets/exercici-vols-aeris-logo.png)
+
 L'empresa Amadeus IT Group  vol redissenyar el seu producte estrella de control aeroportuari i dels vols que s'hi realitzen.
 Per fer-ho partirà dels requisits recollits pels seus analistes de les diferents seus que té. 
-![![Vols Aèris](assets/exercici-vols-aeris-logo.png)](assets/exercici-vols-aeris-logo.png)
+
 
 El software ha de contenir les dades de qualsevol aeroport. El seu nom, el seu codi determinat per 3 lletres, la seva adreça, la seva geolocalització i els metres quadrats totals incloent pistes i terminals.
 La mida dels aeroports (petit, mitjà o gran) es mesura per el número de portes d'embarcament que té. Aquestes portes venen identificades per un número seqüencial dins de cada aeroport. De cada porta també ens cal guardar si té pasarel·la d'accés als avions ("finger") o no. El "finger" permet al passatge accedir a l'avió sense sortir de l'aeroport.

@@ -384,7 +384,7 @@ Quan una persona dóna positiu se li exigeix que doni una llistat de persones de
 
 ## Rent-a-Car
 
-Volem implementar una base de dades per la gestió del lloguer de vehicles de la cadena Rent-a-car Gas. Després de parlar amb els responsables de l’establiment hem obtingut les següents  especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació:
+Volem implementar una base de dades per la gestió del lloguer de vehicles de la cadena Rent-a-car Gas. Després de parlar amb els responsables de l’establiment hem obtingut les següents  especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació o Entitat-Relació estès:
 
 * La cadena de lloguer de cotxes Gas pot tenir diversos establiments. De cada  establiment volem enregistrar un codi d’establiment.
 * Cada establiment tindrà un únic encarregat que s’ocuparà de la seva gestió. Dels encarregats volem guardar un codi d’encarregat, nom, cognom, email, nom d’usuari i password. Un encarregat només gestionarà un sol establiment.

@@ -492,16 +492,23 @@ Entre altres coses la DGT vol:
 
 El Servei d’Ocupació de Catalunya (SOC) ens ha demanat que li dissenyem una base de dades per tal de portar la gestió de les diferents oficines que té repartides per tot el territori català. Cal tenir en compte els següents requeriments:
 
-* El SOC està format per un conjunt d’oficines. En una mateixa ciutat pot haver-hi més d’una oficina. Cada oficina té un determinat número d’empleats.
-* Cada un d’aquests empleats està assignat a una àrea: administració, ofertes i demandes. De l’àrea d’administració ens interessa saber el número de secretàries, el metres quadrats que disposen, etc… De l’àrea d’ofertes ens interessa saber el número de mostradors, el número de cadires. De cada una de les àrees es vol saber la relació d’ordinadors que disposa. De cada ordinador es vol saber la seva configuració (tipus processador, capacitat disc dur, capacitat de memòria RAM, sistema operatiu)
-* Cada oficina té una sèrie d’ofertes de treball. Una mateixa oferta de treball pot estar en varies oficines del SOC. Cada una d’aquestes ofertes, prové d’una determinada empresa que pertany a un únic sector del mercat, com pot ser hostaleria, banca, construcció,metall … Cada oferta de treball va associada a una determinada categoria laboral. Per exemple dins el sector de la hostaleria tenim diferents categories: cuiner, cambrer,
-ajudant de cuina,..
-* Cada oficina té inscrits un cert nombre de demandants d'ocupació o altrament dit aturats. Un aturat només podrà estar inscrit a una oficina. Els aturats poden tenir una o més categories laborals depenent de la seva titulació o experiència laboral. N'hi ha que no en tenen cap. Podem tenir aturats que disposin de més d’una categoria laboral. En cas de tenir experiència en alguna/s categoria/es, ens interessarà saber els anys d’experiència en cada categoria professional.
-* Es vol portar un registre de tots els aturats que han aconseguit un contracte de treball mitjançant l'oferta laboral
+El SOC està format per un conjunt d’oficines. En una mateixa ciutat pot haver-hi més d’una oficina. Cada oficina té un determinat número d’empleats que cal guardar. Les oficines les identificarem mitjançant un nom i cal saber-ne l'adreça completa (carrer, número i codi postal) així com el telèfon i l'email.
 
-* ** El model dissenyat, hauria de permetre, entre d’altres coses, fer consultes del tipus següent:**
+Cada un d’aquests empleats està assignat a una àrea: administració, ofertes i demandes. Dels empleats ens guardarem: el dni, el nom, els cognoms i a quina àrea estan assignats. De l’àrea d’administració ens interessa saber el número de secretàries, el metres quadrats que disposen. 
+Cal dur un inventari de l'equipament informàtic i de comunicacions que hi ha ha cada oficina i a quina àrea estan. El departament d'IT vol portar el control d'ordinadors de sobretaula, portàtils, pantalles, impressores i telefons fixes. Cada element es codifica mitjançant un codi únic i ens cal saber la data de la compra, la marca i el model.
+
+Cada oficina té una sèrie d’ofertes de treball. Una mateixa oferta de treball pot estar en varies oficines del SOC. Cada una d’aquestes ofertes, prové d’una determinada empresa que pertany a un únic sector del mercat, com pot ser hostaleria, banca, construcció,metall … Cada oferta de treball va associada a una determinada categoria laboral. Per exemple dins el sector de la hostaleria tenim diferents categories: cuiner, cambrer,
+ajudant de cuina, etc.
+Per no duplicar ofertes s'utilitzarà un codi alfanumèric de 4 caràcters i 10 dígits. Els 4 caràcters representa l'oficina que entra l'oferta.
+
+Cada oficina té inscrits un cert nombre de demandants d'ocupació o altrament dit aturats. Un aturat només podrà estar inscrit a una oficina. Dels aturats ens guardarem les dades pesonals següents: nif, nom, cognoms, adreça completa (carrer, número i codi postal), telèfon i email. Els aturats poden tenir una o més categories laborals depenent de la seva titulació o experiència laboral. N'hi ha que no en tenen cap. Podem tenir aturats que disposin de més d’una categoria laboral. En cas de tenir experiència en alguna/s categoria/es, ens interessarà saber els anys d’experiència en cada categoria professional.
+
+Es vol portar un registre de tots els aturats que s'han registrat a una oferta laboral i també si finalment ha aconseguit un contracte de treball mitjançant aquesta oferta.
+
+**El model dissenyat, hauria de permetre, entre d’altres coses, fer consultes del tipus següent:**
+
  * Donat el nom d’una ciutat, saber quants aturats hi ha inscrits en les oficines d’aquesta ciutat.
- * Donat el nom d’una oficina, dir quins empleats té, a quina àrea pertanyen i la configuració dels ordinadors que disposa.
+ * Donat el nom d’una oficina, dir quins empleats té, a quina àrea pertanyen i la quantitat d'ordinadors de sobretaula.
  * Donat un sector del mercat, dir quines ofertes hi ha i la categoria d’aquestes ofertes de treball, i quins aturats en tenen experiència per cobrir-les.
  * Donat el nom d’una oficina, dir quantes ofertes de treball té.
  * Donades les ofertes d’una determinada empresa, dir quins són els aturats que poden cobrir-la

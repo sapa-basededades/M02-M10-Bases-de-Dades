@@ -1,4 +1,4 @@
-# 1.3 Base de dades Gestió de VendesEmpleats
+# 1.3 Base de dades Gestió de Vendes
 
 - [1.3 Base de dades Gestió de Vendes](#13-base-de-dades-gestió-de-vendes)
   - [1.3.1 Model relacional](#131-model-relacional)

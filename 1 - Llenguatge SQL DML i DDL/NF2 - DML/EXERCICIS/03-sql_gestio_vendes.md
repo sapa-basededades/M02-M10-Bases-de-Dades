@@ -1,6 +1,6 @@
 # 1.3 Base de dades Gestió de VendesEmpleats
 
-- [1.3 Base de dades Gestió de VendesEmpleats](#13-base-de-dades-gestió-de-vendes)
+- [1.3 Base de dades Gestió de Vendes](#13-base-de-dades-gestió-de-vendes)
   - [1.3.1 Model relacional](#131-model-relacional)
   - [1.3.2 Scripts de creació de la base de dades](#132-scripts-de-creació-de-la-base-de-dades)
   - [1.3.3 Consultes sobre una taula](#133-consultes-sobre-una-taula)

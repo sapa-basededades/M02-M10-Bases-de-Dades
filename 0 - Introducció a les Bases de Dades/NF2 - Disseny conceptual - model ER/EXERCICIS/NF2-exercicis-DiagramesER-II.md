@@ -399,6 +399,7 @@ Volem implementar una base de dades per la gestió del lloguer de vehicles de la
 
 * Ens cal saber quins empleats van gestionar quines revisions.
 * Volem tenir guardat a la fitxa del cotxe quantes revisions de li han fet.
+* Els estbliments voldran tenir un llistat de cotxes per marca i model.
 
 
 ## PESCA

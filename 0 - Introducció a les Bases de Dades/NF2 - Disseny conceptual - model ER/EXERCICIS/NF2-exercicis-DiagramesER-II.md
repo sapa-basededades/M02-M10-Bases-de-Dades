@@ -464,6 +464,7 @@ Els mecànics degut a la seva experiència i formació tenen un grau d'expertesa
 * De cada aeroport es vol dur una estadística dels vols que hi han hagut en un any i mes determinats. Es comptabilitza un vol en un aeroport si aquest surt de l'aeroport o hi arriba.
 * Quines revisions ha dut a terme un mecànic concret.
 * Quin és el número total de kms per cada companyia. Aquest total surt de la suma de kms de cada vol.
+* Cada companyia voldrà saber quants avions té de cada marca i model.
  
 
 

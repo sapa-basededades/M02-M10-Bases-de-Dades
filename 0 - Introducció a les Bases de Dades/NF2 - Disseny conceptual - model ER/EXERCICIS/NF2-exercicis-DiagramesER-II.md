@@ -449,7 +449,7 @@ Els diferents vols que hi ha a tot el món s'identifiquen per una codificació c
 Un vol ve determinat per un aeroport de sortida i un aeroport d'arribada juntament amb les seves respectives hores previstes. Aquest vol es fa sempre amb el mateix aparell/avió que es tindrà controlat gràcies a la seva matrícula, marca i model.
 Per exemple el vol VY8305 AMSTERDAM – BCN es fa mitjançant un Airbus A321
 
-Els vols són creats per les companyies aèries (Iberia, Ryanair, Vueling, Qatar airways, Lufthansa,...) i són elles qui determinen el dia de la setmana i l'hora prevista de sortida i arribada de cada vol a cada aeroport.
+Els vols són creats per les companyies aèries (Iberia, Ryanair, Vueling, Qatar airways, Lufthansa,...) i són elles qui determinen el dia de la setmana i l'hora prevista de sortida i arribada de cada vol a cada aeroport. Un vol no durarà mai més d'un dia. Per exemple el vol VY8305 AMSTERDAM – BCN surt d'Amsterdam el dilluns a les 15:00h arriba a Barcelona a les 17:00h.
 
 Dels avions en volem portar un control de les revisions que s'hi fan. Sobretot s'ha de guardar la data de la revisió i els mecànics de la companyia que l'han realitzat.
 A banda dels mecànics la companyia disposa de pilots, auxiliars de vol i auxiliars de terra. Dels dos primers ens cal saber les hores de vol acumulades al llarg de la seva trajectòria laboral i dels últims ens interessa saber a quin aeroport estan destinats, ja que un auxiliar de terra només pot treballar en un sol aeroport.

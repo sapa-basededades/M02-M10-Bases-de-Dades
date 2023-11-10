@@ -29,7 +29,8 @@
 - Definició d'índex
   - Introducció
   - Creació d'índexs
-
+    
+- 📚:[Continguts DDL-MySQL](CONTINGUTS/M02-UF2.pdf)
 ### Slides PostgreSQL DML
 
 - :blue_book:[Creació i gestió de taules](CONTINGUTS/M02_UF2_NF2_DOC00_Creacio_i_gestio_de_taules_v2023.pdf)

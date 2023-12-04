@@ -3,6 +3,7 @@
 ## :books: Temari
 
 * :books:[Model Relacional](./CONTINGUTS/M02_UF1_NF3_DOC00_SAPA_Model%20Relacional_v2023.pdf)
+* :books:[Normalització](./CONTINGUTS/M02_UF1_NF3_Normalitzacio.pdf)
 
 ## :blue_book: Presentacions (PPT)
 

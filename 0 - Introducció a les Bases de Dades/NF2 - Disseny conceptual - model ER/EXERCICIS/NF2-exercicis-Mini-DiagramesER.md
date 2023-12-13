@@ -9,7 +9,7 @@
 ### Apartat 1 (empleats)
 
 * En aquestes fàbriques hi treballen operaris. Per cada operari hem de guardar-ne el dni, nom complert (nom i cognoms) i aquina fàbrica està assignat.
-* Per cada operari també ens interessa guardar una llista de les seves especialitats en el treball (sistems de refrigeració, planta, de compusttge, manteniment de serveis, manteniment maquinària,...), si les té. Quan aquestes existeixin estaran qualificades de 1 a 5. Tenint en compte que un 1=poca expertesa i un 5=molta expertesa.
+* Per cada operari també ens interessa guardar una llista de les seves especialitats en el treball (sistems de refrigeració,  manteniment de serveis, manteniment maquinària,...), si les té. Quan aquestes existeixin estaran qualificades de 1 a 5. Tenint en compte que un 1=poca expertesa i un 5=molta expertesa.
 
 ### Apartat 2 (clients)
 

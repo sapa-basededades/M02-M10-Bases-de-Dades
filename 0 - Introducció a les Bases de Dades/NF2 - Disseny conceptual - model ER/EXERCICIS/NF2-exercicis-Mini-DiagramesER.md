@@ -24,7 +24,7 @@ Un cinèfil expert en base de dades es vol crear una Base de Dades que reculli i
 
 ### Apartat 0
 
-* Les pel·lícules que es volen tenir classificades vindran identificades per un codi. Guardarem també el títol de la pel·lícula, l'any de l'estrena, el pressupost, el director, etc.. A més, volem conèixer els actors que hi van intervenir així com el paper que interpretaven (principal, secundari, de repartiment, figurant o cameo)
+* Les pel·lícules que es volen tenir classificades vindran identificades per un codi. Guardarem també el títol de la pel·lícula, l'any de l'estrena, el pressupost i el director. A més, volem conèixer els actors que hi van intervenir així com el paper que interpretaven (principal, secundari, de repartiment, figurant o cameo)
 * Dels actors  i actrius en volem guardar el seu nom complet (nom i cognoms), nom artístic si el tenen i sobretot la data de naixement juntament amb la seva edat. Utilitzarem el nom complet per poder diferenciar els diferents actors i actrius
 
 ### Apartat 1 (gèneres)

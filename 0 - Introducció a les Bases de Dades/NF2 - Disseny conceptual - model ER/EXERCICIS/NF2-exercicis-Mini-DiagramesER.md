@@ -2,6 +2,7 @@
 
 ## EMPRESA ALIMENTÀRIA
 
+### Apartat 0
 * Volem guardar les diferents fàbriques que té l'empresa. Aquestes fàbriques s'identificaran amb un nom i ens guardarem a on estan localitzades mitjançant l'adreça, el codi postal i la població.
 * Cada fàbrica pot elaborar 1 o més tipus de productes. Aquests productes s'idenfiquen mitjançant un codi, però també cal guardar-nos el nom, una descripció i un cost.
 
@@ -20,6 +21,8 @@
 ## IMMDd (Internet Movie Database)
 
 Un cinèfil expert en base de dades es vol crear una Base de Dades que reculli informació sobre el món cinematogràfic
+
+### Apartat 0
 
 * Les pel·lícules que es volen tenir classificades vindran identificades per un codi. Guardarem també el títol de la pel·lícula, l'any de l'estrena, el pressupost, el director, etc.. A més, volem conèixer els actors que hi van intervenir així com el paper que interpretaven (principal, secundari, de repartiment, figurant o cameo)
 * Dels actors  i actrius en volem guardar el seu nom complet (nom i cognoms), nom artític si el tenen i sobretot la data de naixement juntament amb la seva edat.

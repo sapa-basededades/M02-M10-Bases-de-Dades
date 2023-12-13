@@ -13,7 +13,7 @@
 
 ### Apartat 2 (clients)
 
-* Els clients fan les seves comandes de diferents productes a l'esmentada empresa. Dels clients ens cal saber el seu nom_fiscal i adreça electrònica i postal per poder enviar-li les factures i el nom comercial. Per poder diferenciar els clients uns dels altres els codifiquem mitjançant un string composat per 3 lletres i 5 dígits.
+* Els clients fan les seves comandes de diferents productes a l'esmentada empresa, però no ens cal guardar la informació d'aquestes comandes. Dels clients ens cal saber el seu nom_fiscal i adreça electrònica i postal per poder enviar-li les factures i el nom comercial. Per poder diferenciar els clients uns dels altres els codifiquem mitjançant un string composat per 3 lletres i 5 dígits.
 * L'empresa disposa de magatzems per poder distribuir els productes i a cada client se l'hi assigna el magatzem més proper a casa seva. Els magatzems els hem de tenir localitzats geogràficament perquè una persona serà l'encarregada d'assingar cada client al magatzem més proper.
   
 **Nota:** No ens cal saber el tipus de producte que es guarda a cada magatzem i tampoc quina persona fa l'assignació del magatzem al client.

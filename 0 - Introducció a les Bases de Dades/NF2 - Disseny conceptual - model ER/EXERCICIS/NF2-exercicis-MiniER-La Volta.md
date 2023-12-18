@@ -25,11 +25,11 @@ Cada etapa de La Volta pot incloure un o més ports de muntanya (o cap), però c
      alt="Etapes"
      width = "250" />
 
-# Ex 3 – Províncies en les etapes
+## Ex 3 – Províncies en les etapes
 
 Cada etapa de La Volta passa pel territori d’una o més províncies, però per una mateixa província pot passar més d’una etapa (o cap). Cal registrar el total de km de cada etapa que travessen per cada província. Per exemple, a l'etapa 2 es travessa 35 km per la província de Barcelona i 47 km per la província de Tarragona. 
 
-# Ex 4 - Mallot dels ciclistes en les etapes
+## Ex 4 - Mallot dels ciclistes en les etapes
 
 La nostra base de dades ha de poder registrar quin ciclista porta cada mallot (general, punts, muntanya, etc.) a cada etapa de La Volta. Cada mallot s’identifica gràcies a un codi (3 lletres) i un color determinat. Els ciclistes s’identifiquen per un dorsal, i a la BD ha de constar també el seu nom i cognoms i la seva data de naixement.
 

@@ -381,3 +381,140 @@ Quan una persona dóna positiu se li exigeix que doni una llistat de persones de
 * Volem saber en un període de temps concret quantes vegades una persona ha anat en algun CAP per comprovar si tenia  símptomes compatibles amb la COVID19.
 * Es vol dur una estadística de proves PCR per províncies.
 * Ens cal dur la traçabilitat de quin infermer/a ha realitzat quines proves PCR per quines persones. Aquesta traçabilitat la farem a través del seu número de col·legiat ja que aquest número és únic per tot el col·lectiu.
+
+## RENT A CAR
+
+Volem implementar una base de dades per la gestió del lloguer de vehicles de la cadena Rent-a-car Gas. Després de parlar amb els responsables de l’establiment hem obtingut les següents  especificacions a partir de les quals dissenyarem el model conceptual mitjançant un model Entitat-Relació o Entitat-Relació estès:
+
+* La cadena de lloguer de cotxes Gas pot tenir diversos establiments. De cada  establiment volem enregistrar un codi d’establiment.
+* Cada establiment tindrà personal. Aquest personal s'encarregarà de gestionar l'establiment, les reserves, la gestió de les revisions dels cotxes, la neteja dels cotxes etc. Dins de tot el personal de l'establiment hi haurà la figura de l'encarregat. Del personal guardarem un codi d’empleat, nom, cognom, email, nom d’usuari i password. Un encarregat només serà el responsable d'un sol establiment.
+* Enregistrarem els vehicles que tenim en lloguer. Dels vehicles volem saber matrícula, marca, model, places, distintiu ambiental (ZERO, ECO, C, B), combustible (bezina, diesel, híbrid, elèctric), canvi (manual o automàtic), kms.
+* Els vehicles es classificaran en diferents categories ( Econòmic, Compactes, SUV, Familiars, Sedan, Monovolums,...). De les categories guardarem un codi de categoria i una descripció.
+* Dels clients que reserven/lloguen vehicles, necessitem saber la data de recollida, la data de devolució, si han tornat el vehicle amb el dipòsit ple i si han contractat assegurança.
+* Els lloguers dels cotxes es gestionen mitjançant reserves. Les reserves les identifiquem per un codi generat per l'app. De les reserves volem registrar el pagament que fan els clients per el lloguer dels vehicles. Per tant un client paga per cada una dels vehicles que ha llogat/reservat. Dels pagaments volem saber l’import i la data de pagament. Un lloguer pot tenir més d’un pagament associat i aquests s’identificaran amb un número de pagament dins de la reserva.
+* Evidentment voldrem tenir les dades dels nostres clients. Per als clients guardarem un codi de client, nom, cognom, email.
+* Cada certs Kms els vehicles han de passar una revisió. A cada revisió cal guardar-nos la data i els kms que tenen. També cal guardar-nos quin taller realitza cada revisió. Dels tallers en sabem el seu cif i el nom. De les dades de contacte ens guardem el telèfon i l'email.
+
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
+* Ens cal saber quins empleats van gestionar quines revisions.
+* Volem tenir guardat a la fitxa del cotxe quantes revisions de li han fet.
+* Els estbliments voldran tenir un llistat de cotxes per marca i model.
+
+
+## PESCA
+
+El Departament d’Agricultura, Ramaderia Pesca, Alimentació i Medi Natural ens demana una BD per tenir en compte el control de la venda de peix així com els diferents ports que hi han.
+
+Es vol portar un control de tots els ports pesquers i esportius que hi han a Catalunya. Tots ells s’identificaran mitjançant el seu nom i aquest és únic per tot el territori català.
+Com que no és competència del Departament d'Agricultura dels ports esportius només ens guardarem el seu nom i el nº d'amarradors que té.
+Cada port pesquer té una llotja a on s’hi subhasta el peix que cada dia els pescadors pesquen.
+Cada llotja és gestionada per una sola confraria de pescadors que és qui en porta el control i el seguiment de les subhastes que s’hi realitzen.
+
+Perquè el mar es regeneri les confraries dictaminen uns períodes de veda que el  Departament ha de saber i n'estudiarà els seus efectes.
+
+Degut a l’economia il·legal de pescadors cada confraria ha de dur el control de cadascuna de les barques que formen part de la seva confraria indicant la seva matrícula, nom, tipus de pesca que realitza (cerquer, d’arrosegament, atuner, pelangre, amb nansa), els metres d’eslora i la profunditat mínima i màxima que pesquen. Per pertànyer a una confraria cada patró de barca/vaixell ha de pagar una quota fixe anual i que dictamina cada confraria. Aquesta quota és la mateixa per totes les barques de la confraria.
+La majoria de confraries tenen la mateixa adreça que la seva llotja ja que normalment estan situades al mateix edifici, però això no passa en tots els casos.
+
+Tal i com s’ha comentat anteriorment es vol dur un control de les vendes que es realitzen mitjançant el procés de subhasta. Aquest procés s’inicia quan les 3 primeres barques arriben a port. Per tant cal dur un control de quan cada barca arriba a la llotja.
+Cada barca quan arriba a port prepara els lots de peix que vol vendre a la llotja. Dels lots en cal dur la seva traçabilitat i a on s’hi especifica l’espècie/tipus de peix i els Kg que en conté. Quan d’una o vàries espècies de peix no s’ha pescat el suficient per fer un lot sencer els pescadors poden repartir aquet peix a un lot que no sigui de la mateixa espècie. Els pescadors també poden optar per fer lots variats de peix, però cal saber en tot moment el pes de cada espècie/tipus dins del lot.
+Els pescadors determinen quin és el preu de sortida del seu lot.
+
+El Departament obliga als pescadors a que en tots els seus lots s'hi indiqui la mida (petita, mitjana o gran) de cada espècie de peix. 
+Les confraries utilitzen els Kg de peix de mida petita pescada d'un mes per tal d’obrir un període de veda perquè hi hagi una regeneració.
+Els lots s’identifiquen per un codi composat per la data de pesca i un número que representa el nº de lot entrat a la llotja dins d'aquesta data. Cada dia el nº de lot s’inicia amb un 1.
+
+Es vol dur un control dels diferents compradors de peix que hi ha cada llotja a on cal guardar el nom i l’adreça de cadascun d'ells. Per tenir-los identificats el Departament els hi assigna un codi i aquest és únic independentment de la llotja a on comprin el peix.
+Cada comprador pot comprar el peix a la llotja que vulgui, però per poder-ho fer cal que aquest dipositi una fiança marcada per cada llotja. Aquesta fiança se  li retornarà si el comprador no vol comprar més peix d’aquella llotja. 
+ 
+
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
+* Ens cal saber quins lots no s’han venut.
+* Quants ports té una ciutat concreta i de quin tipus.
+*El guany de cada barca en un dia concret. El guany es calcula mitjançant la diferència entre el preu de compra i el preu de sortida. 
+
+## VOLS AÈRIS
+
+![![Vols Aèris](assets/exercici-vols-aeris-logo.png)](assets/exercici-vols-aeris-logo.png)
+
+L'empresa Amadeus IT Group  vol redissenyar el seu producte estrella de control aeroportuari i dels vols que s'hi realitzen.
+Per fer-ho partirà dels requisits recollits pels seus analistes de les diferents seus que té. 
+
+
+El software ha de contenir les dades de qualsevol aeroport. El seu nom, el seu codi determinat per 3 lletres, la seva adreça, la seva geolocalització i els metres quadrats totals incloent pistes i terminals.
+La mida dels aeroports (petit, mitjà o gran) es mesura per el número de portes d'embarcament que té. Aquestes portes venen identificades per un número seqüencial dins de cada aeroport. De cada porta també ens cal guardar si té pasarel·la d'accés als avions ("finger") o no. El "finger" permet al passatge accedir a l'avió sense sortir de l'aeroport.
+
+Els diferents vols que hi ha a tot el món s'identifiquen per una codificació composta per 2 caràcters (identifica la companyia) i 4 dígits.
+Un vol ve determinat per un aeroport de sortida i un aeroport d'arribada juntament amb les seves respectives hores previstes. Aquest vol es fa sempre amb el mateix aparell/avió que es tindrà controlat gràcies a la seva matrícula, marca i model.
+Per exemple el vol VY8305 AMSTERDAM – BCN es fa mitjançant un Airbus A321
+
+Els vols són creats per les companyies aèries (Iberia, Ryanair, Vueling, Qatar airways, Lufthansa,...) i són elles qui determinen el dia de la setmana i l'hora prevista de sortida i arribada de cada vol a cada aeroport. Un vol no durarà mai més d'un dia. Per exemple el vol VY8305 AMSTERDAM – BCN surt d'Amsterdam el dilluns a les 15:00h arriba a Barcelona a les 17:00h.
+
+Dels avions en volem portar un control de les revisions que s'hi fan. Sobretot s'ha de guardar la data de la revisió i els mecànics de la companyia que l'han realitzat.
+A banda dels mecànics la companyia disposa de pilots, auxiliars de vol i auxiliars de terra. Dels dos primers ens cal saber les hores de vol acumulades al llarg de la seva trajectòria laboral i dels últims ens interessa saber a quin aeroport estan destinats, ja que un auxiliar de terra només pot treballar en un sol aeroport.
+En canvi, un pilot i un auxiliar de vol poden estar assignats a diferents vols. Ara bé, això no vol dir que un mateix pilot i un mateix auxiliar de vol coincideixin en els mateixos vols.
+
+Tots els empleats de la companyia vindran identificats per un codi intern i en sabrem també el seu nom i cognoms, així com la data d'incorporació a l'empresa. Per estrany que sembli un empleat mai canviarà de companyia un cop aquesta l'hagi contractat.
+
+Els mecànics degut a la seva experiència i formació tenen un grau d'expertesa en cadascun dels models dels avions. Cal guardar aquest grau d'expertesa amb un valor del 1 al 10.
+
+
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+* De cada aeroport es vol dur una estadística dels vols que hi han hagut en un any i mes determinats. Es comptabilitza un vol en un aeroport si aquest surt de l'aeroport o hi arriba. Amb això ens cal saber de cada vol en quina data s'ha fet i l'hora real de sortida i arribada.
+* Quines revisions ha dut a terme un mecànic concret.
+* Quin és el número total de kms per cada companyia. Aquest total surt de la suma de kms de cada vol.
+* Cada companyia voldrà saber quants avions té de cada marca i model.
+ 
+
+
+
+## DGT (Direcció General de Trànsit)
+
+La Direcció General de Trànsit (DGT) vol mantenir certa informació del parc de vehicles a nivell d'Estat Espanyol per tal de fer una gestió adequada de les infraccions de trànsit que es cometin.
+En una primera fase es vol recopilar informació sobre les marques i models que hi ha al mercat, per la qual cosa des de les diferents cases de cotxes se'ls remet la informació següent: nom de la marca i adreça social a Espanya. Així mateix, per a cada marca es recullen els noms de models del vehicles disponibles i la potència (CV) de cadascun. Cal assenyalar que cada marca es codifica amb un codi i que associat al nom del model podem distingir cadascun dels models que existeixen.
+
+Quan un vehicle nou es matricula es registra la informació de la marca i el model del cotxe, el número de matrícula (7 caràcters alfanumèrics majúscules), el bastidor (17 caràcters alfanumèrics majúscules), la data de matriculació, així com les dades del propietari. D'aquest s'han de conèixer les següents dades: nif, cognoms, nom, data de naixement i domicili complet (carrer, núm., municipi, província i codi postal). Cal tenir en compte que a la DGT vol mantenir la informació actualitzada del propietari, per tant si en algun moment es produeix un canvi de propietari s'ha d'actualitzar a la base de dades, sense perdre informació de la història dels propietaris anteriors junt amb les dates que indiquen el període de propietat, per si de cas es necessiten per tramitar multes antigues. Per facilitar el disseny un mateix propietari no pot poseir el mateix vehicle durant dos períodes diferents.
+Per la població la manera d'identificar un vechicle és mitjançant la matrícula ja que aquest número ha de ser únic per tots els vechicles i no es pot reutilitzar, però la DGT utilitza el número de bastidor per poder identificar tots els vehicles.
+
+Quan una persona comet una infracció i se li imposa una multa, l'agent pren nota d'una sèrie de dades. En primer lloc, les dades de la persona infractora: nif, nom, cognoms, data de naixement i domicili complet (carrer, núm., municipi, província i codi postal). Si a la infracció hi ha intervingut un vehicle, es necessiten a més, les dades de la seva matrícula, marca i model del vehicle. Cal assenyalar que les multes s'imposen a persones, no a vehicles, ja que, per exemple, es podria imposar una multa a un vianant o a un ocupant d'un vehicle. Tot i que també és cert que en la majoria de les infraccions intervé un vehicle. També han de constar a la multa la data, el número de registre personal de l'agent que ha posat la multa, l'article que ha infringit la persona infractora (4 dígits), el lloc exacte on ha passat la infracció (carretera + quilòmetre concret o adrecça si es tracta d'una infracció en una via urbana) i l'import de la multa. Encara que hi ha una guia dels articles amb les seves descripcions, en aquest moment no es vol encara emmagatzemar aquesta informació a la base de dades. Cada infracció comesa s'identifica amb un número d'expedient únic (9 dígits) i dóna lloc a una única multa.
+
+Setmanalment a la Direcció Central de Trànsit se li envien informes on consta informació del nombre d'infraccions que s'han comès aquesta setmana, agrupades per carretera o per municipi i import i un rànquing dels articles que més s'han infringit.
+
+A la unitat de trànsit a què pertany cada agent que ha imposat una multa se li envia mensualment un llistat de les multes imposades pels seus agents i l'estat en què es troben els expedients (multa pendent, pagada o recorreguda). Aquesta informació és important perquè de tant en tant els agents han de declarar en relació en alguna de les infraccions en què han intervingut, per a això se'ls hi envia una citació via correu electrònic i una carta certificada al seu domicili.
+També cada cert temps s'obtenen estadístiques per als mitjans de comunicació sobre les característiques de les persones que cometen més infraccions (per trams d'edat, municipi i/o província de residència, etc.) i dels vehicles implicats (marques, models , etc.).
+
+Entre altres coses la DGT vol:
+
+* Crear un llistat de matrícula de vehicle + Nom i cognoms del propietari actual
+* Crear un llistat de tots els vehicles d'una província concreta.
+
+
+## SERVEI D'OCUPACIÓ DE CATALUNYA (SOC)
+
+El Servei d’Ocupació de Catalunya (SOC) ens ha demanat que li dissenyem una base de dades per tal de portar la gestió de les diferents oficines que té repartides per tot el territori català. Cal tenir en compte els següents requeriments:
+
+El SOC està format per un conjunt d’oficines. En una mateixa ciutat pot haver-hi més d’una oficina. Cada oficina té un determinat número d’empleats que cal guardar. Les oficines les identificarem mitjançant un nom i cal saber-ne l'adreça completa (carrer, número i codi postal) així com el telèfon i l'email.
+
+Cada un d’aquests empleats està assignat a una àrea: administració, ofertes i demandes. Dels empleats ens guardarem: el dni, el nom, els cognoms i a quina àrea estan assignats. De l’àrea d’administració ens interessa saber el número de secretàries, el metres quadrats que disposen. 
+Cal dur un inventari de l'equipament informàtic i de comunicacions que hi ha ha cada oficina i a quina àrea estan. El departament d'IT vol portar el control d'ordinadors de sobretaula, portàtils, pantalles, impressores i telefons fixes. Cada element es codifica mitjançant un codi únic i ens cal saber la data de la compra, la marca i el model.
+
+Cada oficina té una sèrie d’ofertes de treball. Una mateixa oferta de treball pot estar en varies oficines del SOC. Cada una d’aquestes ofertes, prové d’una determinada empresa que pertany a un únic sector del mercat, com pot ser hostaleria, banca, construcció,metall … Cada oferta de treball va associada a una determinada categoria laboral. Per exemple dins el sector de la hostaleria tenim diferents categories: cuiner, cambrer,
+ajudant de cuina, etc.
+Per no duplicar ofertes s'utilitzarà un codi alfanumèric de 4 caràcters i 10 dígits. Els 4 caràcters representa l'oficina que entra l'oferta.
+
+Cada oficina té inscrits un cert nombre de demandants d'ocupació o altrament dit aturats. Un aturat només podrà estar inscrit a una oficina. Dels aturats ens guardarem les dades pesonals següents: nif, nom, cognoms, adreça completa (carrer, número i codi postal), telèfon i email. Els aturats poden tenir una o més categories laborals depenent de la seva titulació o experiència laboral. N'hi ha que no en tenen cap. Podem tenir aturats que disposin de més d’una categoria laboral. En cas de tenir experiència en alguna/s categoria/es, ens interessarà saber els anys d’experiència en cada categoria professional.
+
+Es vol portar un registre de tots els aturats que s'han registrat a una oferta laboral i també si finalment ha aconseguit un contracte de treball mitjançant aquesta oferta.
+
+**El model dissenyat, hauria de permetre, entre d’altres coses, fer consultes del tipus següent:**
+
+ * Donat el nom d’una ciutat, saber quants aturats hi ha inscrits en les oficines d’aquesta ciutat.
+ * Donat el nom d’una oficina, dir quins empleats té, a quina àrea pertanyen i la quantitat d'ordinadors de sobretaula.
+ * Donat un sector del mercat, dir quines ofertes hi ha i la categoria d’aquestes ofertes de treball, i quins aturats en tenen experiència per cobrir-les.
+ * Donat el nom d’una oficina, dir quantes ofertes de treball té.
+ * Donades les ofertes d’una determinada empresa, dir quins són els aturats que poden cobrir-la
+ * Donada una empresa, saber les ofertes de treball que ha presentat i en quina oficina.
+ * Donat un sector i categoria laboral, saber totes les ofertes de treball que hi ha en aquella categoria / sector
+ * Saber d’un aturat les possibles ofertes de treball a les que es pot presentar en funció de la seva categoria laboral.
+ * Saber la informació referent als contractes de treball que s’han fet.

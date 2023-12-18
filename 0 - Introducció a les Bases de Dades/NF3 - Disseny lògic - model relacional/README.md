@@ -3,12 +3,14 @@
 ## :books: Temari
 
 * :books:[Model Relacional](./CONTINGUTS/M02_UF1_NF3_DOC00_SAPA_Model%20Relacional_v2023.pdf)
+* :books:[Normalització](./CONTINGUTS/M02_UF1_NF3_Normalitzacio.pdf)
 
 ## :blue_book: Presentacions (PPT)
 
 * :blue_book:[Model Relacional](CONTINGUTS/M02_UF1_NF3_DOC01_Model%20Relacional_v2023.pdf)
 * :blue_book:[Pas a model Relacional](CONTINGUTS/M02_UF1_NF3_DOC02_Pas%20a%20Model%20Relacional_v2023.pdf)
 * :blue_book:[Normalització](CONTINGUTS/M02_UF1_NF3_DOC03_FormesNormals_v2023.pdf)
+* :blue_book:[Crow's Foot Notation](CONTINGUTS/crowsfootnotation.pdf)
 
 ---
 
@@ -32,6 +34,8 @@
 ---
 
 ## :link: Enllaços d'interès
+
+* :movie_camera:[Crow's Foot Notation (EN)](https://www.youtube.com/watch?v=I-XHfuJ43ic)
 
 ---
 

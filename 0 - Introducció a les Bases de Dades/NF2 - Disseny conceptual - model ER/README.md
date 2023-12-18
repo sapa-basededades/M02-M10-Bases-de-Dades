@@ -16,6 +16,7 @@
 ## :notebook: Exercicis de conceptes bàsics i models ER/ERE
 
 * :notebook:[Exercicis d'entitats atributs i relacions](EXERCICIS/NF2-exercicis-entitats-atributs-relacions.md)
+* :notebook:[Exercicis Mini ER](EXERCICIS/NF2-exercicis-Mini-DiagramesER.md)
 * :notebook:[Exercici Mini ER - Pizzeria Andiamo](EXERCICIS/NF2-exercicis-MiniER-Pizzeria.md)
 * :notebook:[Exercici Mini ER - La Volta](<EXERCICIS/NF2-exercicis-MiniER-La Volta.md>)
 * :notebook:[Exercici Diagrames ER/ERE I](EXERCICIS/NF2-exercicis-DiagramesER-I.md)

@@ -55,7 +55,7 @@ RA1. Consulta i modifica la informació emmagatzemada en una base de dades empra
 
    ![Tabla](assets/A05_img5.png)
 
-(7 files)
+(6 files)
 
 ![Shape2](RackMultipart20230721-1-prj4cz_html_6ad3514c9ad98947.gif) **BDD PAGILA**
 

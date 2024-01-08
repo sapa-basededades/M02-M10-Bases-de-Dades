@@ -3,14 +3,13 @@
   - [1.2.1 Model relacional](#121-model-relacional)
   - [1.2.2 Scripts de creació de la base de dades](#122-scripts-de-creació-de-la-base-de-dades)
   - [1.2.3 Consultes sobre una taula amb funcions](#123-consultes-sobre-una-taula-amb-funcions)
-  - [1.2.4 Consultes multitaula (INNER JOIN)](#124-consultes-multitaula-inner-join)
-  - [1.2.5 Consultes multitaula (OUTER JOIN)](#125-consultes-multitaula-outer-join)
-  - [1.2.6 Consultes resum](#126-consultes-resum)
-  - [1.2.7 Subconsultes](#127-subconsultes)
-    - [1.2.7.1 Amb operadors bàsics de comparació](#1271-amb-operadors-bàsics-de-comparació)
-    - [1.2.7.2 Subconsultes amb ALL i ANY](#1272-subconsultes-amb-all-i-any)
-    - [1.2.7.3 Subconsultes amb IN i NOT IN](#1273-subconsultes-amb-in-i-not-in)
-    - [1.2.7.4 Subconsultes amb EXISTS i NOT EXISTS](#1274-subconsultes-amb-exists-i-not-exists)
+  - [1.2.4 Consultes sobre una taula utilitzant agrupaments](#124-consultes-sobre-una-taula-utilitzant-agrupaments)
+  - [1.2.5 Consultes multitaula (JOINs)](#125-consultes-multitaula-joins)  
+  - [1.2.6 Subconsultes](#126-subconsultes)
+    - [1.2.6.1 Amb operadors bàsics de comparació](#1271-amb-operadors-bàsics-de-comparació)
+    - [1.2.6.2 Subconsultes amb ALL i ANY](#1272-subconsultes-amb-all-i-any)
+    - [1.2.6.3 Subconsultes amb IN i NOT IN](#1273-subconsultes-amb-in-i-not-in)
+    - [1.2.6.4 Subconsultes amb EXISTS i NOT EXISTS](#1274-subconsultes-amb-exists-i-not-exists)
 
 ## 1.2.1 Model relacional
 
@@ -79,7 +78,7 @@ funció del valor del salari
 17. Mostra el nombre d'empleats que cobren més de 9.000 euros.
 
 
-## 1.2.4 Consultes multitaula (JOINs)
+## 1.2.5 Consultes multitaula (JOINs)
 
 1. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
 2. ----Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
@@ -101,27 +100,27 @@ funció del valor del salari
 5. Retorna un llistat amb els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
 
 
-## 1.2.7 Subconsultes
+## 1.2.6 Subconsultes
 
-### 1.2.7.1 Amb operadors bàsics de comparació
+### 1.2.6.1 Amb operadors bàsics de comparació
 
 1. Retorna un llistat amb tots els empleats que té el departament de Sistemes. (Sense utilitzar INNER JOIN).
 2. Retorna el nom del departament amb major pressupost i la quantitat que té assignada.
 3. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada.
 
-### 1.2.7.2 Subconsultes amb ALL i ANY
+### 1.2.6.2 Subconsultes amb ALL i ANY
 
 1. Retorna el nom del departament amb major pressupost i la quantitat que té assignada. Sense fer ús de MAX, ORDER BY ni LIMIT.
 2. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada. Sense fer ús de MIN, ORDER BY ni LIMIT.
 3. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant ALL o ANY).
 4. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant ALL o ANY).
 
-### 1.2.7.3 Subconsultes amb IN i NOT IN
+### 1.2.6.3 Subconsultes amb IN i NOT IN
 
 1. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant IN o NOT IN).
 2. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant IN o NOT IN).
 
-### 1.2.7.4 Subconsultes amb EXISTS i NOT EXISTS
+### 1.2.6.4 Subconsultes amb EXISTS i NOT EXISTS
 
 1. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
 2. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).

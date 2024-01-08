@@ -2,7 +2,7 @@
 - [1.2 Base de dades Recursos Humans](#12-base-de-dades-recursos_humans)
   - [1.2.1 Model relacional](#121-model-relacional)
   - [1.2.2 Scripts de creació de la base de dades](#122-scripts-de-creació-de-la-base-de-dades)
-  - [1.2.3 Consultes sobre una taula](#123-consultes-sobre-una-taula)
+  - [1.2.3 Consultes sobre una taula amb funcions](#123-consultes-sobre-una-taula-amb-funcions)
   - [1.2.4 Consultes multitaula (INNER JOIN)](#124-consultes-multitaula-inner-join)
   - [1.2.5 Consultes multitaula (OUTER JOIN)](#125-consultes-multitaula-outer-join)
   - [1.2.6 Consultes resum](#126-consultes-resum)
@@ -22,7 +22,7 @@ Crea la base de dades gestio-empleats descarregant els scripts des de Github.
 
 [Esquemes de Base de dades per MySQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/MYSQL/db_rrhh)
 
-## 1.2.3 Consultes sobre una taula
+## 1.2.3 Consultes sobre una taula amb funcions
 
 1. Llista totes les columnes de la taula empleats.
 2. Llista els cognoms de tots els empleats.
@@ -33,9 +33,6 @@ espai en blanc.
 6. Volem una columna on estigui tot en majúscules i l’altre tot en minúscules. Anomena les columnes com a "nom_majuscules" i "nom_minuscules" respectivament.
 7. Mostra les 6 primeres lletres dels cognoms dels empleats
 8. Quins són els empleats que tenen la longitud del cognoms major a 6? (Mostra els cognoms i la longitud)
-9. 
-10. --------
-11. Llista el codi dels departaments dels empleats que apareixen a la taula empleats.
 12. Substitueix totes les 'a' dels cognoms dels empleats per 'e'. Ordena pel nou valor dels cognoms
 13. Mostra tots els empleats que tenen en la segona posició dels cognoms una 'a'. (Sense utilitzar l’operador LIKE, ni REGEXP)
 14. Per cada empleat mostra el codi d’empleat, cognom i el salari amb un augment del 15% expressat com un número enter, etiqueta la columna amb el nom "nou_salari".
@@ -57,84 +54,52 @@ funció del valor del salari
   - Si el salari està entre 12000 i 24000 -> "Alt"
   - Qualsevol altre valor posa "Altres"
   - Anomena la columna com a "poder_adquisitiu" i ordena per salari de menor a major
+28. Llista el codi dels departaments dels empleats que apareixen a la taula empleats.
+29. Partint de la consulta anterior elimina els codis de departament repetits.
+30. Calcula el nombre d'empleats que **no tenen** comissió assignada.
+    
+## 1.2.4 Consultes sobre una taula utilitzant agrupaments
+
+1. Quants empleats van ser contractats l'any passat.
+2. Quin és el treballador (nº d’anys no el nom del treballador) amb més anys d'antiguitat.
+3. Quin és el treballador(nº d’anys no el nom del treballador) amb menys anys d'antiguitat.
+4. Quin és el salari mig de l'empresa
+5. Mostra el salari més alt i el més baix dels empleats. Anomena les columnes com a "salari_max" i "salari_min" respectivament.
+6. Mostra la mitjana dels salaris i el número d’empleats que tenim. Arrodoneix la mitjana al número enter més pròxim i anomena les columnes com a salari_mig i num_empleats respectivament.
+7. Mostra, per cada tipus de treball, la mitjana dels salaris. Ordena la informació per tipus de treball.
+8. Quants empleats tenim assignats a cada tipus de treball? Ordena la informació per número d’empleats.
+9. Quants empleats tenim assignats a cada departament? Mostra el  codi de departament i el número d’empleats que té. Ordena la informació per número d’empleats.
+10. Partint de la consulta anterior, volem saber també quants empleats no tenen departament assignat. Mostra el text "No assignat" com a identificador del departament.
+11. Quants directors (caps) diferents tenim? Anomena la columna com a "numero_de_directors"
+12. Fes una consulta per calcular la diferència que hi  ha entre el salari màxim i el mínim dels empleats. Anomena la columna com a "diferencia".
+13. Mostra, per cada cap, el número identificador de l’empleat (com a cap) i el salari de l’empleat pitjor pagat per a aquest cap. Exclou els empleats  que no tinguin assignat cap.
+14. Partint de la consulta anterior, exclou també aquells caps en què el salari mínim sigui inferior o igual a 6.000.
+15. Obté el número d’empleats contractats per cada any. Ordena la informació per any.
+16. Mostra els codis de departament que tenen 3 o més empleats. Mostra només el codi del departament.
+17. Mostra el nombre d'empleats que cobren més de 9.000 euros.
 
 
-- Si sumem 234 dies a la data d’avui a quin dia estarem?
-- I si sumem 12 hores?
+## 1.2.4 Consultes multitaula (JOINs)
 
-
-
-
-
-24. Llista el codi dels departaments dels empleats que apareixen a la taula empleat, eliminant els codis que apareixen repetits.
-25. Llista el nom i cognoms dels empleats en una única columna.
-26. Llista el nom i cognoms dels empleats en una única columna, convertint tots els caràcters en majúscula.
-27. Llista el nom i cognoms dels empleats en una única columna, convertint tots els caràcters en minúscula.
-28. Llista el codi dels empleats al costat del NIF, però el NIF haurà d' aparèixer en dues columnes, una mostrarà únicament els dígits del NIF i l' altra la lletra.
-29. Llista el nom de cada departament i el valor del pressupost actual de què disposa. Per calcular aquesta dada haurà de restar al valor del pressupost inicial (columna presupuesto) les despeses que s'han generat (columna gastos). Tingui en compte que en alguns casos poden existir valors negatius. Utilitzi un àlies apropiat per a la nova columna que està calculant.
-30. Llista el nom dels departaments i el valor del pressupost actual ordenat de forma ascendent.
-31. Llista el nom de tots els departaments ordenats de forma ascendent.
-32. Llista el nom de tots els departaments ordenats de forma descendent.
-33. Llista els cognoms i el nom de tots els empleats, ordenats de forma alfabètica tendint en compte en primer lloc els seus cognoms i després el seu nom.
-34. Retorna una llista amb el nom i el pressupost, dels 3 departaments que tenen més pressupost.
-35. Retorna una llista amb el nom i el pressupost, dels 3 departaments que tenen menor pressupost.
-36. Retorna una llista amb el nom i la despesa, dels 2 departaments que tenen més despesa.
-37. Retorna una llista amb el nom i la despesa, dels 2 departaments que tenen menor despesa.
-38. Retorna una llista amb 5 files a partir de la tercera fila de la taula. La tercera fila s' ha d' incloure en la resposta. La resposta ha d' incloure totes les columnes de la taula empleat.
-39. Retorna una llista amb el nom dels departaments i el pressupost, d' aquells que tenen un pressupost major o igual a 150000 euros.
-40. Retorna una llista amb el nom dels departaments i la despesa, d'aquells que tenen menys de 5000 euros de despeses.
-41. Retorna una llista amb el nom dels departaments i el pressupost, d'aquells que tenen un pressupost entre 100000 i 200000 euros. Sense utilitzar l'operador BETWEEN.
-42. Retorna una llista amb el nom dels departaments que **no** tenen un pressupost entre 100000 i 200000 euros. Sense utilitzar l'operador BETWEEN.
-43. Retorna una llista amb el nom dels departaments que tenen un pressupost entre 100000 i 200000 euros. Utilitzant l' operador BETWEEN.
-44. Retorna una llista amb el nom dels departaments que **no** tenen un pressupost entre 100000 i 200000 euros. Utilitzant l' operador BETWEEN.
-45. Retorna una llista amb el nom dels departaments, despeses i pressupost, de que els departaments on les despeses siguin més grans que el pressupost de què disposen.
-46. Retorna una llista amb el nom dels departaments, despeses i pressupost, d' aquells departaments on les despeses siguin menors que el pressupost de què disposen.
-47. Retorna una llista amb el nom dels departaments, despeses i pressupost, d' aquells departaments on les despeses siguin iguals al pressupost de què disposen.
-48. Llista totes les dades dels empleats el segon cognom dels quals sigui NULL.
-49. Llista totes les dades dels empleats el segon cognom dels quals **no sigui** NULL.
-50. Llista totes les dades dels empleats el segon cognom dels quals sigui López.
-51. Llista totes les dades dels empleats el segon cognom dels quals sigui Díaz o Moreno. Sense utilitzar l' operador IN.
-52. Llista totes les dades dels empleats el segon cognom dels quals sigui Díaz o Moreno. Utilitzant l' operador IN.
-53. Llista els noms, cognoms i cap dels empleats que treballen al departament 3.
-54. Llista els noms, cognoms i cap dels empleats que treballen en els departaments 2, 4 o 5.
-
-## 1.2.4 Consultes multitaula (INNER JOIN)
-
-1. Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
-2. Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú. Ordena el resultat, en primer lloc pel nom del departament (en ordre alfabètic) i en segon lloc pels cognoms i el nom dels empleats.
-3. Retorna un llistat amb el codi i el nom del departament, només d' aquells departaments que tenen empleats.
-4. Retorna un llistat amb el codi, el nom del departament i el valor del pressupost actual de què disposa, només d' aquells departaments que tenen empleats. El valor del pressupost actual el pot calcular restant al valor del pressupost inicial (columna pressupost) el valor de les despeses que ha generat (columna despeses).
-5. Retorna el nom del departament on treballa l' empleat que té el nif 38382980M.
-6. Retorna el nom del departament on treballa l'empleat Pepe Ruiz Santana.
-7. Retorna un llistat amb les dades dels empleats que treballen al departament d' R + D. Ordena el resultat alfabèticament.
-8. Retorna un llistat amb les dades dels empleats que treballen al departament de Sistemes, Comptabilitat o R + D. Ordena el resultat alfabèticament.
-9. Retorna una llista amb el nom dels empleats que tenen els departaments que **no** tenen un pressupost entre 100000 i 200000 euros.
-10. Retorna un llistat amb el nom dels departaments on hi ha algun empleat el segon cognom del qual sigui NULL. Tingui en compte que no ha de mostrar noms de departaments que estiguin repetits.
-
-## 1.2.5 Consultes multitaula (OUTER JOIN)
-
-Resol totes les consultes utilitzant les clàusules LEFT JOIN i RIGHT JOIN.
-
+1. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
+2. ----Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
+3. Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú. Ordena el resultat, en primer lloc pel nom del departament (en ordre alfabètic) i en segon lloc pels cognoms i el nom dels empleats.
+4. Retorna un llistat amb el codi i el nom del departament, només d' aquells departaments que tenen empleats.
+5. Retorna un llistat amb el codi, el nom del departament i el valor del pressupost actual de què disposa, només d' aquells departaments que tenen empleats. El valor del pressupost actual el pot calcular restant al valor del pressupost inicial (columna pressupost) el valor de les despeses que ha generat (columna despeses).
+6. Retorna el nom del departament on treballa l' empleat que té el nif 38382980M.
+7. Retorna el nom del departament on treballa l'empleat Pepe Ruiz Santana.
+8. Retorna un llistat amb les dades dels empleats que treballen al departament d' R + D. Ordena el resultat alfabèticament.
+9. Retorna un llistat amb les dades dels empleats que treballen al departament de Sistemes, Comptabilitat o R + D. Ordena el resultat alfabèticament.
+10. Retorna una llista amb el nom dels empleats que tenen els departaments que **no** tenen un pressupost entre 100000 i 200000 euros.
+11. Retorna un llistat amb el nom dels departaments on hi ha algun empleat el segon cognom del qual sigui NULL. Tingui en compte que no ha de mostrar noms de departaments que estiguin repetits.
+12. Mostra el nombre d'empleats que hi ha a cada departament. Has de retornar dues columnes, una amb el nom del departament i una altra amb el nombre d'empleats que té assignats.
+----
 1. Retorna un llistat amb **tots els empleats** juntament amb les dades dels departaments on treballen. Aquest llistat també ha d' incloure els empleats que no tenen cap departament associat.
 2. Retorna un llistat on només apareguin aquells empleats que no tenen cap departament associat.
 3. Retorna un llistat on només apareguin aquells departaments que no tenen cap empleat associat.
 4. Retorna un llistat amb tots els empleats juntament amb les dades dels departaments on treballen. El llistat ha d' incloure els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
 5. Retorna un llistat amb els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
 
-## 1.2.6 Consultes resum
-
-1. Calcula la suma del pressupost de tots els departaments.
-2. Calcula la mitjana del pressupost de tots els departaments.
-3. Calcula el valor mínim del pressupost de tots els departaments.
-4. Calcula el nom del departament i el pressupost que té assignat, del departament amb menor pressupost.
-5. Calcula el valor màxim del pressupost de tots els departaments.
-6. Calcula el nom del departament i el pressupost que té assignat, del departament amb major pressupost.
-7. Calcula el nombre total d' empleats que hi ha a la taula empleat.
-8. Calcula el nombre d' empleats que **no tenen** NULL en el seu segon cognom.
-9. Calcula el nombre d' empleats que hi ha a cada departament. Has de retornar dues columnes, una amb el nom del departament i una altra amb el nombre d'empleats que té assignats.
-10. Calcula el nom dels departaments que tenen més de 2 empleats. El resultat ha de tenir dues columnes, una amb el nom del departament i una altra amb el nombre d' empleats que té assignats.
-11. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
-12. Calcula el nombre d' empleats que treballen en cadascun dels departaments que tenen un pressupost major a 200000 euros.
 
 ## 1.2.7 Subconsultes
 

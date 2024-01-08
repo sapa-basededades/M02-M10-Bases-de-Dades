@@ -1,6 +1,5 @@
-# 1.2 Base de dades Gestió Empleats
-
-- [1.2 Base de dades Gestió Empleats](#12-base-de-dades-gestió-empleats)
+# 1.2 Base de dades Recursos Humans (RRHH)
+- [1.2 Base de dades Recursos Humans](#12-base-de-dades-recursos_humans)
   - [1.2.1 Model relacional](#121-model-relacional)
   - [1.2.2 Scripts de creació de la base de dades](#122-scripts-de-creació-de-la-base-de-dades)
   - [1.2.3 Consultes sobre una taula](#123-consultes-sobre-una-taula)
@@ -15,52 +14,89 @@
 
 ## 1.2.1 Model relacional
 
-![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL/02%20-%20Gesti%C3%B3%20Empleats/gestioempleats_erm.png)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/MYSQL/db_rrhh/db_rrhh_model.png)
 
 ## 1.2.2 Scripts de creació de la base de dades
 
 Crea la base de dades gestio-empleats descarregant els scripts des de Github.
 
-[Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
+[Esquemes de Base de dades per MySQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/MYSQL/db_rrhh)
 
 ## 1.2.3 Consultes sobre una taula
 
-1. Llista el primer cognom de tots els empleats.
-2. Llista el primer cognom dels empleats eliminant els cognoms que estiguin repetits.
-3. Llista totes les columnes de la taula empleat.
+1. Llista totes les columnes de la taula empleats.
+2. Llista els cognoms de tots els empleats.
+3. Llista els cognoms dels empleats eliminant els cognoms que estiguin repetits.
 4. Llista el nom i els cognoms de tots els empleats.
-5. Llista el codi dels departaments dels empleats que apareixen a la taula empleat.
-6. Llista el codi dels departaments dels empleats que apareixen a la taula empleat, eliminant els codis que apareixen repetits.
-7. Llista el nom i cognoms dels empleats en una única columna.
-8. Llista el nom i cognoms dels empleats en una única columna, convertint tots els caràcters en majúscula.
-9. Llista el nom i cognoms dels empleats en una única columna, convertint tots els caràcters en minúscula.
-10. Llista el codi dels empleats al costat del NIF, però el NIF haurà d' aparèixer en dues columnes, una mostrarà únicament els dígits del NIF i l' altra la lletra.
-11. Llista el nom de cada departament i el valor del pressupost actual de què disposa. Per calcular aquesta dada haurà de restar al valor del pressupost inicial (columna presupuesto) les despeses que s'han generat (columna gastos). Tingui en compte que en alguns casos poden existir valors negatius. Utilitzi un àlies apropiat per a la nova columna que està calculant.
-12. Llista el nom dels departaments i el valor del pressupost actual ordenat de forma ascendent.
-13. Llista el nom de tots els departaments ordenats de forma ascendent.
-14. Llista el nom de tots els departaments ordenats de forma descendent.
-15. Llista els cognoms i el nom de tots els empleats, ordenats de forma alfabètica tendint en compte en primer lloc els seus cognoms i després el seu nom.
-16. Retorna una llista amb el nom i el pressupost, dels 3 departaments que tenen més pressupost.
-17. Retorna una llista amb el nom i el pressupost, dels 3 departaments que tenen menor pressupost.
-18. Retorna una llista amb el nom i la despesa, dels 2 departaments que tenen més despesa.
-19. Retorna una llista amb el nom i la despesa, dels 2 departaments que tenen menor despesa.
-20. Retorna una llista amb 5 files a partir de la tercera fila de la taula. La tercera fila s' ha d' incloure en la resposta. La resposta ha d' incloure totes les columnes de la taula empleat.
-21. Retorna una llista amb el nom dels departaments i el pressupost, d' aquells que tenen un pressupost major o igual a 150000 euros.
-22. Retorna una llista amb el nom dels departaments i la despesa, d'aquells que tenen menys de 5000 euros de despeses.
-23. Retorna una llista amb el nom dels departaments i el pressupost, d'aquells que tenen un pressupost entre 100000 i 200000 euros. Sense utilitzar l'operador BETWEEN.
-24. Retorna una llista amb el nom dels departaments que **no** tenen un pressupost entre 100000 i 200000 euros. Sense utilitzar l'operador BETWEEN.
-25. Retorna una llista amb el nom dels departaments que tenen un pressupost entre 100000 i 200000 euros. Utilitzant l' operador BETWEEN.
-26. Retorna una llista amb el nom dels departaments que **no** tenen un pressupost entre 100000 i 200000 euros. Utilitzant l' operador BETWEEN.
-27. Retorna una llista amb el nom dels departaments, despeses i pressupost, de que els departaments on les despeses siguin més grans que el pressupost de què disposen.
-28. Retorna una llista amb el nom dels departaments, despeses i pressupost, d' aquells departaments on les despeses siguin menors que el pressupost de què disposen.
-29. Retorna una llista amb el nom dels departaments, despeses i pressupost, d' aquells departaments on les despeses siguin iguals al pressupost de què disposen.
-30. Llista totes les dades dels empleats el segon cognom dels quals sigui NULL.
-31. Llista totes les dades dels empleats el segon cognom dels quals **no sigui** NULL.
-32. Llista totes les dades dels empleats el segon cognom dels quals sigui López.
-33. Llista totes les dades dels empleats el segon cognom dels quals sigui Díaz o Moreno. Sense utilitzar l' operador IN.
-34. Llista totes les dades dels empleats el segon cognom dels quals sigui Díaz o Moreno. Utilitzant l' operador IN.
-35. Llista els noms, cognoms i cap dels empleats que treballen al departament 3.
-36. Llista els noms, cognoms i cap dels empleats que treballen en els departaments 2, 4 o 5.
+5. Mostra els cognoms i nom dels empleats concatenats amb una coma i un
+espai en blanc.
+6. Volem una columna on estigui tot en majúscules i l’altre tot en minúscules. Anomena les columnes com a "nom_majuscules" i "nom_minuscules" respectivament.
+7. Mostra les 6 primeres lletres dels cognoms dels empleats
+8. Quins són els empleats que tenen la longitud del cognoms major a 6? (Mostra els cognoms i la longitud)
+9. 
+10. --------
+11. Llista el codi dels departaments dels empleats que apareixen a la taula empleats.
+12. Substitueix totes les 'a' dels cognoms dels empleats per 'e'. Ordena pel nou valor dels cognoms
+13. Mostra tots els empleats que tenen en la segona posició dels cognoms una 'a'. (Sense utilitzar l’operador LIKE, ni REGEXP)
+14. Per cada empleat mostra el codi d’empleat, cognom i el salari amb un augment del 15% expressat com un número enter, etiqueta la columna amb el nom "nou_salari".
+15. Partint de la consulta anterior, afegeix una nova columna que mostri la diferencia salarial entre el nou salari i l’antic. Etiqueta la columna com a "increment"
+16. Fes una consulta on mostri el cognom de l’empleat en majúscules i la longitud del cognom dels empleats on el seu cognom comenci per J, A o M. Ordena els resultats per cognom d’empleat.
+17. Mostra l’import de comissió dels empleats. Etiqueta la columna com a "import_comissio" i arrodoneix el valor a 2 decimals. Si un empleat no té assignada comissió fes el que calgui per tal que el resultat de l’operació surti zero en comptes de NULL. Mostra també el cognom i el salari en Ptes despreciant els decimals (truncar)
+18. Utilitzant alguna de les funcions de dates, obté el nom, cognom i data de contractació dels empleats contractats durant el 1997.
+19. Utilitzant alguna de les funcions de data, mostra tots els empleats que van ser contractats entre els mesos de juny i novembre, independentment de l’any.
+20. El nostre departament de recursos humans s’aborreix molt i per justificar el seu sou està elaborant tot d’estadístiques extranyes. Ara volen saber quins empleats varen ser contractats en un dia parell.
+21. Mostra el cognom, la data de contractació i el dia de la setmana en el que va començar l’empleat a treballar. Etiqueta la columna com a dia. Ordena els resultats per dia de la setmana.
+22. Mostra el codi d’empleat, cognoms i la data de contractació en format AAAAMM. El dia no ens interessa ara en el nostre estudi estadístic. Ordena per aquest nou format de data.
+23. Per cada empleat, mostra el cognom, la data de contractació i el número de mesos entre el dia d’avui i la data de contractació. Etiqueta la columna com a "mesos_treballats" i arrodoneix sense decimals. Ordena el resultat segons els mesos treballats de més a menys.
+24. Mostra el nom, cognom i anys d’antiguitat dels empleats que tenen una antiguitat superior o igual a 20 anys a l’empresa.
+25. Crea una consulta per mostrar el cognom i salari de tots els empleats que guanyen més de 10.000 a l’any. Dona format al camp salari per a que tingui 15 caràcters de longitud, omplint per l’esquerra amb $. Etiqueta la columna com a salari.
+26. Mostra el cognom, salari i percentatge de comissió dels empleats. Afegeix una nova columna en que si un empleat no té assignada comissió, posi "SenseComissió". Etiqueta la columna amb nom "no_comissio"
+27. Mostra el cognom, salari i utilitzant la funció CASE, mostra el següent en
+funció del valor del salari
+  - Si el salari està entre 0 i 3000 -> "Mig"
+  - Si el salari està entre 12000 i 24000 -> "Alt"
+  - Qualsevol altre valor posa "Altres"
+  - Anomena la columna com a "poder_adquisitiu" i ordena per salari de menor a major
+
+
+- Si sumem 234 dies a la data d’avui a quin dia estarem?
+- I si sumem 12 hores?
+
+
+
+
+
+24. Llista el codi dels departaments dels empleats que apareixen a la taula empleat, eliminant els codis que apareixen repetits.
+25. Llista el nom i cognoms dels empleats en una única columna.
+26. Llista el nom i cognoms dels empleats en una única columna, convertint tots els caràcters en majúscula.
+27. Llista el nom i cognoms dels empleats en una única columna, convertint tots els caràcters en minúscula.
+28. Llista el codi dels empleats al costat del NIF, però el NIF haurà d' aparèixer en dues columnes, una mostrarà únicament els dígits del NIF i l' altra la lletra.
+29. Llista el nom de cada departament i el valor del pressupost actual de què disposa. Per calcular aquesta dada haurà de restar al valor del pressupost inicial (columna presupuesto) les despeses que s'han generat (columna gastos). Tingui en compte que en alguns casos poden existir valors negatius. Utilitzi un àlies apropiat per a la nova columna que està calculant.
+30. Llista el nom dels departaments i el valor del pressupost actual ordenat de forma ascendent.
+31. Llista el nom de tots els departaments ordenats de forma ascendent.
+32. Llista el nom de tots els departaments ordenats de forma descendent.
+33. Llista els cognoms i el nom de tots els empleats, ordenats de forma alfabètica tendint en compte en primer lloc els seus cognoms i després el seu nom.
+34. Retorna una llista amb el nom i el pressupost, dels 3 departaments que tenen més pressupost.
+35. Retorna una llista amb el nom i el pressupost, dels 3 departaments que tenen menor pressupost.
+36. Retorna una llista amb el nom i la despesa, dels 2 departaments que tenen més despesa.
+37. Retorna una llista amb el nom i la despesa, dels 2 departaments que tenen menor despesa.
+38. Retorna una llista amb 5 files a partir de la tercera fila de la taula. La tercera fila s' ha d' incloure en la resposta. La resposta ha d' incloure totes les columnes de la taula empleat.
+39. Retorna una llista amb el nom dels departaments i el pressupost, d' aquells que tenen un pressupost major o igual a 150000 euros.
+40. Retorna una llista amb el nom dels departaments i la despesa, d'aquells que tenen menys de 5000 euros de despeses.
+41. Retorna una llista amb el nom dels departaments i el pressupost, d'aquells que tenen un pressupost entre 100000 i 200000 euros. Sense utilitzar l'operador BETWEEN.
+42. Retorna una llista amb el nom dels departaments que **no** tenen un pressupost entre 100000 i 200000 euros. Sense utilitzar l'operador BETWEEN.
+43. Retorna una llista amb el nom dels departaments que tenen un pressupost entre 100000 i 200000 euros. Utilitzant l' operador BETWEEN.
+44. Retorna una llista amb el nom dels departaments que **no** tenen un pressupost entre 100000 i 200000 euros. Utilitzant l' operador BETWEEN.
+45. Retorna una llista amb el nom dels departaments, despeses i pressupost, de que els departaments on les despeses siguin més grans que el pressupost de què disposen.
+46. Retorna una llista amb el nom dels departaments, despeses i pressupost, d' aquells departaments on les despeses siguin menors que el pressupost de què disposen.
+47. Retorna una llista amb el nom dels departaments, despeses i pressupost, d' aquells departaments on les despeses siguin iguals al pressupost de què disposen.
+48. Llista totes les dades dels empleats el segon cognom dels quals sigui NULL.
+49. Llista totes les dades dels empleats el segon cognom dels quals **no sigui** NULL.
+50. Llista totes les dades dels empleats el segon cognom dels quals sigui López.
+51. Llista totes les dades dels empleats el segon cognom dels quals sigui Díaz o Moreno. Sense utilitzar l' operador IN.
+52. Llista totes les dades dels empleats el segon cognom dels quals sigui Díaz o Moreno. Utilitzant l' operador IN.
+53. Llista els noms, cognoms i cap dels empleats que treballen al departament 3.
+54. Llista els noms, cognoms i cap dels empleats que treballen en els departaments 2, 4 o 5.
 
 ## 1.2.4 Consultes multitaula (INNER JOIN)
 

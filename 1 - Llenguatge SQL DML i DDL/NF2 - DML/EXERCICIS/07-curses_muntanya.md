@@ -7,7 +7,7 @@ Tags:#FpInfor #ICA0 #ICB0 #ICC0 #Administració de Sistemes Informàtics i Xarxe
 - [1 Base de dades](#1-base-de-dades-curses-cicleistes-de-muntanya)
   - [1.1 Model relacional](#11-model-relacional)
   - [1.2 Scripts de creació de la base de dades](#12-scripts-de-creació-de-la-base-de-dades)
-  - [1.3 Operacions DML (INSERT, UPDATE, DELETE)(#13-operacions-dml-insert-update-delete)
+  - [1.3 Operacions DML (INSERT, UPDATE, DELETE)](#13-operacions-dml-insert-update-delete)
   - [1.4 Consultes](#14-consultes)
 
 ## 1.1 Model relacional

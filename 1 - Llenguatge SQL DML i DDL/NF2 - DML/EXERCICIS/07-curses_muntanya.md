@@ -12,7 +12,7 @@ Tags:#FpInfor #ICA0 #ICB0 #ICC0 #Administració de Sistemes Informàtics i Xarxe
 
 ## 1.1 Model relacional
 
-![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL/04%20-%20Jardineria/jardineria_erm.png)
+![Tabla](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/MYSQL/db_curses_muntanya/diagrama-cuses-muntanya.png)
 
 ## 1.2 Scripts de creació de la base de dades
 

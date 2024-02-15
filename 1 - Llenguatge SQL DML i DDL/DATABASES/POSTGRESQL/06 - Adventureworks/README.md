@@ -32,13 +32,14 @@ En l’exemple seria **192.168.56.101**
 
 * Descarrega el programa de https://www.winscp.net
 
-![Image2](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/06%20-%20Adventureworks/images/image2.png)
+![Tabla](images/image2.png?raw=true)
+
 
 * Posa la ip del teu servidor de Postgres i l’usuari i contrasenya amb el que et connectes.
 * Descarrega el fitxer [`AdventureWorks_Backup.zip`](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/AdventureWorks_Backup.zip) que tens al repositori de  Github.
 * Descomprimeix-lo i copia el fitxer `AdventureWorks_Backup.dump` a la carpeta `/tmp` del servidor PostGres utilitzant el Winscp:
-  
-<img src="https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/06%20-%20Adventureworks/images/image3.png" width="70%" />
+
+![Tabla](images/image3.png?raw=true)
 
 
 ## Restaura el backup  
@@ -56,4 +57,4 @@ Quan acabi ja hauries de tenir la base de dades creada i amb dades.
 
 Pots veure l'esquema de la base de dades a la següent imatge:
 
-![Image4](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/06%20-%20Adventureworks/AdventureWorks_erm.png)
+![Tabla](images/image4.png?raw=true)

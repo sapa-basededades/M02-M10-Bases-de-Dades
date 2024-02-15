@@ -57,4 +57,4 @@ Quan acabi ja hauries de tenir la base de dades creada i amb dades.
 
 Pots veure l'esquema de la base de dades a la següent imatge:
 
-![Tabla](images/image4.png?raw=true)
+![Tabla](AdventureWorks_erm.png?raw=true)

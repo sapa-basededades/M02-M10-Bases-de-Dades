@@ -22,8 +22,7 @@
     ```bash
     ip -c a
     ```
-
-![Image1](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/blob/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/1%20-%20DATABASES/ESQUEMES/1%20-%20POSTGRES/06%20-%20Adventureworks/images/image1.png)
+![Tabla](images/image1.png?raw=true)
 
 has d’agafar la ip que apareix a la variable inet de l’adaptador amb el que connectes a la màquina. En aquest cas `enp0s3`.
 

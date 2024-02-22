@@ -36,7 +36,7 @@ En l’exemple seria **192.168.56.101**
 
 
 * Posa la ip del teu servidor de Postgres i l’usuari i contrasenya amb el que et connectes.
-* Descarrega el fitxer [`AdventureWorks_Backup.zip`](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/AdventureWorks_Backup.zip) que tens al repositori de  Github.
+* Descarrega el fitxer ![AdventureWorks_Backup.zip](AdventureWorks_Backup.zip) que tens al repositori de  Github.
 * Descomprimeix-lo i copia el fitxer `AdventureWorks_Backup.dump` a la carpeta `/tmp` del servidor PostGres utilitzant el Winscp:
 
 ![Tabla](images/image3.png?raw=true)

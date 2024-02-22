@@ -1,7 +1,8 @@
 # Exercicis Northwind
 
 Exercicis relacionats amb la base de dades Northwind.
-Abanse de començar mira el conjunt de taules i l'esquema de la base de  dades.
+
+Abans de començar mira el conjunt de taules i l'esquema de la base de  dades.
 
 ## Exercicis amb una taula
 

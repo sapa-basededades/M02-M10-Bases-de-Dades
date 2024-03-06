@@ -1,6 +1,6 @@
 # Instal·lació de la base de dades AdventureWorks v2008
 
-## Obrir màquina amb PostGres
+## Obrir màquina amb Postgresql
 
  Arranca la màquina Linux/Windows on tens instal·lada la base de dades PostGres.
 

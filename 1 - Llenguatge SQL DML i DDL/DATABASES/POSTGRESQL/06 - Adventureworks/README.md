@@ -53,7 +53,7 @@ En l’exemple seria **192.168.56.101**
 
 Quan acabi ja hauries de tenir la base de dades creada i amb dades.
 
-## Esquema de la base de dades
+## Esquema de la base de dades (version 2008)
 
 Pots veure l'esquema de la base de dades a la següent imatge:
 

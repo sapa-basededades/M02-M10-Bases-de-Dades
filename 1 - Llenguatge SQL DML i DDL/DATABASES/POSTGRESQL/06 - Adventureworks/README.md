@@ -1,4 +1,4 @@
-# Instal·lació de la base de dades AdventureWorks
+# Instal·lació de la base de dades AdventureWorks v2008
 
 ## Obrir màquina amb PostGres
 

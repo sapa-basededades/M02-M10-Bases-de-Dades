@@ -23,7 +23,8 @@
 Crea la base de dades jardineria descarregant els scripts des de Github.
 
 
-[Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
+- [Esquemes de Base de dades per PostgreSQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/POSTGRESQL)
+- [Esquemes de Base de dades per MySQL](https://github.com/sapa-basededades/M02-M10-Bases-de-Dades/tree/main/1%20-%20Llenguatge%20SQL%20DML%20i%20DDL/DATABASES/MYSQL/db_jardineria)
 
 
 ## 1.4.4 Consultes sobre una taula
@@ -36,17 +37,17 @@ Crea la base de dades jardineria descarregant els scripts des de Github.
 6. Retorna un llistat amb el nom dels tots els clients espanyols.
 7. Retorna un llistat amb els diferents estats pels quals pot passar una comanda.
 8. Retorna un llistat amb el codi de client d'aquells clients que van realitzar algun pagament el 2008. Tingui en compte que haurà d' eliminar aquells codis de client que apareguin repetits. Resolgui la consulta:
-9. Utilitzant la funció EXTRACT.
-10. Utilitzant la funció TO\_CHAR.
-11. Sense utilitzar cap de les funcions anteriors.
-12. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes que no han estat lliurades a temps.
-13. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes la data de lliurament de les quals ha estat almenys dos dies abans de la data esperada.
-14. Retorna un llistat de totes les comandes que van ser **rebutjades** el 2009.
-15. Retorna un llistat de totes les comandes que han estat **lliurades** el mes de gener de qualsevol any.
-16. Retorna un llistat amb tots els pagaments que es van realitzar l' any 2008 mitjançant PayPal. Ordeni el resultat de major a menor.
-17. Retorna un llistat amb totes les formes de pagament que apareixen a la taula pagament. Tingui en compte que no han d' aparèixer formes de pagament repetides.
-18. Retorna un llistat amb tots els productes que pertanyen a la gamma Ornamentals i que tenen més de 100 unitats en estoc. El llistat haurà d' estar ordenat pel seu preu de venda, mostrant en primer lloc els de major preu.
-19. Retorna un llistat amb tots els clients que siguin de la ciutat de Madrid i el representant de vendes del qual tingui el codi d' empleat 11 o 30.
+    - Utilitzant la funció EXTRACT.
+    - Utilitzant la funció TO\_CHAR.
+9. Sense utilitzar cap de les funcions anteriors.
+10. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes que no han estat lliurades a temps.
+11. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes la data de lliurament de les quals ha estat almenys dos dies abans de la data esperada.
+12. Retorna un llistat de totes les comandes que van ser **rebutjades** el 2009.
+13. Retorna un llistat de totes les comandes que han estat **lliurades** el mes de gener de qualsevol any.
+14. Retorna un llistat amb tots els pagaments que es van realitzar l' any 2008 mitjançant PayPal. Ordeni el resultat de major a menor.
+15. Retorna un llistat amb totes les formes de pagament que apareixen a la taula pagament. Tingui en compte que no han d' aparèixer formes de pagament repetides.
+16. Retorna un llistat amb tots els productes que pertanyen a la gamma Ornamentals i que tenen més de 100 unitats en estoc. El llistat haurà d' estar ordenat pel seu preu de venda, mostrant en primer lloc els de major preu.
+17. Retorna un llistat amb tots els clients que siguin de la ciutat de Madrid i el representant de vendes del qual tingui el codi d' empleat 11 o 30.
 
 ## 1.4.5 Consultes multitaula (INNER JOIN)
 

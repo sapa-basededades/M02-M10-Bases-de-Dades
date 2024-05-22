@@ -29,8 +29,67 @@ Si bé ens enfoquem en un entorn Docker contingut per simplificar, els principis
 En nom de la simplicitat i per centrar-nos en els conceptes bàsics de la replicació lògica, aquesta guia no cobrirà la configuració del xifrat per a les dades en trànsit entre la base de dades mestra i la rèplica. Tanmateix, és important reconèixer que el xifrat és un aspecte fonamental per protegir les dades en entorns de producció. En les aplicacions del món real, garantir la seguretat de les dades en trànsit mitjançant SSL/TLS o altres mètodes de xifrat és essencial per protegir-se contra les escoltes i els atacs d'intermediari.
 Si bé aquest tutorial no aprofundeix en les configuracions de xifrat, ha d' explorar la documentació de PostgreSQL sobre la protecció de la seva base de dades i considerar el xifrat com una part integral de la configuració de la replicació lògica en un entorn de producció.
 
+# Configuració de Docker Compose
+
+Per començar la nostra exploració de la replicació lògica de PostgreSQL, començarem per crear la columna vertebral del nostre entorn: la configuració de Docker Compose. Aquesta configuració inclourà una instància mestra i dues rèpliques de PostgreSQL, cadascuna de les quals s' executarà en contenidors de Docker independents. El que fa que la nostra configuració sigui particularment interessant és l'ús de diferents versions de PostgreSQL per a cada instància. Aquest enfocament no només prova la compatibilitat de la replicació lògica entre versions, sinó que també simula un cas d' ús del món real per actualitzar instàncies de PostgreSQL amb un temps d' inactivitat mínim.
+A continuació es mostra l' arxiu que defineix les nostres instàncies de PostgreSQL:
+```
+docker-compose.yml
+services:
+  master:
+    image: postgres:16.3-alpine3.19
+    container_name: logrepl_pg_master
+    volumes:
+      - logrepl_pg_master-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    restart: unless-stopped
+  replica1:
+    image: postgres:16.3-alpine3.19
+    container_name: logrepl_pg_replica1
+    volumes:
+      - logrepl_pg_replica1-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    restart: unless-stopped
+  replica2:
+    image: postgres:16.3-alpine3.19
+    container_name: logrepl_pg_replica2
+    volumes:
+      - logrepl_pg_replica2-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    restart: unless-stopped
+volumes:
+  logrepl_pg_master-data:
+    name: logrepl_pg_master-data
+  logrepl_pg_replica1-data:
+    name: logrepl_pg_replica1-data
+  logrepl_pg_replica2-data:
+    name: logrepl_pg_replica2-data
+```
+
+Aquesta configuració estableix una base de dades mestra utilitzant PostgreSQL 16.1 i dues rèpliques, respectivament. En utilitzar Alpine Linux com a imatge base, ens assegurem que la nostra configuració sigui lleugera i eficient. Cada servei es configura amb el seu volum per a la persistència de les dades, garantint que les dades romanguin intactes en tots els reinicis de contenidors.
+
+Per mostrar les bases de dades, creeu un fitxer anomenat amb el contingut anterior. A continuació, en una finestra de l'intèrpret d'ordres, executeu l'ordre següent:docker-compose.yml
+```
+docker compose up
+```
+
+Aquesta ordre iniciarà les instàncies PostgreSQL tal com es defineixen al fitxer Docker Compose. Veureu registres al terminal que indiquen que els contenidors estan en funcionament, preparats per als propers passos de la creació d'esquemes i la configuració de replicació lògica.
+
+Una vegada que els nostres contenidors Docker estan en funcionament, el següent pas és crucial: crear esquemes idèntics en totes les instàncies. Aquesta consistència és vital per garantir una rèplica fluida des del mestre fins a les rèpliques. Per al nostre projecte, utilitzarem un esquema senzill però il·lustratiu que inclou usuaris, publicacions i comentaris, emulant una plataforma bàsica de blocs. Aquest esquema no només demostra les relacions entre diferents tipus de dades, sinó que també estableix l'escenari per entendre com la replicació lògica gestiona la sincronització de dades.
 
 
+# Esquema de la base de dades
+
+Dintre del repositori de github teniu un fitxer anomenat schema.sql que conté l'estructura de la base de dades que desplegarem en cadascun dels nodes.
 
 
 

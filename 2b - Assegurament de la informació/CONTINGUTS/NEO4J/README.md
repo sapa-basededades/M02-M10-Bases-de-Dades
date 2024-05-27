@@ -1,8 +1,3 @@
----
-title: NEO4J
-layout: default
-nav_order: 1
----
 
 > **_NOTE:_** 
 Aquest treball de recerca de les funcionalitats de Neo4J ha estat realitzat pels alumnes de 1r ASIX 23-24 (Maria del Mar Manzano, Anderson Pérez, Isaac Ruiz)
@@ -131,37 +126,56 @@ Neo4j es fa servir per modelar i gestionar les relacions entre contingut digital
 
 # Versions
 Neo4j té dues versions autogestionades per escollir **Community Edition (CE)** i l'**Enterprise Edition (EE)**. La versió Enterprise inclou totes les opcions que ofereix la versió Community però afegint algunes qüestions com ara còpies de seguretat, clúster i capacitats de commutació per error.
-- **Community Edition**: es tracta d'una versió completa de Neo4j, apta per a desplegaments en una sola instància. Inclou totes les característiques principals de Neo4j, com ara transaccions compatibles amb ACID, Cypher i API de programació. És ideal per a l'aprenentatge de Neo4j, projectes casolans i aplicacions en petits grups de treball.
+
+- **Community Edition**: es tracta d'una versió completa de Neo4j, apta per a desplegaments en una sola instància. Inclou totes les característiques principals de Neo4j, com ara transaccions compatibles amb ACID, [Cypher](#Semblances-i-diferències-entre-SQL-i-Cypher) i API de programació. És ideal per a l'aprenentatge de Neo4j, projectes casolans i aplicacions en petits grups de treball.
+
 - **Enterprise Edition**: aprofundeix en la funcionalitat de la versió Community al incorporar característiques clau per millorar el rendiment i l'escalabilitat. Això inclou una arquitectura de clúster i funcionalitats de còpia de seguretat en línia. A més, s'afegeixen funcions de seguretat addicionals, com ara control d'accés basat en rols i suport per LDAP, com el directori actiu (Active Directory). Aquesta opció està destinada a sistemes de producció amb exigències d'escalabilitat i disponibilitat, com ara solucions internes crítiques i comercials.
 
 # Comparacions
+
 Existeixen diferents bases de dades orientades a grafs en el mercat actual. Cadascuna té un conjunt important de propietats que les fan considerar per els nostres projectes.
 La seva gran majoria té els beneficis claus de les bases de dades de grafs en el que es refereix a la seva capacitat d'escalabilitat i rendiment.
+
 ## Avantatges i desventatges de les Bases de Dades orientades a Grafs
+
 ### Avantatges 
 Les bases de dades orientades a grafs tenen diversos avantatges respecte a les bases de dades convencionals:
+
 #### **Flexibilitat**
+
 Gràcies a la seva alta flexibilitat, les bases de dades de grafs poden adaptar-se fàcilment a nous models de dades i esquemes. Això facilita l'afegiment o canvi de dades sense necessitat de realitzar ajustaments significatius en l'esquema de la base de dades, una avantatge enfront de les bases de dades relacionals, on aquest procés sovint suposa un inconvenient.
+
 #### **Rendiment**
+
 Les bases de dades de grafs són òptimes per a l'execució de consultes complexes en grans conjunts de dades, ja que estan especialment dissenyades per recórrer eficientment les relacions entre nodes i arestes. Aquesta funció és freqüent en moltes aplicacions, i les bases de dades de grafs estan optimitzades específicament per a aquest propòsit.
+
 #### **Escalabilitat**
+
 Les bases de dades de grafs freqüentment tenen la capacitat d'escalar horitzontalment, permetent afegir més nodes al clúster per augmentar tant l'emmagatzematge com la capacitat de processament. Aquesta característica pot simplificar la gestió de grans quantitats de dades i el maneig de múltiples consultes simultànies. En altres escenaris, els grafs poden ser emmagatzemats en una clau on es poden escalar mitjançant l'afegiment de rèpliques.
+
 #### **Processament del llenguatge natural**
+
 Les bases de dades de grafs són altament apropiades per a la ciència de dades i l'aprenentatge automàtic quan es combinen amb aplicacions de processament del llenguatge natural (NLP), com ara chatbots, assistents virtuals i anàlisi de sentiments. Són utilitzades amb facilitat per modelar les relacions entre paraules i frases.
+
 #### **Integració de dades**
 L'ús de bases de dades de grafs permet la combinació de dades estructurades i no estructurades provinents de diverses fonts. Aquesta capacitat pot simplificar la tasca d'obtenir conclusions a partir de múltiples fonts de dades.
+
 ### Desavantatges
 #### **Estandardització**
+
 En l'actualitat, les bases de dades de grafs no disposen d'un llenguatge de consulta estandarditzat. No obstant això, existeixen diversos llenguatges de modelatge de dades de grafs estàndards en el sector, com ara RDF (Resource Description Framework) i OWL (Web Ontology Language), així com Cipher. A més, diverses iniciatives estan en marxa per crear llenguatges de consulta estandarditzats per a bases de dades de grafs, com ara GQL (Graph Query Language) i SPARQL (SPARQL Protocol and RDF Query Language).
 
 A causa d'això, el canvi entre diferents bases de dades de grafs o la integració de bases de dades de grafs amb altres tecnologies pot representar un repte a causa de la manca d'estandardització en les consultes. Cada proveïdor de bases de dades de grafs sol tenir el seu propi llenguatge de consulta i sintaxi, fet que dificulta la migració de dades o la integració amb altres sistemes.
+
 #### **Comunitats limitades de desenvolupadors i usuaris**
  Les bases de dades de grafs compten amb una comunitat de desenvolupadors i usuaris més reduïda en comparació amb les tecnologies de bases de dades més consolidades, com ara les bases de dades relacionals. A consequència d'això, trobar recursos, informació i suport mentre es treballa amb bases de dades de grafs pot ser més desafiador. Tot i així, és rellevant assenyalar que la comunitat entorn de les bases de dades de grafs està creixent de manera significativa.
+
 #### **Coherència de dades**
 Les bases de dades de grafs són concebudes per permetre una relació més flexible i dinàmica entre les dades, la qual cosa pot dificultar l'aplicació de regles estrictes de coherència de dades. Tot i això, és important destacar que moltes bases de dades de grafs proporcionen mecanismes per assegurar la coherència de les dades, com ara l'ús de restriccions o regles de validació. A més, la coherència de les dades també pot ser implementada a nivell d'aplicació, en comptes de dependre exclusivament de la tecnologia de la base de dades.
 
 ## Comparació de Neo4j amb altres sistemes gestors de Bases de Dades
 ### Neo4j
+
 #### Avantatges
 - Amb la seva pròpia investigació, aquest motor garanteix la velocitat i emmagatzema gràfics natius.
 - La garantia de les propietats ACID fa que les operacions de Neo4j siguin extremadament fiables.
@@ -201,3 +215,128 @@ Les bases de dades de grafs són concebudes per permetre una relació més flexi
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+
+
+
+# Semblances i diferències entre SQL i Cypher
+
+## Similituts
+SQL i Cypher comparteixen algunes semblances, com en l'utilització de clàusules com ```WHERE``` i ```ORDER BY```.
+En ambdós llenguatges s'utilitzen aquestes clàusules de la mateixa forma, per filtrar i per ordenar respectivament.
+
+## Diferències
+### Ordre de les clàusules
+Una de les diferències clau és l'ordre de les consultes. En Cypher, totes les consultes acaben amb la clàusula ```RETURN``` que especifica el que l'usuari desitja obtenir com a resultat, mentres que a SQL comences seleccionat allò que vols veure amb un ```SELECT```. Per mostrar això, considerem les següents dues consultes que busquen jugadors amb una altura major a 1.91, la primera amb SQL i la segona amb Cypher:
+
+```
+SELECT name
+FROM player
+WHERE height > 1.91;
+```
+
+```
+MATCH (player:PLAYER)
+WHERE player.height > 1.91
+RETURN player.name
+```
+
+### Coincidència d'strings
+A SQL s'utilitza ```LIKE``` per buscar coincidències i el símbol '%' com a comodí a la clàusula.
+En canvi, a Cypher es fa amb ```STARTS WITH | ENDS WITH | CONTAINS```. Es pot veure en aquest exemple:
+
+```
+SELECT name
+FROM player
+WHERE name LIKE 'L%'|'%L'|'%L%';
+```
+
+```
+MATCH (player:PLAYER)
+WHERE player.name STARTS WITH | ENDS WITH | CONTAINS "L"
+RETURN player.name;
+```
+
+### Clàusules més breus
+Les consultes en Cypher solen ser més breus que les seves equivalents en SQL. Per exemple, considera les següents dues consultes que busquen els jugadors que formen part de l'equip 'LA Lakers':
+```
+SELECT player.name
+FROM player pl
+INNER JOIN plays_for plfo ON plfo.playerid = pl.playerid
+INNER JOIN team te ON te.teamid = plfo.teamid
+WHERE te.name = 'LA Lakers'
+```
+A SQL aquesta consulta implica accedir a diferents taules degut a la relació N:M que hi ha entre els jugadors i els equips. En canvi a Cypher no succeeix.
+```
+MATCH(player:PLAYER)-[:PLAYS_FOR]->(team:TEAM {name: 'LA Lakers'})
+RETURN player.name
+```
+### Crear/modificar/esborrar dades 
+#### Crear dades
+A l'hora de crear taules a SQL se sol fer amb sentències CREATE TABLE, INSERT INTO o ALTER TABLE. A Cypher es fan amb CREATE, MERGE, SET. 
+Al crear taules amb SQL s'ha d'especificar el nom de totes les columnes, el tipus de contingut de la columna, els constraints i les claus primàries i forana.
+```
+CREATE TABLE player (
+    playerid SERIAL PRIMARY KEY,
+    name VARCHAR(15) UNIQUE,
+    last_name VARCHAR(15) UNIQUE
+);
+```
+En canvi, a Cypher com s'utilitzen nodes i no taules i relacions, la creació és diferent:
+```
+CREATE (lebron:PLAYER {name: "LeBron", last_name:"James"})
+```
+No s'ha d'especificar el tipus (VARCHAR), ja que els valors seran inferits de les propietats del node.
+Per afegir una relació, cal utilitzar un signe `<-` o `->`.
+
+#### Modificar/esborrar dades
+Per modificar s'utilitza ```UPDATE``` a SQL i ```SET``` a Cypher. S'hauria de fer una clàusula WHERE per indicar quina columna o etiqueta, respectivament, volem modificar.
+
+Per eliminar en el cas de Cypher s'ha d'utilitzar ```MATCH``` per seleccionar que vols eliminar i acabar la sentència amb ```DELETE variable```. En canvi a SQL és igual que modificar però amb ```DELETE```.
+
+
+
+
+
+# Webgrafia
+
+- ¿Qué es una base de datos orientada a grafos? (s. f.). Oracle España. [link](https://www.oracle.com/es/autonomous-database/what-is-graph-database/#:~:text=Una%20base%20de%20datos%20orientada%20a%20grafos%20es%20una%20plataforma,las%20bases%20de%20datos%20relacionales).
+
+- Base de datos orientada a Grafos. ¿Qué son y para qué se usan? Sngular.  (2023, 28 de novembre).  [link](https://www.sngular.com/es/insights/227/que-son-bases-datos-a-grafos).
+- GraphEverywhere, E. (2021, 12 de maig). Las top 10 Bases de datos nativas de grafos. GraphEverywhere. [link](https://www.grapheverywhere.com/las-top-10-bases-de-datos-nativas-de-grafos/).
+
+- ¿Qué son las Bases de Datos Orientadas a Grafos? (2021, 14 de gener). BABEL Sistemas de Información. [link](https://www.babelgroup.com/es/Media/Blog/Enero-2021-(1)/Bases-Datos-Grafos).
+
+- Equipo editorial de IONOS. (2024, 7 de març). Graph database. IONOS Digital Guide. [link](https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/graph-database/).
+
+- Canadas R. Base de datos orientada a grafos o graph database Qué es. abdatum. juliol de 2022. [link](https://abdatum.com/informatica/base-datos-orientada-grafos).
+
+- Introducción a Amazon Neptune. Amazon Web Services, Inc. [link](https://aws.amazon.com/es/nosql/graph/).
+
+- Conecta Software. Base de datos orientada a grafos - Conecta Magazine. Conecta Magazine. febrer de 2024. [link](https://www.conectasoftware.com/magazine/base-de-datos-orientada-a-grafos/).
+
+- GraphEverywhere E. Bases de datos NoSQL Bases de datos de Grafos. GraphEverywhere. [link](https://www.grapheverywhere.com/nosql-de-grafos/). Publicat 29 de juny de 2019.
+
+- GraphEverywhere E. Qué son los grafos. GraphEverywhere. [link](https://www.grapheverywhere.com/que-son-los-grafos/). Publicat: 10 de març de 2020.
+Redes y grafos. Las comunicaciones y la logística – Marzo, mes de las matemáticas. [link](https://marzomates.webs.ull.es/grafos-y-redes-las-comunicaciones-y-la-logistica/).
+
+- W3C. W3C. [link](https://www.w3.org/).
+
+- RDF Graph Data Model. Stardog Documentation. [link](https://docs.stardog.com/tutorials/rdf-graph-data-model).
+
+- Redis. Graph Database Redis. Redis. [link](https://redis.com/glossary/graph-database/#:~:text=History%20of%20graph%20databases,graphs%20in%20the%20mid-1980s). Publicat el 12 d’abril de 2023.
+
+- History of Databases and Graph Database. Bitnine. [link](https://bitnine.net/blog-graph-database/history-of-databases-and-graph-database/?ckattempt=1)  Publicat el 9 de novembre de 2016.
+
+- Database of Databases — Neo4j. Database Of Databases. [link](https://dbdb.io/db/neo4j).
+
+- Guerrero IC. Análisis, diseño y despliegue de una base de datos orientada a grafos para la investigación de derivaciones de responsabilidades. Trabajo Final de Grado. Gener 2019. [link](https://academica-e.unavarra.es/xmlui/bitstream/2454/33724/2/TFG%20-%20Ivan%20Carabantes.pdf).
+
+- De Jong N. 15 Best Graph Visualization Tools for Your Neo4j Graph Database. Graph Database & Analytics. [link](https://neo4j.com/developer-blog/15-tools-for-visualizing-your-neo4j-graph-database/). Publicat 21 de juny de 2023.s
+
+- About Neo4J Browser - Neo4J Browser. Neo4j Graph Data Platform. [link](https://neo4j.com/docs/browser-manual/current/about-browser/).
+
+- Neo4J Debian Packages. [link](https://debian.neo4j.com/).
+
+- System requirements - Operations Manual. Neo4j Graph Data Platform. [link](https://neo4j.com/docs/operations-manual/current/installation/requirements/).
+
+- Introduction Cypher Manual. Neo4j Graph Data Platform. [link](https://neo4j.com/docs/cypher-manual/current/introduction/)

@@ -11,18 +11,19 @@ Quan executem aquesta sentència, veiem quines són les extensió que tenim habi
 ```sql
 SELECT *  FROM pg_available_extensions ORDER BY name;
 ```
-`
+
 Disposem d'unes 43 funcions ja compilades i que podem utilitzar en cada Base de Dades del nostre Servidor PostgreSQL.
 
 ## Extensions addicionals instal·lables a PostgreSQL
 
 ### Extensions PostgreSQL del web oficial.
 
-Existeixen altres extensions a més de les que tenim disponibles al nostre Servidor PostgreSQL. Aquestes extensions les podem trobar a la [web oficial de Postgres](https://www.postgresql.org/download/products/6-postgresql-extensions/), en programari catalogue – postgresql extensions i s'implementen amb uns senzills passos. Totes les extensions que disposem al web oficial són Open Source.
+Existeixen altres extensions a més de les que tenim disponibles al nostre Servidor PostgreSQL. Aquestes extensions les podem trobar a la [Web oficial de PostgreSQL](https://www.postgresql.org/download/products/6-postgresql-extensions/), en programari catalogue – postgresql extensions i s'implementen amb uns senzills passos. Totes les extensions que disposem al web oficial són Open Source.
 
 Aquestes són algunes de les extensions que podem trobar al web oficial de PostgreSQL:
 
-* OpenFTS : Un motor de cerca avançat basat en PostgreSQL que permet indexar dades i classificar-les segons la seva rellevància. Està totalment integrat amb la base de dades i permet utilitzar metadades per restringir els resultats de cerca1.
+* OpenFTS : Un motor de cerca avançat basat en PostgreSQL que permet indexar dades i classificar-les segons la seva rellevància. Està totalment integrat amb la base de dades i permet utilitzar metadades per restringir els resultats de cerca.
+
 * PL/Proxy
 * PostGIS
 * PostPIC

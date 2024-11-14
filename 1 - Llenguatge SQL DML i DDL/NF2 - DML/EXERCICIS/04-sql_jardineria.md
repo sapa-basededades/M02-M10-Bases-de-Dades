@@ -33,7 +33,7 @@ Crea la base de dades jardineria descarregant els scripts des de Github.
 2. Retorna un llistat amb la ciutat i el telèfon de les oficines d'Espanya.
 3. Retorna un llistat amb el nom, cognoms i email dels empleats el cap dels quals té un codi de cap igual a 7.
 4. Retorna el nom del lloc, nom, cognoms i email del cap de l' empresa.
-5. Retorna un llistat amb el nom, cognoms i lloc d' aquells empleats que no siguin representants de vendes.
+5. Retorna un llistat amb el nom, cognoms i lloc (puesto) d'aquells empleats que no siguin representants de vendes.
 6. Retorna un llistat amb el nom dels tots els clients espanyols.
 7. Retorna un llistat amb els diferents estats pels quals pot passar una comanda.
 8. Retorna un llistat amb el codi de client d'aquells clients que van realitzar algun pagament el 2008. Tingui en compte que haurà d' eliminar aquells codis de client que apareguin repetits. Resolgui la consulta:

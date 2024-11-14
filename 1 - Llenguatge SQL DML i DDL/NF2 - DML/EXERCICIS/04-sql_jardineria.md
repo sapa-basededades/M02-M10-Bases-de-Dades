@@ -44,10 +44,10 @@ Crea la base de dades jardineria descarregant els scripts des de Github.
 11. Retorna un llistat amb el codi de comanda, codi de client, data esperada i data de lliurament de les comandes la data de lliurament de les quals ha estat almenys dos dies abans de la data esperada.
 12. Retorna un llistat de totes les comandes que van ser **rebutjades** el 2009.
 13. Retorna un llistat de totes les comandes que han estat **lliurades** el mes de gener de qualsevol any.
-14. Retorna un llistat amb tots els pagaments que es van realitzar l' any 2008 mitjançant PayPal. Ordeni el resultat de major a menor.
+14. Retorna un llistat amb tots els pagaments que es van realitzar l'any 2008 mitjançant PayPal. Ordeni el resultat de major a menor.
 15. Retorna un llistat amb totes les formes de pagament que apareixen a la taula pagament. Tingui en compte que no han d' aparèixer formes de pagament repetides.
 16. Retorna un llistat amb tots els productes que pertanyen a la gamma Ornamentals i que tenen més de 100 unitats en estoc. El llistat haurà d' estar ordenat pel seu preu de venda, mostrant en primer lloc els de major preu.
-17. Retorna un llistat amb tots els clients que siguin de la ciutat de Madrid i el representant de vendes del qual tingui el codi d' empleat 11 o 30.
+17. Retorna un llistat amb tots els clients que siguin de la ciutat de Madrid i el representant de vendes del qual tingui el codi d'empleat 11 o 30.
 
 ## 1.4.5 Consultes multitaula (INNER JOIN)
 

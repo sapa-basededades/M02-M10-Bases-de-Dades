@@ -32,7 +32,7 @@ Crea la base de dades jardineria descarregant els scripts des de Github.
 1. Retorna un llistat amb el codi d' oficina i la ciutat on hi ha oficines.
 2. Retorna un llistat amb la ciutat i el telèfon de les oficines d'Espanya.
 3. Retorna un llistat amb el nom, cognoms i email dels empleats el cap dels quals té un codi de cap igual a 7.
-4. Retorna el nom del lloc, nom, cognoms i email del cap de l' empresa.
+4. Retorna el nom del lloc (puesto), nom, cognoms i email del cap de l' empresa.
 5. Retorna un llistat amb el nom, cognoms i lloc (puesto) d'aquells empleats que no siguin representants de vendes.
 6. Retorna un llistat amb el nom dels tots els clients espanyols.
 7. Retorna un llistat amb els diferents estats pels quals pot passar una comanda.

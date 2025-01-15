@@ -198,7 +198,7 @@ Tags:
 
 Temes: #Meta
 
-Tables: **#facebook_reactions , #facebook_posts**
+Tables: **```#facebook_reactions``` , ```#facebook_posts```**
 
   #### Solutions
   

@@ -3,6 +3,9 @@
 Exercicis de tipus **Easy** resolts de la plataforma [StrataScratch](https://www.stratascratch.com).
 Les solucions presentades poden diferir de les proposades per la plataforma, ja que l'alumnat no disposava d'accés a les solucions oficials. En alguns casos, la diversitat d'interpretacions dels enunciats pot donar lloc a variacions en les respostes proposades.
 
+[← Tornar a la secció anterior](README.md)
+
+
 ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10153 -Find the number of Yelp businesses that sell pizza](https://platform.stratascratch.com/coding/10153-find-the-number-of-yelp-businesses-that-sell-pizza?code_type=3)
 
 Tags: #Yelp
@@ -658,3 +661,11 @@ GROUP BY artist,trackname
 ORDER BY position DESC
 LIMIT 100;
 ```
+
+---
+
+[← Tornar a la secció anterior](#README.md)
+
+[Medium](#mysql-medium.md)
+
+[Hard](#mysql-hard.md)

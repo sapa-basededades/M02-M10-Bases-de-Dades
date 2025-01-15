@@ -116,6 +116,100 @@ SELECT IF( (SELECT COUNT(*)
            'More USA-based') AS output;
 ```
 
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9865 - Highest Salaried Employees By Department](https://platform.stratascratch.com/coding/9865-highest-salaried-employees?code_type=3)
+
+Tags: #Amazon , #Visa
+
+Tables: **#worker**
+
+  #### Solutions
+  
+```MySQL
+SELECT department,first_name,last_name, salary
+    FROM worker
+WHERE (department,salary) IN (SELECT department, MAX(salary)
+                                    FROM worker
+                                GROUP BY department);
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10120 - Number Of Custom Email Labels](https://platform.stratascratch.com/coding/10120-number-of-custom-email-labels?code_type=3)
+
+Tags: #Google
+
+Tables: **#google_gmail_emails , #google_gmail_labels**
+
+  #### Solutions
+  
+```MySQL
+SELECT to_user,label, COUNT(*)
+    FROM google_gmail_emails gge
+    INNER JOIN google_gmail_labels ggl ON ggl.email_id = gge.id
+WHERE label LIKE "Custom%"
+GROUP BY to_user,label;
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9987 - Overtime Pay](https://platform.stratascratch.com/coding/9987-overtime-pay?code_type=3)
+
+Tags: #City of San Francisco
+
+Tables: **#sf_public_salaries**
+
+  #### Solutions
+  
+```MySQL
+SELECT employeename,totalpaybenefits
+    FROM sf_public_salaries
+GROUP BY employeename
+HAVING SUM(overtimepay)>0
+ORDER BY totalpaybenefits DESC
+LIMIT 1;
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 2019 - Top 2 Users With Most Calls](https://platform.stratascratch.com/coding/2019-top-2-users-with-most-calls?code_type=3)
+
+Tags: #Window Functions
+
+Temes: #Ring Central
+
+Tables: **#rc_calls , #rc_users**
+
+  #### Solutions
+  
+```MySQL
+WITH calls4company AS(
+    SELECT u.company_id, c.user_id, COUNT(*) calls
+        FROM rc_calls c
+        INNER JOIN rc_users u ON c.user_id = u.user_id
+    GROUP BY c.user_id)
+,ranked_calls AS (
+    SELECT company_id,user_id,
+            DENSE_RANK() OVER (PARTITION BY company_id ORDER BY calls DESC) rnk
+        FROM calls4company
+    ORDER BY company_id, rnk
+)
+SELECT *
+    FROM ranked_calls
+WHERE rnk<=2;
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10088 - Liked' Posts](https://platform.stratascratch.com/coding/10088-liked-posts?code_type=3)
+
+Tags:
+
+Temes: #Meta
+
+Tables: **#facebook_reactions , #facebook_posts**
+
+  #### Solutions
+  
+```MySQL
+SELECT COUNT(DISTINCT fp.post_id)
+    FROM facebook_reactions fr
+INNER JOIN facebook_posts fp ON fp.post_id = fr.post_id
+WHERE LOWER(fr.reaction) = "like";
+```
+
+
 ---
 
 [← Tornar a l'índex d'exercicis Strata Scratch MySQL](README.md)

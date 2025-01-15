@@ -1,7 +1,7 @@
 # MySQL - Easy
 
 Exercicis de tipus **Easy** resolts de la plataforma [StrataScratch](https://www.stratascratch.com).
-Les possibles solucions presentades poden ser diferents a la solució proposada per la plataforma perquè l'alumnat no tenia accés per veure les solucions. Hi ha casos o exercicis a on hi poden haver diferents interpretacions de l'enunciat cosa que pot provocaar aquestes diferències.
+Les solucions presentades poden diferir de les proposades per la plataforma, ja que l'alumnat no disposava d'accés a les solucions oficials. En alguns casos, la diversitat d'interpretacions dels enunciats pot donar lloc a variacions en les respostes proposades.
 
 ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10153 -Find the number of Yelp businesses that sell pizza](https://platform.stratascratch.com/coding/10153-find-the-number-of-yelp-businesses-that-sell-pizza?code_type=3)
 

@@ -1,6 +1,6 @@
 # MySQL - Easy
 
-Exercicis de tipus **Easy** resolts de la plataforma [StrataScratch](www.stratascratch.com).
+Exercicis de tipus **Easy** resolts de la plataforma [StrataScratch](https://www.stratascratch.com).
 Les possibles solucions presentades poden ser diferents a la solució proposada per la plataforma perquè l'alumnat no tenia accés per veure les solucions. Hi ha casos o exercicis a on hi poden haver diferents interpretacions de l'enunciat cosa que pot provocaar aquestes diferències.
 
 ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10153 -Find the number of Yelp businesses that sell pizza](https://platform.stratascratch.com/coding/10153-find-the-number-of-yelp-businesses-that-sell-pizza?code_type=3)
@@ -119,9 +119,54 @@ SELECT *
 WHERE city = 'London' AND sport = 'Swimming';
 ```
 
+## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9995 - Top 10 Ranked Songs](https://platform.stratascratch.com/coding/9995-top-10-ranked-songs?code_type=3)
 
+Tags: #Spotify
 
+Tables: **#spotify_worldwide_daily_song_ranking**
 
+  #### Solutions
+```MySQL
+SELECT DISTINCT trackname, position
+    FROM spotify_worldwide_daily_song_ranking
+ORDER BY position ASC, trackname ASC;
+```
 
+## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10277 - Find all inspections which are part of an inactive program](https://platform.stratascratch.com/coding/10277-find-all-inspections-which-are-part-of-an-inactive-program?code_type=3)
 
+Tags: #City of Los Angeles
 
+Tables: **#los_angeles_restaurant_health_inspections**
+
+  #### Solutions
+```MySQL
+SELECT *
+  FROM los_angeles_restaurant_health_inspections
+WHERE program_status = 'INACTIVE';
+```
+
+## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 2002 - Submission Types](https://platform.stratascratch.com/coding/2002-submission-types?code_type=3)
+
+Tags: #Interview Question Date: January 2021
+
+Tables: **#loans**
+
+  #### Solutions
+```MySQL
+SELECT DISTINCT user_id
+    FROM loans
+WHERE type IN ('Refinance', 'InSchool');
+```
+
+## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 2002 - Submission Types](https://platform.stratascratch.com/coding/2002-submission-types?code_type=3)
+
+Tags: #Interview Question Date: January 2021
+
+Tables: **#loans**
+
+  #### Solutions
+```MySQL
+SELECT DISTINCT user_id
+    FROM loans
+WHERE type IN ('Refinance', 'InSchool');
+```

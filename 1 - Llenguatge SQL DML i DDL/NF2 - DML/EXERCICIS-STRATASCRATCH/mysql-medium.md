@@ -97,7 +97,24 @@ WHERE sport = 'Judo'
   AND medal = 'Gold'
 GROUP BY team;
 ```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10065 - Find whether the number of seniors works at Meta/Facebook is higher than its number of USA based employees](https://platform.stratascratch.com/coding/10065-find-whether-the-number-of-seniors-works-at-facebook-is-higher-than-its-number-of-usa-based-employees?code_type=3)
+
+Tags: #Meta
+
+Tables: **#facebook_employees**
+
+  #### Solutions
   
+```MySQL
+SELECT IF( (SELECT COUNT(*) 
+            	FROM facebook_employees
+            WHERE is_senior = 1) > (SELECT COUNT(*)
+             				FROM facebook_employees
+           			    WHERE location = 'USA'),
+           'More seniors',
+           'More USA-based') AS output;
+```
 
 ---
 

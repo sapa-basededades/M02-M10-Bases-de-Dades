@@ -1,7 +1,8 @@
 # Exercicis StrataScratch
 
-Aquesta pàgina/carpeta conté exercicis resolts de la plataforma [StrataScratch](www.stratascratch.com). Plataforma a on es poden practicar preguntes referents a eines utilitzades en el món de les dades (Analyistical Questions, Algorithm Questions Visualitzation Quetions, SQL, Python, Python-Pandas, Python-Polars, pySpark, R,...)
-Aquest espai ha està creat gràcies a les diferents solucions que han aportat el diferent alumnat de l'Institut Sa Palomera de Blanes.
+Aquesta secció conté exercicis resolts extrets de la plataforma [Strata Scratch](www.stratascratch.com). Aquesta plataforma ofereix la possibilitat de practicar amb preguntes relacionades amb eines utilitzades en l'àmbit de l'anàlisi de dades, com ara Analytical Questions, Algorithm Questions, Visualization Questions, així com llenguatges i tecnologies com SQL, Python, Python-Pandas, Python-Polars, PySpark, R, entre d’altres.
+
+Aquest espai ha estat creat gràcies a les diverses solucions aportades per l’alumnat de l’Institut Sa Palomera de Blanes de diferents promocions a l'assignatura de Base de Dades.
 
 Els exercicis resolts són:
 

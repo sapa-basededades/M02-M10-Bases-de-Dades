@@ -23,6 +23,6 @@ Altres possibles solucions serien incloure l'ús de la funció LOWER o UPPER al 
 
 [← Tornar a l'índex d'exercicis Strata Scratch MySQL](README.md)
 
-[Easy](#mysql-easy.md)
+[Easy](mysql-easy.md)
 
-[Medium](#mysql-medium.md)
+[Medium](mysql-medium.md)

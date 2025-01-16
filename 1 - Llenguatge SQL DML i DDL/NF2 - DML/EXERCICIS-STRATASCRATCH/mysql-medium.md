@@ -209,6 +209,200 @@ INNER JOIN facebook_posts fp ON fp.post_id = fr.post_id
 WHERE LOWER(fr.reaction) = "like";
 ```
 
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9668 - English, German, French, Spanish Speakers](https://platform.stratascratch.com/coding/9668-english-german-french-spanish-speakers?code_type=3)
+
+Tags:
+
+Temes: #Google
+
+Tables: **```#playbook_users```**
+
+  #### Solutions
+
+No sabem si és correcte, perquè la veiem una mica massa fàcil perquè estigui catalogada com a Medium.
+  
+```MySQL
+SELECT company_id
+	FROM playbook_users
+WHERE language IN ('English', 'German', 'French', 'Spanish')
+	AND state = 'active'
+GROUP BY company_id
+HAVING COUNT(user_id) > 2;
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 2027 - Company With Most Desktop Only Users](https://platform.stratascratch.com/coding/2027-top-company-where-users-use-desktop-only?code_type=3)
+
+Tags:
+
+Temes: #Microsoft , #Linux
+
+Tables: **```#fact_events```**
+
+  #### Solutions
+
+Si els vol tots només amb LIMIT 1 s'hauria de fer una subconsulta amb users_only_desktop
+  
+```MySQL
+WITH users_only_desktop AS (
+    SELECT customer_id, 
+            user_id,
+            SUM(IF(client_id = 'DESKTOP',1,0)),
+            SUM(IF(client_id != 'DESKTOP',1,0))
+        FROM fact_events
+    GROUP BY customer_id, user_id
+    HAVING SUM(IF(client_id != 'DESKTOP',1,0)) = 0
+)
+SELECT customer_id, COUNT(*)
+    FROM users_only_desktop
+GROUP BY customer_id
+ORDER BY COUNT(*) DESC
+LIMIT 1;
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 2047 - Total Monatery Value Per Month/Service](https://platform.stratascratch.com/coding/2047-total-monatery-value-per-monthservice?code_type=3)
+
+Tags:
+
+Temes: #Uber
+
+Tables: **```#uber_orders```**
+
+  #### Solutions
+
+ 
+```MySQL
+SELECT service_name, MONTH(order_date), SUM(monetary_value) 
+    FROM uber_orders
+WHERE status_of_order = "Completed"
+GROUP BY service_name,MONTH(order_date);
+```
+S'hauria de tranformar aquesta SELECT amb un PIVOT table
+
+Si és el cas la única manera seria mitjançant 
+
+```MySQL
+SUM(CASE WHEN service_name = 'service1' THEN quantity ELSE 0 END) AS service1,
+SUM(CASE WHEN service_name = 'service2' THEN quantity ELSE 0 END) AS service2,
+SUM(CASE WHEN service_name = 'service3' THEN quantity ELSE 0 END) AS service3
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9870 - Highest Salary](https://platform.stratascratch.com/coding/9870-highest-salary?code_type=3)
+
+Tags:
+
+Temes: #Amazon , #Siemens
+
+Tables: **```#worker```**
+
+  #### Solutions
+ 
+```MySQL
+SELECT first_name, salary
+    FROM worker
+WHERE salary = (SELECT MAX(salary)
+                    FROM worker);
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10295 - Most Active Users On Messenger](https://platform.stratascratch.com/coding/10295-most-active-users-on-messenger?code_type=3)
+
+Tags:
+
+Temes: #Interview Question Date: November 2020
+
+Tables: **```#fb_messages```**
+
+  #### Solutions
+ 
+```MySQL
+SELECT user, SUM(msg)
+FROM (
+    	SELECT user1 AS user,SUM(msg_count) msg
+        	FROM fb_messages
+    	GROUP BY user1
+    	UNION ALL
+    	SELECT user2, SUM(msg_count)
+        	FROM fb_messages
+    	GROUP BY user2
+      ) as total
+GROUP BY user
+ORDER BY SUM(msg) DESC 
+LIMIT 10;
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10310 - Class Performance](https://platform.stratascratch.com/coding/10310-class-performance?code_type=3)
+
+Tags:
+
+Temes: #Interview Question Date: November 2020
+
+Tables: **```#box_scores```**
+
+  #### Solutions
+ 
+```MySQL
+SELECT MAX(total_score)-MIN(total_score) AS difference
+   FROM (
+    	SELECT SUM(assignment1+assignment2+assignment3) AS total_score
+	   FROM box_scores
+	GROUP BY id
+   ) AS total_score
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9951 - European Olympics](https://platform.stratascratch.com/coding/9951-european-olympics?code_type=3)
+
+Tags:
+
+Temes: #ESPN
+
+Tables: **```#olympics_athletes_events```**
+
+  #### Solutions
+
+Hem tingut en compte només els que l'sport sigui Athletics. No sabem si calia aquest filtre o no.
+
+```MySQL
+SELECT COUNT(id) AS number
+    FROM olympics_athletes_events
+WHERE city IN ("Berlin", "Athina", "Lillehammer", "London", "Albertville","Paris")
+   AND sport = "Athletics";
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 9946 - Find the year in which the shortest athlete participated](https://platform.stratascratch.com/coding/9946-find-the-year-in-which-the-shortest-athlete-participated?code_type=3)
+
+Tags:
+
+Temes: #ESPN
+
+Tables: **```#olympics_athletes_events```**
+
+  #### Solutions
+
+```MySQL
+SELECT year,height
+	FROM olympics_athletes_events
+WHERE height = (SELECT min(height)
+		  FROM olympics_athletes_events);
+```
+
+  ## [𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 10364 - Friday's Likes Count](https://platform.stratascratch.com/coding/10364-fridays-likes-count?code_type=3)
+
+Tags:
+
+Temes: #Interview Question Date: January 2024
+
+Tables: **```#user_posts``` , ```#friendships```, ```#likes```**
+
+  #### Solutions
+
+```MySQL
+SELECT COUNT(*) as likes,
+	DATE(l.date_liked) as date
+   FROM likes l
+   INNER JOIN user_posts p ON l.post_id = p.post_id
+   INNER JOIN friendships f ON (p.user_name = f.user_name1 OR p.user_name = f.user_name2)
+WHERE DAYOFWEEK(l.date_liked) = 6
+GROUP BY DATE(l.date_liked);
+```
 
 ---
 

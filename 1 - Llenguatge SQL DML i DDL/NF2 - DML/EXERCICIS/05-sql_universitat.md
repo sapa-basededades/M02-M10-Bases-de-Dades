@@ -29,7 +29,7 @@ Crea la base de dades universitat descarregant els scripts des de Github.
 
 ## 1.5.5 Consultes multitaula (INNER JOIN)
 
-1. Retorna un llistat amb les dades de totes les **alumnes** que s'han matriculat alguna vegada en el Grau en Enginyeria Informàtica (Pla 2015).
+1. Retorna un llistat amb les dades de tots les **alumnes** que s'han matriculat alguna vegada en el Grau en Enginyeria Informàtica (Pla 2015).
 2. Retorna un llistat amb totes les assignatures oferides en el Grau en Enginyeria Informàtica (Pla 2015).
 3. Retorna un llistat dels professors juntament amb el nom del departament al qual estan vinculats. El llistat ha de retornar quatre columnes, primer cognom, segon cognom, nom i nom del departament. El resultat estarà ordenat alfabèticament de menor a major pels cognoms i el nom.
 4. Retorna un llistat amb el nom de les assignatures, any d'inici i any de fi del curs escolar de l'alumne amb 26902806M.

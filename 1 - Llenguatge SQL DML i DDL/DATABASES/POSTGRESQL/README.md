@@ -2,17 +2,17 @@
 ---
 # Databases
 
-* [01 - Botiga d'Informàtica](<01 - Botiga Informàtica/README.md>)
-* [02 - Gestió Empleats](<02 - Gestió Empleats/README.md>)
-* [03 - Gestió de vendes](<03 - Gestió de vendes/README.md>)
-* [04 - Jardineria](<04 - Jardineria/README.md>)
-* [05 - Universitat](<05 - Universitat/README.md>)
-* [06 - Adventureworks](<06 - Adventureworks/README.md>)
-* [07 - HR](<07- HR/README.md>)
-* [08 - Pagila](<08 - Pagila/README.md>)
-* [09 - Scott](<09 - Scott/README.md>)
-* [10 - Northwind](<10 - Northwind/README.md>)
-* [11 - regex](<11 - regex/README.md>)
-* [12 - sqlmurdermystery](<12 - sqlmurdermystery/README.md>)
+* [db_botiga](<db_botiga/README.md>)
+* [db_empleats](<db_empleats/README.md>)
+* [db_vendes](<db_vendes/README.md>)
+* [db_jardineria](<db_jardineria/README.md>)
+* [db_universitat](<db_universitat/README.md>)
+* [db_adventureworks](<db_Adventureworks/README.md>)
+* [db_hr](<db_hr/README.md>)
+* [db_pagila](<db_pagila/README.md>)
+* [db_scott](<db_scott/README.md>)
+* [db_northwind](<db_northwind/README.md>)
+* [db_regex](<db_regex/README.md>)
+* [db_sqlmurdermystery](<db_sqlmurdermystery/README.md>)
 
 ---

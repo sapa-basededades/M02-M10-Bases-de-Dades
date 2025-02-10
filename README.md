@@ -1,4 +1,4 @@
-# Repositori pels mòduls M02/M0372 Base de Dades i M10/M0377 Administració de sistemes gestors de bases de dades dels CFGS ASIX/DAW/DAM
+# Repositori pels mòduls Base de Dades i Administració de sistemes gestors de bases de dades dels CFGS ASIX/DAW/DAM
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02 #AsixMp10 #AsixM0372
 

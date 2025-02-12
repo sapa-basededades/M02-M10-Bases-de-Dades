@@ -81,18 +81,30 @@ funció del valor del salari
 
 ## 1.2.5 Consultes multitaula (JOINs)
 
-1. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
-2. ----Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
-3. Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú. Ordena el resultat, en primer lloc pel nom del departament (en ordre alfabètic) i en segon lloc pels cognoms i el nom dels empleats.
-4. Retorna un llistat amb el codi i el nom del departament, només d' aquells departaments que tenen empleats.
-5. Retorna un llistat amb el codi, el nom del departament i el valor del pressupost actual de què disposa, només d' aquells departaments que tenen empleats. El valor del pressupost actual el pot calcular restant al valor del pressupost inicial (columna pressupost) el valor de les despeses que ha generat (columna despeses).
-6. Retorna el nom del departament on treballa l' empleat que té el nif 38382980M.
-7. Retorna el nom del departament on treballa l'empleat Pepe Ruiz Santana.
-8. Retorna un llistat amb les dades dels empleats que treballen al departament d' R + D. Ordena el resultat alfabèticament.
-9. Retorna un llistat amb les dades dels empleats que treballen al departament de Sistemes, Comptabilitat o R + D. Ordena el resultat alfabèticament.
-10. Retorna una llista amb el nom dels empleats que tenen els departaments que **no** tenen un pressupost entre 100000 i 200000 euros.
-11. Retorna un llistat amb el nom dels departaments on hi ha algun empleat el segon cognom del qual sigui NULL. Tingui en compte que no ha de mostrar noms de departaments que estiguin repetits.
-12. Mostra el nombre d'empleats que hi ha a cada departament. Has de retornar dues columnes, una amb el nom del departament i una altra amb el nombre d'empleats que té assignats.
+1. Mostra de cada empleat, el nom del departament, cognoms i nom de l’empleat. Ordena les dades per nom departament, cognoms i nom de forma ascendent.
+2. Mostra de cada departament,  el codi, el nom de departament, l’adreça, el codi postal i el nomde la ciutat
+3. Mostra del departament de 'Marketing', el codi, el nom de departament, l'adreça,  el codi postal i el nom de la  ciutat.
+4. De les localitzacions amb codi 1400, 1700 i 2500, ens interessa saber el seu codi, el nom de la ciutat, el nom  de l’estat/província, el nom del país i el nom de la regió. Ordena per codi localització.
+5. Escriu una consulta per mostrar el nom de cada departament,  la ciutat on està localitzat el departament, el número d’empleats i el salari mig per tots els empleats d’aquell departament. Anomena les columnes com Nom, Ciutat, Num_Empleats i Salari_Mig respectivament. Arrodoneix el salari mig a dos decimals. Ordena la informació per nom de departament.  Intenta de mostrar els punts de miler i la coma com a símbol separador dels valors decimals.
+6. Partint de l’historial de treballs, volem saber els empleats que han treballat en més d’una feina. Volem saber el codi d’empleat, el seu nom i cognoms i  el número de feines que ha tingut. Anomena la columna id_empleat com a CodiEmpl i el numero de feines com a  Num_feines. Ordena la informació per nom i cognoms d’empleat.
+7. Obtenir el codi d’empleat, nom i cognoms, nom de departament  i salari del primer empleat que té el salari més baix.
+8. Volem saber, dels empleats que van ser contractats abans del 1999 i que tenen un salari entre 10000 i 20000, quins pertanyen al departament de Vendes  o de Comptes. Mostrar el codi empleat, nom i cognoms, salari, l’any de la data de contractació i el nom de departament.
+9. Mostra el nom del departament, cognoms i nom de tots els empleats ( encara que no tinguin assignat cap departament ). Ordena les dades per nom departament, cognom i nom
+10. Volem saber, de cada departament, els empleats que té assignats. Mostra el codi de departament, nom del departament, cognoms i nom de l’empleat ( mostra tots els departaments encara que no tinguin assignat cap empleat ). Ordena les dades per nom departament, cognoms i nom d’empleat
+----
+3. 
+4. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
+5. ----Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
+6. Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú. Ordena el resultat, en primer lloc pel nom del departament (en ordre alfabètic) i en segon lloc pels cognoms i el nom dels empleats.
+7. Retorna un llistat amb el codi i el nom del departament, només d' aquells departaments que tenen empleats.
+8. Retorna un llistat amb el codi, el nom del departament i el valor del pressupost actual de què disposa, només d' aquells departaments que tenen empleats. El valor del pressupost actual el pot calcular restant al valor del pressupost inicial (columna pressupost) el valor de les despeses que ha generat (columna despeses).
+9. Retorna el nom del departament on treballa l' empleat que té el nif 38382980M.
+10. Retorna el nom del departament on treballa l'empleat Pepe Ruiz Santana.
+11. Retorna un llistat amb les dades dels empleats que treballen al departament d' R + D. Ordena el resultat alfabèticament.
+12. Retorna un llistat amb les dades dels empleats que treballen al departament de Sistemes, Comptabilitat o R + D. Ordena el resultat alfabèticament.
+13. Retorna una llista amb el nom dels empleats que tenen els departaments que **no** tenen un pressupost entre 100000 i 200000 euros.
+14. Retorna un llistat amb el nom dels departaments on hi ha algun empleat el segon cognom del qual sigui NULL. Tingui en compte que no ha de mostrar noms de departaments que estiguin repetits.
+15. Mostra el nombre d'empleats que hi ha a cada departament. Has de retornar dues columnes, una amb el nom del departament i una altra amb el nombre d'empleats que té assignats.
 ----
 1. Retorna un llistat amb **tots els empleats** juntament amb les dades dels departaments on treballen. Aquest llistat també ha d' incloure els empleats que no tenen cap departament associat.
 2. Retorna un llistat on només apareguin aquells empleats que no tenen cap departament associat.

@@ -10,6 +10,7 @@
     - [1.2.6.2 Subconsultes amb ALL i ANY](#1272-subconsultes-amb-all-i-any)
     - [1.2.6.3 Subconsultes amb IN i NOT IN](#1273-subconsultes-amb-in-i-not-in)
     - [1.2.6.4 Subconsultes amb EXISTS i NOT EXISTS](#1274-subconsultes-amb-exists-i-not-exists)
+  - [1.2.7 Window Functions](#127-window-functions)
 
 ## 1.2.1 Model relacional
 
@@ -137,3 +138,10 @@ funció del valor del salari
 
 1. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
 2. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
+
+## 1.2.7 Window Functions
+
+1. Per cada empleat volem mostrar una columna a on hi hagi el número  total d’empleats del seu departament.
+2. Per cada empleat volem mostrar la mitjana de salari del seu departament, el salari més alt, el salari més baix i les diferències del seu salari entre el més alt i el més baix
+3. Volem optenir els tres sous més alts dins de cada departament. Mostra el nom del departament, el nom i cognoms de l'empleat, el salari i la classificació/ranking dins del departament.
+4. Mostra els empleats que han estat contractats durant 3 dies consecutius.

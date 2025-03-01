@@ -143,5 +143,6 @@ funció del valor del salari
 
 1. Per cada empleat volem mostrar una columna a on hi hagi el número  total d’empleats del seu departament.
 2. Per cada empleat volem mostrar la mitjana de salari del seu departament, el salari més alt, el salari més baix i les diferències del seu salari entre el més alt i el més baix
-3. Volem optenir els tres sous més alts dins de cada departament. Mostra el nom del departament, el nom i cognoms de l'empleat, el salari i la classificació/ranking dins del departament.
-4. Mostra els empleats que han estat contractats durant 3 dies consecutius.
+3. Volem obtenir els tres sous més alts dins de cada departament. Mostra el nom del departament, el nom i cognoms de l'empleat, el salari i la classificació/ranking dins del departament.
+4. Modifica la consulta anterior per tal de només mostrar aquells departaments amb que tinguem tres sous.
+5. Mostra els empleats que han estat contractats durant 3 dies consecutius.

@@ -9,6 +9,7 @@
 
 ### MySQL
 
+* :closed_book:[El llenguatge SQL](<CONTINGUTS/M02-UF2.pdf>)
 ---
 
 ## :notebook: Presentacions (PPT)

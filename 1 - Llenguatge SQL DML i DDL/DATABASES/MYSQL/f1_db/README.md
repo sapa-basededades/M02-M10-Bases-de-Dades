@@ -2,6 +2,9 @@
 
 Aquesta base de dades s'ha extret de la web Ergast (https://ergast.com/mrd/) a on conté les estadístiques de les diferents compteicions de F1 que hi han hagut durant els últims temps a partir de l'any 1950.
 
+> [!WARNING]
+> Aquest projecte està obsolet i no es manté. S'ha traspassat al projecte [jolpica-f1](https://github.com/jolpica/jolpica-f1)
+
 # Esquema de la base de dades
 
 L'esquema de la base de dades es mostra en el document [f1db_user_guide.txt](f1db_user_guide.txt).
